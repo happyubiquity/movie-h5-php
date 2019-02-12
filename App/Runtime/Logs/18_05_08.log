@@ -1,0 +1,2710 @@
+[ 2018-05-08T01:15:58+08:00 ] 106.11.155.149 /index.php/renwu/wx_yuedu_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000876s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000086s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000821s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `gd_price` [ RunTime:0.000694s ]
+SQL: SELECT * FROM `gd_price` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000243s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2018-05-08T01:29:17+08:00 ] 88.99.19.242 /index.php/renwu/wx_gzhjf_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000918s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000109s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000908s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `gd_price` [ RunTime:0.000712s ]
+SQL: SELECT * FROM `gd_price` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.000421s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2018-05-08T03:56:01+08:00 ] 171.8.70.8 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000881s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000086s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.001158s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000601s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000055s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000582s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2018-05-08T04:35:16+08:00 ] 141.8.183.22 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000933s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000093s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000861s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000655s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000072s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000692s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2018-05-08T11:07:39+08:00 ] 222.240.32.125 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000877s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000099s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000926s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000688s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000091s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000745s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2018-05-08T11:07:39+08:00 ] 222.240.32.125 /index.php/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000983s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000116s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2018-05-08T11:07:40+08:00 ] 222.240.32.125 /index.php/login/dologin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000817s ]
+SQL: SELECT * FROM `gd_user` WHERE ( username = 'mingliao112233' ) LIMIT 1   [ RunTime:0.000311s ]
+SQL: SELECT * FROM `gd_user` WHERE ( username='mingliao112233' and password='4871e23f8bb4c25ffd9e69685d11ab52' ) LIMIT 1   [ RunTime:0.000456s ]
+
+[ 2018-05-08T11:07:40+08:00 ] 222.240.32.125 /index.php/index/index.html?ty=block
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000883s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=87 ) LIMIT 1   [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.001727s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000863s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000100s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000770s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2018-05-08T11:07:41+08:00 ] 222.240.32.125 /Public/uploads
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000827s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=87 ) LIMIT 1   [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000870s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000097s ]
+
+[ 2018-05-08T11:07:41+08:00 ] 222.240.32.125 /index.php/news/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000816s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=87 ) LIMIT 1   [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000902s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `gd_news` [ RunTime:0.000691s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_news` LIMIT 1   [ RunTime:0.000085s ]
+SQL: SELECT * FROM `gd_news` ORDER BY sort desc,addtime desc LIMIT 0,20   [ RunTime:0.000088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2018-05-08T11:07:41+08:00 ] 222.240.32.125 /index.php/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000860s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=87 ) LIMIT 1   [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000908s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000150s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000760s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000071s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000739s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2018-05-08T11:07:45+08:00 ] 222.240.32.125 /index.php/renwu/chaxun.html?id=2&fun=wx_gongzhonghao
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000826s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=87 ) LIMIT 1   [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000869s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000720s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000067s ]
+
+[ 2018-05-08T11:07:46+08:00 ] 222.240.32.125 /index.php/Renwu/wx_gongzhonghao.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000817s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=87 ) LIMIT 1   [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000870s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000098s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000841s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 87 ) AND ( `is_del` = 0 ) AND ( `type` = 2 ) LIMIT 1   [ RunTime:0.000309s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 87 ) AND ( `is_del` = 0 ) AND ( `type` = 2 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000414s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/75c2a6f3efc53bfb43dd0d23e30b61bb.php 第 33 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2018-05-08T11:07:47+08:00 ] 222.240.32.125 /index.php/renwu/wx_gongzhonghao_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000831s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=87 ) LIMIT 1   [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000907s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `gd_price` [ RunTime:0.000714s ]
+SQL: SELECT * FROM `gd_price` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2018-05-08T11:07:49+08:00 ] 222.240.32.125 /index.php/renwu/chaxun.html?id=12&fun=wx_gzhjf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000789s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=87 ) LIMIT 1   [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000866s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000703s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.000065s ]
+
+[ 2018-05-08T11:07:49+08:00 ] 222.240.32.125 /index.php/Renwu/wx_gzhjf.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000781s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=87 ) LIMIT 1   [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000868s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000753s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 87 ) AND ( `is_del` = 0 ) AND ( `type` = 12 ) LIMIT 1   [ RunTime:0.000274s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 87 ) AND ( `is_del` = 0 ) AND ( `type` = 12 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000367s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/0a865e3782cb222929c2f88065b5ea69.php 第 33 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2018-05-08T11:07:50+08:00 ] 222.240.32.125 /index.php/renwu/chaxun.html?id=9&fun=wx_saoma
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000770s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=87 ) LIMIT 1   [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000870s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000612s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000064s ]
+
+[ 2018-05-08T11:07:50+08:00 ] 222.240.32.125 /index.php/Renwu/wx_saoma.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000810s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=87 ) LIMIT 1   [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000860s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000771s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 87 ) AND ( `is_del` = 0 ) AND ( `type` = 9 ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 87 ) AND ( `is_del` = 0 ) AND ( `type` = 9 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000327s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/87d5e091000426936b56abb1ba2873e0.php 第 35 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2018-05-08T11:07:51+08:00 ] 222.240.32.125 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000847s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=87 ) LIMIT 1   [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000918s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000745s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000067s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000669s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2018-05-08T11:07:51+08:00 ] 222.240.32.125 /Public/uploads
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000804s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=87 ) LIMIT 1   [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000926s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000099s ]
+
+[ 2018-05-08T11:07:51+08:00 ] 222.240.32.125 /index.php/news/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000815s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=87 ) LIMIT 1   [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000953s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `gd_news` [ RunTime:0.000725s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_news` LIMIT 1   [ RunTime:0.000063s ]
+SQL: SELECT * FROM `gd_news` ORDER BY sort desc,addtime desc LIMIT 0,20   [ RunTime:0.000094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2018-05-08T11:07:52+08:00 ] 222.240.32.125 /index.php/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000849s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=87 ) LIMIT 1   [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000924s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000697s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000071s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000736s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2018-05-08T11:07:58+08:00 ] 106.11.223.12 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000879s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000115s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000917s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000689s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000078s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000754s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2018-05-08T11:08:06+08:00 ] 106.11.222.248 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000840s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000087s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000855s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000663s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000068s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000706s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2018-05-08T11:08:06+08:00 ] 106.11.222.248 /index.php/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.001018s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000132s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2018-05-08T12:27:19+08:00 ] 117.135.239.83 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000765s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000087s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000831s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000655s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000063s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000606s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2018-05-08T12:27:19+08:00 ] 117.135.239.83 /index.php/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.001063s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2018-05-08T12:27:22+08:00 ] 117.135.239.83 /index.php/login/dologin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000840s ]
+SQL: SELECT * FROM `gd_user` WHERE ( username = '824139838' ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SELECT * FROM `gd_user` WHERE ( username='824139838' and password='23f96b5bdf222e1afc816d594fc0aa54' ) LIMIT 1   [ RunTime:0.002005s ]
+
+[ 2018-05-08T12:27:22+08:00 ] 117.135.239.83 /index.php/index/index.html?ty=block
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000752s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.001144s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000705s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000086s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000673s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2018-05-08T12:27:22+08:00 ] 117.135.239.83 /index.php/news/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000796s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000924s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `gd_news` [ RunTime:0.000753s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_news` LIMIT 1   [ RunTime:0.000065s ]
+SQL: SELECT * FROM `gd_news` ORDER BY sort desc,addtime desc LIMIT 0,20   [ RunTime:0.000093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2018-05-08T12:27:48+08:00 ] 117.135.239.83 /index.php/renwu/chaxun.html?id=2&fun=wx_gongzhonghao
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000734s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000908s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000710s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000070s ]
+
+[ 2018-05-08T12:27:48+08:00 ] 117.135.239.83 /index.php/Renwu/wx_gongzhonghao.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000788s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000887s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000791s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 43 ) AND ( `is_del` = 0 ) AND ( `type` = 2 ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 43 ) AND ( `is_del` = 0 ) AND ( `type` = 2 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/75c2a6f3efc53bfb43dd0d23e30b61bb.php 第 33 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2018-05-08T12:27:50+08:00 ] 117.135.239.83 /index.php/renwu/chaxun.html?id=12&fun=wx_gzhjf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000854s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000908s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000717s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.000071s ]
+
+[ 2018-05-08T12:27:50+08:00 ] 117.135.239.83 /index.php/Renwu/wx_gzhjf.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000824s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000927s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000818s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 43 ) AND ( `is_del` = 0 ) AND ( `type` = 12 ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 43 ) AND ( `is_del` = 0 ) AND ( `type` = 12 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/0a865e3782cb222929c2f88065b5ea69.php 第 33 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2018-05-08T12:27:52+08:00 ] 117.135.239.83 /index.php/renwu/wx_gzhjf_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000891s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000921s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000119s ]
+SQL: SHOW COLUMNS FROM `gd_price` [ RunTime:0.000704s ]
+SQL: SELECT * FROM `gd_price` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.000075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2018-05-08T12:27:58+08:00 ] 58.100.170.210 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000807s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000090s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000849s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000677s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000068s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000703s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2018-05-08T12:27:59+08:00 ] 58.100.170.210 /index.php/news/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000835s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000080s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000922s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `gd_news` [ RunTime:0.000720s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_news` LIMIT 1   [ RunTime:0.000070s ]
+SQL: SELECT * FROM `gd_news` ORDER BY sort desc,addtime desc LIMIT 0,20   [ RunTime:0.000078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2018-05-08T12:27:59+08:00 ] 58.100.170.210 /index.php/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000969s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000106s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2018-05-08T12:27:59+08:00 ] 58.100.170.210 /index.php/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000980s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000108s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2018-05-08T12:28:24+08:00 ] 117.135.239.83 /index.php/renwu/chaxun.html?id=2&fun=wx_gongzhonghao
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000832s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000909s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000710s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000073s ]
+
+[ 2018-05-08T12:28:24+08:00 ] 117.135.239.83 /index.php/Renwu/wx_gongzhonghao.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000836s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000927s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000793s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 43 ) AND ( `is_del` = 0 ) AND ( `type` = 2 ) LIMIT 1   [ RunTime:0.000096s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 43 ) AND ( `is_del` = 0 ) AND ( `type` = 2 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000137s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/75c2a6f3efc53bfb43dd0d23e30b61bb.php 第 33 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2018-05-08T12:28:26+08:00 ] 117.135.239.83 /index.php/renwu/wx_gongzhonghao_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000826s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000922s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `gd_price` [ RunTime:0.000729s ]
+SQL: SELECT * FROM `gd_price` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2018-05-08T12:28:58+08:00 ] 61.151.226.76 /index.php/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000916s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2018-05-08T12:30:36+08:00 ] 183.227.138.8 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000810s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000082s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000854s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000604s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000062s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000758s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2018-05-08T12:30:37+08:00 ] 183.227.138.8 /index.php/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000988s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000111s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2018-05-08T12:30:46+08:00 ] 183.227.138.8 /index.php/login/dologin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000816s ]
+SQL: SELECT * FROM `gd_user` WHERE ( username = 'hanfeng' ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SELECT * FROM `gd_user` WHERE ( username='hanfeng' and password='cfec8c53289d459c52b4b6fd2f8c26c4' ) LIMIT 1   [ RunTime:0.000077s ]
+
+[ 2018-05-08T12:30:46+08:00 ] 183.227.138.8 /index.php/index/index.html?ty=block
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000886s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=134 ) LIMIT 1   [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000924s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000108s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000669s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000078s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000667s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2018-05-08T12:30:47+08:00 ] 183.227.138.8 /index.php/news/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.001248s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=134 ) LIMIT 1   [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000913s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `gd_news` [ RunTime:0.000744s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_news` LIMIT 1   [ RunTime:0.000074s ]
+SQL: SELECT * FROM `gd_news` ORDER BY sort desc,addtime desc LIMIT 0,20   [ RunTime:0.000088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2018-05-08T12:31:04+08:00 ] 183.227.138.8 /index.php/renwu/chaxun.html?id=2&fun=wx_gongzhonghao
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000873s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=134 ) LIMIT 1   [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000979s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000733s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000067s ]
+
+[ 2018-05-08T12:31:04+08:00 ] 183.227.138.8 /index.php/Renwu/wx_gongzhonghao.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000778s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=134 ) LIMIT 1   [ RunTime:0.000101s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000874s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000772s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 134 ) AND ( `is_del` = 0 ) AND ( `type` = 2 ) LIMIT 1   [ RunTime:0.000085s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 134 ) AND ( `is_del` = 0 ) AND ( `type` = 2 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/75c2a6f3efc53bfb43dd0d23e30b61bb.php 第 33 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2018-05-08T12:31:07+08:00 ] 183.227.138.8 /index.php/renwu/chaxun.html?id=12&fun=wx_gzhjf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000880s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=134 ) LIMIT 1   [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000960s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000711s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.000076s ]
+
+[ 2018-05-08T12:31:07+08:00 ] 183.227.138.8 /index.php/Renwu/wx_gzhjf.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000686s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=134 ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000717s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000675s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 134 ) AND ( `is_del` = 0 ) AND ( `type` = 12 ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 134 ) AND ( `is_del` = 0 ) AND ( `type` = 12 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000324s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/0a865e3782cb222929c2f88065b5ea69.php 第 33 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2018-05-08T12:31:09+08:00 ] 183.227.138.8 /index.php/renwu/chaxun.html?id=2&fun=wx_gongzhonghao
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000746s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=134 ) LIMIT 1   [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000779s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000616s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000069s ]
+
+[ 2018-05-08T12:31:10+08:00 ] 183.227.138.8 /index.php/Renwu/wx_gongzhonghao.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000843s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=134 ) LIMIT 1   [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000912s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000856s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 134 ) AND ( `is_del` = 0 ) AND ( `type` = 2 ) LIMIT 1   [ RunTime:0.000082s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 134 ) AND ( `is_del` = 0 ) AND ( `type` = 2 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/75c2a6f3efc53bfb43dd0d23e30b61bb.php 第 33 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2018-05-08T12:31:13+08:00 ] 183.227.138.8 /index.php/renwu/chaxun.html?id=9&fun=wx_saoma
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000746s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=134 ) LIMIT 1   [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000832s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000634s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000076s ]
+
+[ 2018-05-08T12:31:13+08:00 ] 183.227.138.8 /index.php/Renwu/wx_saoma.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000786s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=134 ) LIMIT 1   [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000885s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000841s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 134 ) AND ( `is_del` = 0 ) AND ( `type` = 9 ) LIMIT 1   [ RunTime:0.000324s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 134 ) AND ( `is_del` = 0 ) AND ( `type` = 9 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000305s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/87d5e091000426936b56abb1ba2873e0.php 第 35 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2018-05-08T12:31:17+08:00 ] 183.227.138.8 /index.php/renwu/chaxun.html?id=2&fun=wx_gongzhonghao
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000824s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=134 ) LIMIT 1   [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000893s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000706s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000077s ]
+
+[ 2018-05-08T12:31:17+08:00 ] 183.227.138.8 /index.php/Renwu/wx_gongzhonghao.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000869s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=134 ) LIMIT 1   [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000903s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000798s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 134 ) AND ( `is_del` = 0 ) AND ( `type` = 2 ) LIMIT 1   [ RunTime:0.000080s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 134 ) AND ( `is_del` = 0 ) AND ( `type` = 2 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/75c2a6f3efc53bfb43dd0d23e30b61bb.php 第 33 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2018-05-08T12:31:17+08:00 ] 117.135.239.83 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.001078s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000919s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000659s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000065s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000595s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000061s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2018-05-08T12:31:18+08:00 ] 117.135.239.83 /index.php/news/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000849s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000938s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `gd_news` [ RunTime:0.000733s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_news` LIMIT 1   [ RunTime:0.000064s ]
+SQL: SELECT * FROM `gd_news` ORDER BY sort desc,addtime desc LIMIT 0,20   [ RunTime:0.000113s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2018-05-08T12:31:21+08:00 ] 183.227.138.8 /index.php/renwu/chaxun.html?id=12&fun=wx_gzhjf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000811s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=134 ) LIMIT 1   [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000921s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000705s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.000068s ]
+
+[ 2018-05-08T12:31:21+08:00 ] 183.227.138.8 /index.php/Renwu/wx_gzhjf.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000726s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=134 ) LIMIT 1   [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000798s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000699s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 134 ) AND ( `is_del` = 0 ) AND ( `type` = 12 ) LIMIT 1   [ RunTime:0.000081s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 134 ) AND ( `is_del` = 0 ) AND ( `type` = 12 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/0a865e3782cb222929c2f88065b5ea69.php 第 33 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2018-05-08T12:31:41+08:00 ] 117.135.239.83 /index.php/renwu/chaxun.html?id=2&fun=wx_gongzhonghao
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000873s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000918s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000668s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000105s ]
+
+[ 2018-05-08T12:31:41+08:00 ] 117.135.239.83 /index.php/Renwu/wx_gongzhonghao.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000839s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000905s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000855s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 43 ) AND ( `is_del` = 0 ) AND ( `type` = 2 ) LIMIT 1   [ RunTime:0.000084s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 43 ) AND ( `is_del` = 0 ) AND ( `type` = 2 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000112s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/75c2a6f3efc53bfb43dd0d23e30b61bb.php 第 33 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2018-05-08T12:31:43+08:00 ] 117.135.239.83 /index.php/renwu/wx_gongzhonghao_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000811s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000974s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `gd_price` [ RunTime:0.000715s ]
+SQL: SELECT * FROM `gd_price` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000669s ]
+
+[ 2018-05-08T12:31:48+08:00 ] 117.135.239.83 /index.php/renwu/chaxun.html?id=9&fun=wx_saoma
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000811s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000890s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.001026s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000069s ]
+
+[ 2018-05-08T12:31:48+08:00 ] 117.135.239.83 /index.php/Renwu/wx_saoma.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000837s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000985s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000849s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 43 ) AND ( `is_del` = 0 ) AND ( `type` = 9 ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 43 ) AND ( `is_del` = 0 ) AND ( `type` = 9 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000337s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/87d5e091000426936b56abb1ba2873e0.php 第 35 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2018-05-08T12:31:50+08:00 ] 117.135.239.83 /index.php/renwu/wx_saoma_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000853s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000922s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `gd_price` [ RunTime:0.000735s ]
+SQL: SELECT * FROM `gd_price` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2018-05-08T12:31:52+08:00 ] 117.135.239.83 /index.php/renwu/chaxun.html?id=12&fun=wx_gzhjf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000870s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000931s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000806s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.000074s ]
+
+[ 2018-05-08T12:31:52+08:00 ] 117.135.239.83 /index.php/Renwu/wx_gzhjf.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000907s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000958s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000829s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 43 ) AND ( `is_del` = 0 ) AND ( `type` = 12 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 43 ) AND ( `is_del` = 0 ) AND ( `type` = 12 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/0a865e3782cb222929c2f88065b5ea69.php 第 33 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2018-05-08T12:31:54+08:00 ] 117.135.239.83 /index.php/renwu/wx_gzhjf_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000823s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.001300s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `gd_price` [ RunTime:0.000764s ]
+SQL: SELECT * FROM `gd_price` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.000084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2018-05-08T12:36:15+08:00 ] 106.11.155.149 /index.php/renwu/wx_wzdz.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000875s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000093s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000930s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000107s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000874s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = null ) AND ( `is_del` = 0 ) AND ( `type` = 5 ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = null ) AND ( `is_del` = 0 ) AND ( `type` = 5 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/3c5229ad7f891ee6e7c58dae390211fc.php 第 34 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2018-05-08T12:43:54+08:00 ] 183.227.138.8 /index.php/renwu/chaxun.html?id=2&fun=wx_gongzhonghao
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000798s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=134 ) LIMIT 1   [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000863s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000168s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000800s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000081s ]
+
+[ 2018-05-08T12:43:54+08:00 ] 183.227.138.8 /index.php/Renwu/wx_gongzhonghao.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000826s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=134 ) LIMIT 1   [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000922s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000830s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 134 ) AND ( `is_del` = 0 ) AND ( `type` = 2 ) LIMIT 1   [ RunTime:0.000075s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 134 ) AND ( `is_del` = 0 ) AND ( `type` = 2 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000107s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/75c2a6f3efc53bfb43dd0d23e30b61bb.php 第 33 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2018-05-08T12:44:02+08:00 ] 183.227.138.8 /index.php/chongzhi/img.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000782s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=134 ) LIMIT 1   [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000838s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000627s ]
+SQL: SELECT * FROM `gd_czewm` WHERE ( `id` = 22 ) LIMIT 1   [ RunTime:0.000063s ]
+
+[ 2018-05-08T12:54:54+08:00 ] 106.19.179.64 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000784s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000076s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000809s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000562s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000072s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000558s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2018-05-08T12:54:55+08:00 ] 106.19.179.64 /index.php/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.001007s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2018-05-08T13:11:56+08:00 ] 58.100.170.210 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000895s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000096s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000952s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000762s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000077s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000771s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2018-05-08T13:11:56+08:00 ] 58.100.170.210 /index.php/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.001030s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000105s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2018-05-08T13:15:14+08:00 ] 58.217.192.54 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000724s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000084s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000798s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000572s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000066s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000601s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: 
+INFO: 
+INFO: 
+
+[ 2018-05-08T13:23:18+08:00 ] 220.181.132.193 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000758s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000091s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000784s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000616s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000061s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000562s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000061s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2018-05-08T13:23:18+08:00 ] 220.181.132.193 /index.php/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.001100s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000133s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2018-05-08T13:23:22+08:00 ] 180.163.220.99 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000788s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000077s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000843s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000100s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000582s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000065s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000583s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2018-05-08T13:23:22+08:00 ] 180.163.220.99 /index.php/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.001071s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000133s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2018-05-08T13:23:24+08:00 ] 101.199.121.77 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000807s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000092s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000870s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000700s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000066s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000806s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2018-05-08T13:23:24+08:00 ] 101.199.121.77 /index.php/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.001016s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000105s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2018-05-08T14:50:21+08:00 ] 222.95.85.242 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000820s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000082s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000825s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000637s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000058s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000626s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2018-05-08T15:29:11+08:00 ] 171.8.70.8 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000880s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000084s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000861s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000725s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000071s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000643s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2018-05-08T17:49:36+08:00 ] 111.206.36.140 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000865s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000085s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000915s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000717s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000070s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000726s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2018-05-08T17:53:37+08:00 ] 157.55.39.101 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000791s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000080s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000826s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000678s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000066s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000609s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2018-05-08T17:53:48+08:00 ] 157.55.39.101 /index.php/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.001025s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2018-05-08T21:35:58+08:00 ] 222.182.193.41 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000896s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000092s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000952s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000776s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000074s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000740s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2018-05-08T21:35:59+08:00 ] 222.182.193.41 /index.php/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000988s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2018-05-08T21:36:00+08:00 ] 222.182.193.41 /index.php/login/dologin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000861s ]
+SQL: SELECT * FROM `gd_user` WHERE ( username = 'hehebt' ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: SELECT * FROM `gd_user` WHERE ( username='hehebt' and password='c3a4acc6af4a9f211d794462ca147296' ) LIMIT 1   [ RunTime:0.000754s ]
+
+[ 2018-05-08T21:36:01+08:00 ] 222.182.193.41 /index.php/index/index.html?ty=block
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000822s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=113 ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.001165s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000112s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000668s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000070s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000658s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2018-05-08T21:36:01+08:00 ] 222.182.193.41 /index.php/news/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000859s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=113 ) LIMIT 1   [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000917s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000168s ]
+SQL: SHOW COLUMNS FROM `gd_news` [ RunTime:0.000794s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_news` LIMIT 1   [ RunTime:0.000071s ]
+SQL: SELECT * FROM `gd_news` ORDER BY sort desc,addtime desc LIMIT 0,20   [ RunTime:0.000113s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2018-05-08T21:36:10+08:00 ] 222.182.193.41 /index.php/renwu/chaxun.html?id=12&fun=wx_gzhjf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000878s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=113 ) LIMIT 1   [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000944s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000691s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.000090s ]
+
+[ 2018-05-08T21:36:11+08:00 ] 222.182.193.41 /index.php/Renwu/wx_gzhjf.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000789s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=113 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000852s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000782s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 113 ) AND ( `is_del` = 0 ) AND ( `type` = 12 ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 113 ) AND ( `is_del` = 0 ) AND ( `type` = 12 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/0a865e3782cb222929c2f88065b5ea69.php 第 33 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2018-05-08T21:36:22+08:00 ] 222.182.193.41 /index.php/renwu/chaxun.html?id=9&fun=wx_saoma
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000854s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=113 ) LIMIT 1   [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000887s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000711s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000064s ]
+
+[ 2018-05-08T21:36:22+08:00 ] 222.182.193.41 /index.php/Renwu/wx_saoma.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000918s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=113 ) LIMIT 1   [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000963s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000124s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000891s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 113 ) AND ( `is_del` = 0 ) AND ( `type` = 9 ) LIMIT 1   [ RunTime:0.000377s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 113 ) AND ( `is_del` = 0 ) AND ( `type` = 9 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/87d5e091000426936b56abb1ba2873e0.php 第 35 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2018-05-08T21:36:23+08:00 ] 222.182.193.41 /index.php/renwu/chaxun.html?id=2&fun=wx_gongzhonghao
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000926s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=113 ) LIMIT 1   [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000925s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000728s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000070s ]
+
+[ 2018-05-08T21:36:23+08:00 ] 222.182.193.41 /index.php/Renwu/wx_gongzhonghao.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000932s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=113 ) LIMIT 1   [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000914s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000852s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 113 ) AND ( `is_del` = 0 ) AND ( `type` = 2 ) LIMIT 1   [ RunTime:0.000308s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 113 ) AND ( `is_del` = 0 ) AND ( `type` = 2 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000421s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/75c2a6f3efc53bfb43dd0d23e30b61bb.php 第 33 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2018-05-08T21:57:49+08:00 ] 222.182.193.41 /index.php/renwu/chaxun.html?id=9&fun=wx_saoma
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000848s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=113 ) LIMIT 1   [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000983s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000117s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000721s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000068s ]
+
+[ 2018-05-08T21:57:49+08:00 ] 222.182.193.41 /index.php/Renwu/wx_saoma.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000852s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=113 ) LIMIT 1   [ RunTime:0.000093s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000886s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000831s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 113 ) AND ( `is_del` = 0 ) AND ( `type` = 9 ) LIMIT 1   [ RunTime:0.000068s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 113 ) AND ( `is_del` = 0 ) AND ( `type` = 9 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/87d5e091000426936b56abb1ba2873e0.php 第 35 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2018-05-08T21:57:50+08:00 ] 222.182.193.41 /index.php/renwu/chaxun.html?id=12&fun=wx_gzhjf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000865s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=113 ) LIMIT 1   [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000927s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000723s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.000071s ]
+
+[ 2018-05-08T21:57:50+08:00 ] 222.182.193.41 /index.php/Renwu/wx_gzhjf.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000836s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=113 ) LIMIT 1   [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000829s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000794s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 113 ) AND ( `is_del` = 0 ) AND ( `type` = 12 ) LIMIT 1   [ RunTime:0.000064s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 113 ) AND ( `is_del` = 0 ) AND ( `type` = 12 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/0a865e3782cb222929c2f88065b5ea69.php 第 33 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2018-05-08T21:57:51+08:00 ] 222.182.193.41 /index.php/renwu/chaxun.html?id=2&fun=wx_gongzhonghao
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000845s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=113 ) LIMIT 1   [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000945s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000713s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000070s ]
+
+[ 2018-05-08T21:57:51+08:00 ] 222.182.193.41 /index.php/Renwu/wx_gongzhonghao.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000812s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=113 ) LIMIT 1   [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000876s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000881s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 113 ) AND ( `is_del` = 0 ) AND ( `type` = 2 ) LIMIT 1   [ RunTime:0.000073s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 113 ) AND ( `is_del` = 0 ) AND ( `type` = 2 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000105s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/75c2a6f3efc53bfb43dd0d23e30b61bb.php 第 33 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2018-05-08T21:57:57+08:00 ] 222.182.193.41 /index.php/renwu/wx_gongzhonghao_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000823s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=113 ) LIMIT 1   [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000927s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `gd_price` [ RunTime:0.000850s ]
+SQL: SELECT * FROM `gd_price` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2018-05-08T21:58:04+08:00 ] 222.182.193.41 /index.php/renwu/chaxun.html?id=12&fun=wx_gzhjf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000830s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=113 ) LIMIT 1   [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000923s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000720s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.000070s ]
+
+[ 2018-05-08T21:58:04+08:00 ] 222.182.193.41 /index.php/Renwu/wx_gzhjf.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000832s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=113 ) LIMIT 1   [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000884s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000836s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 113 ) AND ( `is_del` = 0 ) AND ( `type` = 12 ) LIMIT 1   [ RunTime:0.000066s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 113 ) AND ( `is_del` = 0 ) AND ( `type` = 12 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/0a865e3782cb222929c2f88065b5ea69.php 第 33 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2018-05-08T21:58:06+08:00 ] 222.182.193.41 /index.php/renwu/wx_gzhjf_add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000796s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=113 ) LIMIT 1   [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000970s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `gd_price` [ RunTime:0.000802s ]
+SQL: SELECT * FROM `gd_price` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.000084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2018-05-08T21:58:12+08:00 ] 222.182.193.41 /index.php/renwu/chaxun.html?id=2&fun=wx_gongzhonghao
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000852s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=113 ) LIMIT 1   [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000950s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000116s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000691s ]
+SQL: SELECT * FROM `gd_task` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000064s ]
+
+[ 2018-05-08T21:58:12+08:00 ] 222.182.193.41 /index.php/Renwu/wx_gongzhonghao.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000897s ]
+SQL: SELECT * FROM `gd_user` WHERE ( id=113 ) LIMIT 1   [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000973s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `gd_wx_renwu` [ RunTime:0.000882s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_wx_renwu` WHERE ( `uid` = 113 ) AND ( `is_del` = 0 ) AND ( `type` = 2 ) LIMIT 1   [ RunTime:0.000427s ]
+SQL: SELECT * FROM `gd_wx_renwu` WHERE ( `uid` = 113 ) AND ( `is_del` = 0 ) AND ( `type` = 2 ) ORDER BY addtime desc LIMIT 0,20   [ RunTime:0.000114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined index: keyword /www/qiye/jiujiu/App/Runtime/Cache/Home/75c2a6f3efc53bfb43dd0d23e30b61bb.php 第 33 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2018-05-08T23:16:33+08:00 ] 59.55.211.18 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001203s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000822s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000092s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000881s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000626s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000069s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000673s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2018-05-08T23:16:33+08:00 ] 59.55.211.18 /index.php/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000998s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2018-05-08T23:17:32+08:00 ] 117.135.170.150 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000830s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000107s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000865s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.000641s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000071s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.000690s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined index: money /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty /www/qiye/jiujiu/App/Runtime/Cache/Home/00e52909bed743ea261af4b6823297ff.php 第 159 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2018-05-08T23:17:33+08:00 ] 117.135.173.80 /index.php/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000947s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000135s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2018-05-08T23:17:33+08:00 ] 117.135.170.150 /index.php/news/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /www/qiye/jiujiu/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.000824s ]
+NOTIC: [8] Undefined index: uid /www/qiye/jiujiu/App/Home/Controller/CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000090s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.000898s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `gd_news` [ RunTime:0.000738s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gd_news` LIMIT 1   [ RunTime:0.000072s ]
+SQL: SELECT * FROM `gd_news` ORDER BY sort desc,addtime desc LIMIT 0,20   [ RunTime:0.000101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+

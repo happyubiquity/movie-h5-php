@@ -1,0 +1,2136 @@
+[ 2018-10-22T09:50:07+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.014838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027015s ]
+SQL: SHOW COLUMNS FROM `cm_user` [ RunTime:0.096772s ]
+NOTIC: [8] Undefined index: uid E:\WWW\photo\App\Home\Controller\CommController.class.php 第 18 行.
+SQL: SELECT * FROM `cm_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000337s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `cm_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `cm_config` [ RunTime:0.006386s ]
+ERR: 1146:Table 'photo.cm_config' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cm_config`
+SQL: SELECT * FROM `cm_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000855s ]
+ERR: 1146:Table 'photo.cm_config' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `cm_config` WHERE ( id=1 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `cm_czewm` [ RunTime:0.007786s ]
+ERR: 1146:Table 'photo.cm_czewm' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cm_czewm`
+SQL: SELECT * FROM `cm_czewm`  [ RunTime:0.000860s ]
+ERR: 1146:Table 'photo.cm_czewm' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `cm_czewm` 
+SQL: SELECT * FROM `cm_config` LIMIT 1   [ RunTime:0.000629s ]
+ERR: 1146:Table 'photo.cm_config' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `cm_config` LIMIT 1  
+SQL: SHOW COLUMNS FROM `cm_task` [ RunTime:0.006111s ]
+ERR: 1146:Table 'photo.cm_task' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cm_task`
+SQL: SELECT * FROM `cm_task`  [ RunTime:0.000514s ]
+ERR: 1146:Table 'photo.cm_task' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `cm_task` 
+NOTIC: [8] Undefined index: uid E:\WWW\photo\App\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SELECT * FROM `cm_user` LIMIT 1   [ RunTime:0.000278s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined index: money E:\WWW\photo\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 82 行.
+NOTIC: [8] Undefined index: money E:\WWW\photo\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username E:\WWW\photo\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty E:\WWW\photo\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 160 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.212778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.212828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.014370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.008523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008575s ]
+
+[ 2018-10-22T09:50:07+08:00 ] 127.0.0.1 /index.php/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+ERR: 无法加载控制器:Login
+
+[ 2018-10-22T09:50:43+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `cm_user` [ RunTime:0.017208s ]
+NOTIC: [8] Undefined index: uid E:\WWW\photo\App\Home\Controller\CommController.class.php 第 18 行.
+SQL: SELECT * FROM `cm_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000168s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `cm_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `cm_config` [ RunTime:0.007773s ]
+ERR: 1146:Table 'photo.cm_config' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cm_config`
+SQL: SELECT * FROM `cm_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000532s ]
+ERR: 1146:Table 'photo.cm_config' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `cm_config` WHERE ( id=1 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `cm_czewm` [ RunTime:0.008483s ]
+ERR: 1146:Table 'photo.cm_czewm' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cm_czewm`
+SQL: SELECT * FROM `cm_czewm`  [ RunTime:0.000583s ]
+ERR: 1146:Table 'photo.cm_czewm' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `cm_czewm` 
+SQL: SELECT * FROM `cm_config` LIMIT 1   [ RunTime:0.000518s ]
+ERR: 1146:Table 'photo.cm_config' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `cm_config` LIMIT 1  
+SQL: SHOW COLUMNS FROM `cm_task` [ RunTime:0.007304s ]
+ERR: 1146:Table 'photo.cm_task' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cm_task`
+SQL: SELECT * FROM `cm_task`  [ RunTime:0.000536s ]
+ERR: 1146:Table 'photo.cm_task' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `cm_task` 
+NOTIC: [8] Undefined index: uid E:\WWW\photo\App\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SELECT * FROM `cm_user` LIMIT 1   [ RunTime:0.000262s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined index: money E:\WWW\photo\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 82 行.
+NOTIC: [8] Undefined index: money E:\WWW\photo\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username E:\WWW\photo\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty E:\WWW\photo\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 160 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.054628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2018-10-22T09:50:43+08:00 ] 127.0.0.1 /index.php/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004668s ]
+ERR: 无法加载控制器:Login
+
+[ 2018-10-22T09:53:34+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2018-10-22T09:53:34+08:00 ] 127.0.0.1 /index.php/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+ERR: 无法加载控制器:Login
+
+[ 2018-10-22T09:54:15+08:00 ] 127.0.0.1 /index.php/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+ERR: 无法加载控制器:Login
+
+[ 2018-10-22T09:54:18+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2018-10-22T09:54:18+08:00 ] 127.0.0.1 /admin.php/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.073202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2018-10-22T09:54:19+08:00 ] 127.0.0.1 /admin.php/Login/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2018-10-22T09:55:31+08:00 ] 127.0.0.1 /admin.php/login/dologin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002713s ]
+SQL: SHOW COLUMNS FROM `cm_adminuser` [ RunTime:0.100789s ]
+SQL: SELECT * FROM `cm_adminuser` WHERE ( name = 'admin' ) LIMIT 1   [ RunTime:0.000409s ]
+SQL: SELECT * FROM `cm_adminuser` WHERE ( name='admin' and password='14e1b600b1fd579f47433b88e8d85291' ) LIMIT 1   [ RunTime:0.000243s ]
+NOTIC: [8] Undefined index: username E:\WWW\photo\App\Rzsys\Controller\LoginController.class.php 第 32 行.
+
+[ 2018-10-22T09:55:32+08:00 ] 127.0.0.1 /admin.php/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `cm_rel` [ RunTime:0.119586s ]
+SQL: SELECT p.pid FROM cm_rel r INNER JOIN cm_pro AS p ON r.jid = p.id  WHERE ( r.pid=1 )  [ RunTime:0.043816s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.073565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2018-10-22T09:55:32+08:00 ] 127.0.0.1 /admin.php/login/dologin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002248s ]
+
+[ 2018-10-22T09:55:32+08:00 ] 127.0.0.1 /admin.php/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined variable: admin E:\WWW\photo\App\Runtime\Cache\Rzsys\fd452937e88c188c460bc88e5f76d2e6.php 第 96 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.089754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001545s ]
+
+[ 2018-10-22T09:57:00+08:00 ] 127.0.0.1 /admin.php/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.015275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027700s ]
+SQL: SHOW COLUMNS FROM `cm_rel` [ RunTime:0.019281s ]
+SQL: SELECT p.pid FROM cm_rel r INNER JOIN cm_pro AS p ON r.jid = p.id  WHERE ( r.pid=1 )  [ RunTime:0.000496s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.095277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.009328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.044190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.044252s ]
+
+[ 2018-10-22T09:57:00+08:00 ] 127.0.0.1 /admin.php/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Undefined variable: admin E:\WWW\photo\App\Runtime\Cache\Rzsys\fd452937e88c188c460bc88e5f76d2e6.php 第 96 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.054771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2018-10-22T09:57:14+08:00 ] 127.0.0.1 /admin.php/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `cm_rel` [ RunTime:0.013293s ]
+SQL: SELECT p.pid FROM cm_rel r INNER JOIN cm_pro AS p ON r.jid = p.id  WHERE ( r.pid=1 )  [ RunTime:0.000538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2018-10-22T09:57:15+08:00 ] 127.0.0.1 /admin.php/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: admin E:\WWW\photo\App\Runtime\Cache\Rzsys\fd452937e88c188c460bc88e5f76d2e6.php 第 96 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2018-10-22T09:57:26+08:00 ] 127.0.0.1 /admin.php/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `cm_rel` [ RunTime:0.026391s ]
+SQL: SELECT p.pid FROM cm_rel r INNER JOIN cm_pro AS p ON r.jid = p.id  WHERE ( r.pid=1 )  [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2018-10-22T09:57:27+08:00 ] 127.0.0.1 /admin.php/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: admin E:\WWW\photo\App\Runtime\Cache\Rzsys\fd452937e88c188c460bc88e5f76d2e6.php 第 96 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2018-10-22T09:59:08+08:00 ] 127.0.0.1 /admin.php/login/logout.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001654s ]
+
+[ 2018-10-22T09:59:08+08:00 ] 127.0.0.1 /admin.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2018-10-22T09:59:08+08:00 ] 127.0.0.1 /admin.php/Login/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2018-10-22T09:59:15+08:00 ] 127.0.0.1 /admin.php?m=home&c=login&a=verify&time=0.15371778989867113
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001914s ]
+
+[ 2018-10-22T09:59:20+08:00 ] 127.0.0.1 /admin.php/login/dologin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `cm_adminuser` [ RunTime:0.037684s ]
+SQL: SELECT * FROM `cm_adminuser` WHERE ( name = 'admin' ) LIMIT 1   [ RunTime:0.000618s ]
+SQL: SELECT * FROM `cm_adminuser` WHERE ( name='admin' and password='14e1b600b1fd579f47433b88e8d85291' ) LIMIT 1   [ RunTime:0.001518s ]
+
+[ 2018-10-22T09:59:21+08:00 ] 127.0.0.1 /admin.php/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `cm_rel` [ RunTime:0.068208s ]
+SQL: SELECT p.pid FROM cm_rel r INNER JOIN cm_pro AS p ON r.jid = p.id  WHERE ( r.pid=1 )  [ RunTime:0.021544s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002195s ]
+
+[ 2018-10-22T09:59:22+08:00 ] 127.0.0.1 /admin.php/login/dologin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+
+[ 2018-10-22T09:59:22+08:00 ] 127.0.0.1 /admin.php/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined variable: admin E:\WWW\photo\App\Runtime\Cache\Rzsys\fd452937e88c188c460bc88e5f76d2e6.php 第 96 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.023432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2018-10-22T10:00:20+08:00 ] 127.0.0.1 /admin.php/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `cm_rel` [ RunTime:0.022014s ]
+SQL: SELECT p.pid FROM cm_rel r INNER JOIN cm_pro AS p ON r.jid = p.id  WHERE ( r.pid=1 )  [ RunTime:0.000569s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2018-10-22T10:00:20+08:00 ] 127.0.0.1 /admin.php/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: admin E:\WWW\photo\App\Runtime\Cache\Rzsys\fd452937e88c188c460bc88e5f76d2e6.php 第 96 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2018-10-22T10:01:50+08:00 ] 127.0.0.1 /admin.php/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+SQL: SHOW COLUMNS FROM `cm_rel` [ RunTime:0.024149s ]
+SQL: SELECT p.pid FROM cm_rel r INNER JOIN cm_pro AS p ON r.jid = p.id  WHERE ( r.pid=1 )  [ RunTime:0.000514s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2018-10-22T10:01:50+08:00 ] 127.0.0.1 /admin.php/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: admin E:\WWW\photo\App\Runtime\Cache\Rzsys\fd452937e88c188c460bc88e5f76d2e6.php 第 96 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2018-10-22T10:02:06+08:00 ] 127.0.0.1 /admin.php/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `cm_rel` [ RunTime:0.023577s ]
+SQL: SELECT p.pid FROM cm_rel r INNER JOIN cm_pro AS p ON r.jid = p.id  WHERE ( r.pid=1 )  [ RunTime:0.000448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2018-10-22T10:02:06+08:00 ] 127.0.0.1 /admin.php/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [8] Undefined variable: admin E:\WWW\photo\App\Runtime\Cache\Rzsys\fd452937e88c188c460bc88e5f76d2e6.php 第 93 行.
+NOTIC: [8] Undefined variable: admin E:\WWW\photo\App\Runtime\Cache\Rzsys\fd452937e88c188c460bc88e5f76d2e6.php 第 96 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2018-10-22T10:06:34+08:00 ] 127.0.0.1 /admin.php/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `cm_rel` [ RunTime:0.018750s ]
+SQL: SELECT p.pid FROM cm_rel r INNER JOIN cm_pro AS p ON r.jid = p.id  WHERE ( r.pid=1 )  [ RunTime:0.000528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2018-10-22T10:06:36+08:00 ] 127.0.0.1 /admin.php/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2018-10-22T10:06:54+08:00 ] 127.0.0.1 /admin.php/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `cm_rel` [ RunTime:0.021306s ]
+SQL: SELECT p.pid FROM cm_rel r INNER JOIN cm_pro AS p ON r.jid = p.id  WHERE ( r.pid=1 )  [ RunTime:0.000502s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2018-10-22T10:06:55+08:00 ] 127.0.0.1 /admin.php/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2018-10-22T10:06:57+08:00 ] 127.0.0.1 /admin.php/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2018-10-22T10:09:40+08:00 ] 127.0.0.1 /admin.php/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+SQL: SHOW COLUMNS FROM `cm_rel` [ RunTime:0.026789s ]
+SQL: SELECT p.pid FROM cm_rel r INNER JOIN cm_pro AS p ON r.jid = p.id  WHERE ( r.pid=1 )  [ RunTime:0.000448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015562s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2018-10-22T10:09:43+08:00 ] 127.0.0.1 /admin.php/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `cm_user` [ RunTime:0.015116s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_user` LIMIT 1   [ RunTime:0.641538s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.036115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` LIMIT 1   [ RunTime:0.000216s ]
+SQL: SHOW COLUMNS FROM `cm_yuyue` [ RunTime:0.011284s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_yuyue` LIMIT 1   [ RunTime:0.000380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2018-10-22T10:09:46+08:00 ] 127.0.0.1 /admin.php/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `cm_user` [ RunTime:0.023850s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_user` LIMIT 1   [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.011452s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` LIMIT 1   [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `cm_yuyue` [ RunTime:0.010344s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_yuyue` LIMIT 1   [ RunTime:0.000218s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.015817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2018-10-22T10:12:52+08:00 ] 127.0.0.1 /admin.php/user/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `cm_user` [ RunTime:0.024417s ]
+NOTIC: [8] Undefined index: telphone E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 21 行.
+SQL: SELECT * FROM `cm_user` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000422s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_user` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000204s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.145401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2018-10-22T10:12:53+08:00 ] 127.0.0.1 /admin.php/user/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+SQL: SHOW COLUMNS FROM `cm_user` [ RunTime:0.014265s ]
+NOTIC: [8] Undefined index: telphone E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 21 行.
+SQL: SELECT * FROM `cm_user` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000293s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_user` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006939s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2018-10-22T10:12:54+08:00 ] 127.0.0.1 /admin.php/user/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+SQL: SHOW COLUMNS FROM `cm_user` [ RunTime:0.038105s ]
+NOTIC: [8] Undefined index: telphone E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 21 行.
+SQL: SELECT * FROM `cm_user` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000323s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_user` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000195s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2018-10-22T10:12:55+08:00 ] 127.0.0.1 /admin.php/user/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002640s ]
+SQL: SHOW COLUMNS FROM `cm_user` [ RunTime:0.024353s ]
+NOTIC: [8] Undefined index: telphone E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 21 行.
+SQL: SELECT * FROM `cm_user` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000291s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_user` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000201s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2018-10-22T10:12:56+08:00 ] 127.0.0.1 /admin.php/user/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+SQL: SHOW COLUMNS FROM `cm_user` [ RunTime:0.017812s ]
+NOTIC: [8] Undefined index: telphone E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 21 行.
+SQL: SELECT * FROM `cm_user` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000290s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_user` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000191s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2018-10-22T10:12:57+08:00 ] 127.0.0.1 /admin.php/user/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+SQL: SHOW COLUMNS FROM `cm_user` [ RunTime:0.024405s ]
+NOTIC: [8] Undefined index: telphone E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 21 行.
+SQL: SELECT * FROM `cm_user` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000310s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_user` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000191s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2018-10-22T10:12:58+08:00 ] 127.0.0.1 /admin.php/user/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `cm_user` [ RunTime:0.022837s ]
+NOTIC: [8] Undefined index: telphone E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 21 行.
+SQL: SELECT * FROM `cm_user` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000292s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_user` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2018-10-22T10:12:59+08:00 ] 127.0.0.1 /admin.php/user/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+SQL: SHOW COLUMNS FROM `cm_user` [ RunTime:0.017754s ]
+NOTIC: [8] Undefined index: telphone E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 21 行.
+SQL: SELECT * FROM `cm_user` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000336s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_user` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000196s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2018-10-22T10:13:00+08:00 ] 127.0.0.1 /admin.php/user/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+SQL: SHOW COLUMNS FROM `cm_user` [ RunTime:0.016644s ]
+NOTIC: [8] Undefined index: telphone E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 21 行.
+SQL: SELECT * FROM `cm_user` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000308s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_user` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000189s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2018-10-22T10:13:01+08:00 ] 127.0.0.1 /admin.php/user/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `cm_user` [ RunTime:0.028937s ]
+NOTIC: [8] Undefined index: telphone E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 21 行.
+SQL: SELECT * FROM `cm_user` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000569s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_user` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000269s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2018-10-22T10:13:02+08:00 ] 127.0.0.1 /admin.php/user/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `cm_user` [ RunTime:0.014672s ]
+NOTIC: [8] Undefined index: telphone E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 10 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 11 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\UserController.class.php 第 21 行.
+SQL: SELECT * FROM `cm_user` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000299s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_user` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000197s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2018-10-22T10:13:02+08:00 ] 127.0.0.1 /admin.php/user/11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+ERR: 非法操作:11
+
+[ 2018-10-22T10:40:45+08:00 ] 127.0.0.1 /admin.php/goods/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.017146s ]
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 23 行.
+SQL: SELECT * FROM `cm_goods` WHERE ( 1 ) ORDER BY sort desc,addtime desc LIMIT 0,25   [ RunTime:0.023616s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.018650s ]
+SQL: SELECT * FROM `cm_class`  [ RunTime:0.000283s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.058990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2018-10-22T10:40:46+08:00 ] 127.0.0.1 /admin.php/goods/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.016828s ]
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 23 行.
+SQL: SELECT * FROM `cm_goods` WHERE ( 1 ) ORDER BY sort desc,addtime desc LIMIT 0,25   [ RunTime:0.000380s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000174s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.010599s ]
+SQL: SELECT * FROM `cm_class`  [ RunTime:0.000291s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2018-10-22T10:40:47+08:00 ] 127.0.0.1 /admin.php/goods/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.016483s ]
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 23 行.
+SQL: SELECT * FROM `cm_goods` WHERE ( 1 ) ORDER BY sort desc,addtime desc LIMIT 0,25   [ RunTime:0.000382s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.011736s ]
+SQL: SELECT * FROM `cm_class`  [ RunTime:0.000264s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2018-10-22T10:40:48+08:00 ] 127.0.0.1 /admin.php/goods/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.023236s ]
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 23 行.
+SQL: SELECT * FROM `cm_goods` WHERE ( 1 ) ORDER BY sort desc,addtime desc LIMIT 0,25   [ RunTime:0.000414s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.010233s ]
+SQL: SELECT * FROM `cm_class`  [ RunTime:0.000252s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2018-10-22T10:40:49+08:00 ] 127.0.0.1 /admin.php/goods/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.023296s ]
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 23 行.
+SQL: SELECT * FROM `cm_goods` WHERE ( 1 ) ORDER BY sort desc,addtime desc LIMIT 0,25   [ RunTime:0.000855s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.010906s ]
+SQL: SELECT * FROM `cm_class`  [ RunTime:0.000260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2018-10-22T10:40:50+08:00 ] 127.0.0.1 /admin.php/goods/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.030809s ]
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 23 行.
+SQL: SELECT * FROM `cm_goods` WHERE ( 1 ) ORDER BY sort desc,addtime desc LIMIT 0,25   [ RunTime:0.000380s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.013263s ]
+SQL: SELECT * FROM `cm_class`  [ RunTime:0.000269s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2018-10-22T10:40:51+08:00 ] 127.0.0.1 /admin.php/goods/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.018568s ]
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 23 行.
+SQL: SELECT * FROM `cm_goods` WHERE ( 1 ) ORDER BY sort desc,addtime desc LIMIT 0,25   [ RunTime:0.000376s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000175s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.013459s ]
+SQL: SELECT * FROM `cm_class`  [ RunTime:0.000286s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2018-10-22T10:40:53+08:00 ] 127.0.0.1 /admin.php/goods/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002862s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.026211s ]
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 23 行.
+SQL: SELECT * FROM `cm_goods` WHERE ( 1 ) ORDER BY sort desc,addtime desc LIMIT 0,25   [ RunTime:0.000421s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.011777s ]
+SQL: SELECT * FROM `cm_class`  [ RunTime:0.001596s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2018-10-22T10:40:54+08:00 ] 127.0.0.1 /admin.php/goods/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.026266s ]
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 23 行.
+SQL: SELECT * FROM `cm_goods` WHERE ( 1 ) ORDER BY sort desc,addtime desc LIMIT 0,25   [ RunTime:0.000407s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.010709s ]
+SQL: SELECT * FROM `cm_class`  [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2018-10-22T10:40:55+08:00 ] 127.0.0.1 /admin.php/goods/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.037076s ]
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 23 行.
+SQL: SELECT * FROM `cm_goods` WHERE ( 1 ) ORDER BY sort desc,addtime desc LIMIT 0,25   [ RunTime:0.000417s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.031608s ]
+SQL: SELECT * FROM `cm_class`  [ RunTime:0.000227s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2018-10-22T10:40:56+08:00 ] 127.0.0.1 /admin.php/goods/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.017309s ]
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 23 行.
+SQL: SELECT * FROM `cm_goods` WHERE ( 1 ) ORDER BY sort desc,addtime desc LIMIT 0,25   [ RunTime:0.000442s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.019345s ]
+SQL: SELECT * FROM `cm_class`  [ RunTime:0.000260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2018-10-22T10:40:57+08:00 ] 127.0.0.1 /admin.php/goods/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.014704s ]
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 23 行.
+SQL: SELECT * FROM `cm_goods` WHERE ( 1 ) ORDER BY sort desc,addtime desc LIMIT 0,25   [ RunTime:0.000384s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000178s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.010821s ]
+SQL: SELECT * FROM `cm_class`  [ RunTime:0.000259s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2018-10-22T10:40:58+08:00 ] 127.0.0.1 /admin.php/goods/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.015564s ]
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 23 行.
+SQL: SELECT * FROM `cm_goods` WHERE ( 1 ) ORDER BY sort desc,addtime desc LIMIT 0,25   [ RunTime:0.000361s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.015640s ]
+SQL: SELECT * FROM `cm_class`  [ RunTime:0.000245s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2018-10-22T10:40:59+08:00 ] 127.0.0.1 /admin.php/goods/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.027941s ]
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 23 行.
+SQL: SELECT * FROM `cm_goods` WHERE ( 1 ) ORDER BY sort desc,addtime desc LIMIT 0,25   [ RunTime:0.000379s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000174s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.011264s ]
+SQL: SELECT * FROM `cm_class`  [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2018-10-22T10:40:59+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2018-10-22T10:51:03+08:00 ] 127.0.0.1 /admin.php/banner/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002201s ]
+SQL: SHOW COLUMNS FROM `cm_banner` [ RunTime:0.052255s ]
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 12 行.
+SQL: SELECT * FROM `cm_banner` ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000415s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_banner` LIMIT 1   [ RunTime:0.000190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.152147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2018-10-22T10:51:04+08:00 ] 127.0.0.1 /admin.php/banner/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005384s ]
+SQL: SHOW COLUMNS FROM `cm_banner` [ RunTime:0.017165s ]
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 12 行.
+SQL: SELECT * FROM `cm_banner` ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000337s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_banner` LIMIT 1   [ RunTime:0.000177s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2018-10-22T10:51:05+08:00 ] 127.0.0.1 /admin.php/banner/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002135s ]
+SQL: SHOW COLUMNS FROM `cm_banner` [ RunTime:0.027386s ]
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 12 行.
+SQL: SELECT * FROM `cm_banner` ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000297s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_banner` LIMIT 1   [ RunTime:0.000172s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006474s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2018-10-22T10:51:06+08:00 ] 127.0.0.1 /admin.php/banner/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `cm_banner` [ RunTime:0.023126s ]
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 12 行.
+SQL: SELECT * FROM `cm_banner` ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000297s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_banner` LIMIT 1   [ RunTime:0.000178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2018-10-22T10:51:07+08:00 ] 127.0.0.1 /admin.php/banner/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+SQL: SHOW COLUMNS FROM `cm_banner` [ RunTime:0.034544s ]
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 12 行.
+SQL: SELECT * FROM `cm_banner` ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000277s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_banner` LIMIT 1   [ RunTime:0.000127s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2018-10-22T10:51:08+08:00 ] 127.0.0.1 /admin.php/banner/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+SQL: SHOW COLUMNS FROM `cm_banner` [ RunTime:0.018076s ]
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 12 行.
+SQL: SELECT * FROM `cm_banner` ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000356s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_banner` LIMIT 1   [ RunTime:0.000193s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.013864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2018-10-22T10:51:09+08:00 ] 127.0.0.1 /admin.php/banner/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+SQL: SHOW COLUMNS FROM `cm_banner` [ RunTime:0.025996s ]
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 12 行.
+SQL: SELECT * FROM `cm_banner` ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000308s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_banner` LIMIT 1   [ RunTime:0.000175s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2018-10-22T10:51:10+08:00 ] 127.0.0.1 /admin.php/banner/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SHOW COLUMNS FROM `cm_banner` [ RunTime:0.023915s ]
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 12 行.
+SQL: SELECT * FROM `cm_banner` ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000350s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_banner` LIMIT 1   [ RunTime:0.000221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2018-10-22T10:51:12+08:00 ] 127.0.0.1 /admin.php/banner/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `cm_banner` [ RunTime:0.025199s ]
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 12 行.
+SQL: SELECT * FROM `cm_banner` ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000495s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_banner` LIMIT 1   [ RunTime:0.000477s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002771s ]
+
+[ 2018-10-22T10:51:13+08:00 ] 127.0.0.1 /admin.php/banner/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+SQL: SHOW COLUMNS FROM `cm_banner` [ RunTime:0.036271s ]
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 12 行.
+SQL: SELECT * FROM `cm_banner` ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000299s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_banner` LIMIT 1   [ RunTime:0.000220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002325s ]
+
+[ 2018-10-22T10:51:14+08:00 ] 127.0.0.1 /admin.php/banner/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+SQL: SHOW COLUMNS FROM `cm_banner` [ RunTime:0.014558s ]
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 12 行.
+SQL: SELECT * FROM `cm_banner` ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000301s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_banner` LIMIT 1   [ RunTime:0.000172s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2018-10-22T10:51:14+08:00 ] 127.0.0.1 /admin.php/banner/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 33 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 26 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 31 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 63 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.056738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2018-10-22T10:51:15+08:00 ] 127.0.0.1 /admin.php/banner/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `cm_banner` [ RunTime:0.046349s ]
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 12 行.
+SQL: SELECT * FROM `cm_banner` ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000545s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_banner` LIMIT 1   [ RunTime:0.000261s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2018-10-22T10:51:15+08:00 ] 127.0.0.1 /admin.php/banner/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 33 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 26 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 31 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 63 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2018-10-22T10:51:15+08:00 ] 127.0.0.1 /admin.php/banner/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 33 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 26 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 31 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 63 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2018-10-22T10:51:15+08:00 ] 127.0.0.1 /admin.php/banner/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 33 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 26 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 31 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 63 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2018-10-22T10:51:15+08:00 ] 127.0.0.1 /admin.php/banner/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 33 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 26 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 31 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 63 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2018-10-22T10:51:15+08:00 ] 127.0.0.1 /admin.php/banner/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 33 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 26 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 31 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 63 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2018-10-22T10:51:15+08:00 ] 127.0.0.1 /admin.php/banner/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 33 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 26 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 31 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 63 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2018-10-22T10:51:15+08:00 ] 127.0.0.1 /admin.php/banner/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 33 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 26 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 31 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 63 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2018-10-22T10:51:15+08:00 ] 127.0.0.1 /admin.php/banner/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 33 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 26 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 31 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 63 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2018-10-22T10:51:15+08:00 ] 127.0.0.1 /admin.php/banner/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 33 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 26 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 31 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 63 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2018-10-22T10:51:15+08:00 ] 127.0.0.1 /admin.php/banner/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 33 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 26 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 31 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 63 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2018-10-22T10:51:15+08:00 ] 127.0.0.1 /admin.php/banner/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 33 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 26 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 31 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 63 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2018-10-22T10:51:15+08:00 ] 127.0.0.1 /admin.php/banner/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 33 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 26 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 31 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 63 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2018-10-22T10:51:15+08:00 ] 127.0.0.1 /admin.php/banner/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 33 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 26 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 31 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 63 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2018-10-22T10:51:16+08:00 ] 127.0.0.1 /admin.php/banner/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `cm_banner` [ RunTime:0.024113s ]
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 12 行.
+SQL: SELECT * FROM `cm_banner` ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000297s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_banner` LIMIT 1   [ RunTime:0.000172s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2018-10-22T10:51:17+08:00 ] 127.0.0.1 /admin.php/banner/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `cm_banner` [ RunTime:0.013526s ]
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 12 行.
+SQL: SELECT * FROM `cm_banner` ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000426s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_banner` LIMIT 1   [ RunTime:0.000197s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2018-10-22T10:51:18+08:00 ] 127.0.0.1 /admin.php/banner/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `cm_banner` [ RunTime:0.022989s ]
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 12 行.
+SQL: SELECT * FROM `cm_banner` ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000297s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_banner` LIMIT 1   [ RunTime:0.000173s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2018-10-22T10:51:19+08:00 ] 127.0.0.1 /admin.php/banner/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `cm_banner` [ RunTime:0.024837s ]
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 12 行.
+SQL: SELECT * FROM `cm_banner` ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000304s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_banner` LIMIT 1   [ RunTime:0.000177s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2018-10-22T10:51:20+08:00 ] 127.0.0.1 /admin.php/banner/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `cm_banner` [ RunTime:0.023305s ]
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 12 行.
+SQL: SELECT * FROM `cm_banner` ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000303s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_banner` LIMIT 1   [ RunTime:0.000176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2018-10-22T10:51:21+08:00 ] 127.0.0.1 /admin.php/banner/alist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `cm_banner` [ RunTime:0.023038s ]
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 12 行.
+SQL: SELECT * FROM `cm_banner` ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000325s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_banner` LIMIT 1   [ RunTime:0.000177s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2018-10-22T10:57:16+08:00 ] 127.0.0.1 /admin.php/banner/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 33 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\BannerController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 26 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 31 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\007c5561abc49ec9b69d83c5e4859899.php 第 63 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.060440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2018-10-22T11:11:13+08:00 ] 127.0.0.1 /admin.php/quan/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+ERR: 非法操作:list
+
+[ 2018-10-22T11:11:13+08:00 ] 127.0.0.1 /admin.php/quan/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001898s ]
+ERR: 非法操作:list
+
+[ 2018-10-22T11:11:13+08:00 ] 127.0.0.1 /admin.php/quan/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+ERR: 非法操作:list
+
+[ 2018-10-22T11:11:13+08:00 ] 127.0.0.1 /admin.php/quan/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+ERR: 非法操作:list
+
+[ 2018-10-22T11:11:13+08:00 ] 127.0.0.1 /admin.php/quan/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+ERR: 非法操作:list
+
+[ 2018-10-22T11:11:13+08:00 ] 127.0.0.1 /admin.php/quan/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+ERR: 非法操作:list
+
+[ 2018-10-22T11:11:13+08:00 ] 127.0.0.1 /admin.php/quan/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+ERR: 非法操作:list
+
+[ 2018-10-22T11:11:13+08:00 ] 127.0.0.1 /admin.php/quan/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+ERR: 非法操作:list
+
+[ 2018-10-22T11:11:13+08:00 ] 127.0.0.1 /admin.php/quan/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+ERR: 非法操作:list
+
+[ 2018-10-22T11:11:13+08:00 ] 127.0.0.1 /admin.php/quan/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+ERR: 非法操作:list
+
+[ 2018-10-22T11:11:13+08:00 ] 127.0.0.1 /admin.php/quan/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+ERR: 非法操作:list
+
+[ 2018-10-22T11:11:14+08:00 ] 127.0.0.1 /admin.php/quan/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+ERR: 非法操作:list
+
+[ 2018-10-22T11:11:14+08:00 ] 127.0.0.1 /admin.php/quan/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+ERR: 非法操作:list
+
+[ 2018-10-22T11:11:14+08:00 ] 127.0.0.1 /admin.php/quan/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+ERR: 非法操作:list
+
+[ 2018-10-22T11:11:14+08:00 ] 127.0.0.1 /admin.php/quan/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+ERR: 非法操作:list
+
+[ 2018-10-22T11:11:14+08:00 ] 127.0.0.1 /admin.php/quan/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+ERR: 非法操作:list
+
+[ 2018-10-22T11:11:14+08:00 ] 127.0.0.1 /admin.php/quan/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+ERR: 非法操作:list
+
+[ 2018-10-22T11:11:14+08:00 ] 127.0.0.1 /admin.php/quan/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+ERR: 非法操作:list
+
+[ 2018-10-22T11:11:14+08:00 ] 127.0.0.1 /admin.php/quan/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+ERR: 非法操作:list
+
+[ 2018-10-22T11:11:14+08:00 ] 127.0.0.1 /admin.php/quan/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+ERR: 非法操作:list
+
+[ 2018-10-22T11:11:14+08:00 ] 127.0.0.1 /admin.php/quan/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+ERR: 非法操作:list
+
+[ 2018-10-22T11:11:14+08:00 ] 127.0.0.1 /admin.php/quan/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+ERR: 非法操作:list
+

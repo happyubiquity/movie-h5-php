@@ -1,0 +1,485 @@
+[ 2019-01-12T19:24:49+08:00 ] 223.104.105.121 /index.php/App/banner?type=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+SQL: SHOW COLUMNS FROM `mv_banner` [ RunTime:0.001987s ]
+SQL: SELECT `ID`,`BN_NAME`,`BN_URL`,`BN_TYPE`,`BN_TYPE_ID` FROM `mv_banner` WHERE ( IS_DEL=0 and BN_TYPE=1 )  [ RunTime:0.000594s ]
+
+[ 2019-01-12T19:24:49+08:00 ] 223.104.105.121 /index.php/App/indexcont
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.001936s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL` FROM `mv_movies` WHERE ( MV_TYPE=1  and IS_DEL=0 and MV_STATUS=1 ) ORDER BY GMT_MODIFED desc LIMIT 2   [ RunTime:0.000701s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL`,`MV_TIME`,`MV_TYPE` FROM `mv_movies` WHERE (  IS_DEL=0  and MV_STATUS=1 ) ORDER BY ID desc LIMIT 4   [ RunTime:0.000273s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL`,`MV_TYPE` FROM `mv_movies` WHERE (  IS_DEL=0  and MV_STATUS=1 ) ORDER BY MV_PLAY_COUNT desc LIMIT 4   [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `mv_cartoon` [ RunTime:0.001582s ]
+SQL: SELECT `ID`,`CT_NAME`,`CT_PHOTO_URL` FROM `mv_cartoon` WHERE (  IS_DEL=0 and CT_STATUS=1 ) ORDER BY ID desc LIMIT 4   [ RunTime:0.000524s ]
+
+[ 2019-01-12T19:24:54+08:00 ] 223.104.105.121 /index.php/App/ipaddress?ip=10.55.90.209
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+NOTIC: [2] file_get_contents(http://ip.taobao.com/service/getIpInfo.php?ip=10.55.90.209): failed to open stream: HTTP request failed!  /www/app/shiping/App/Home/Controller/AppController.class.php 第 309 行.
+
+[ 2019-01-12T19:24:57+08:00 ] 223.104.105.121 /index.php/App/banner?type=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `mv_banner` [ RunTime:0.000759s ]
+SQL: SELECT `ID`,`BN_NAME`,`BN_URL`,`BN_TYPE`,`BN_TYPE_ID` FROM `mv_banner` WHERE ( IS_DEL=0 and BN_TYPE=1 )  [ RunTime:0.000091s ]
+
+[ 2019-01-12T19:24:57+08:00 ] 223.104.105.121 /index.php/App/indexcont
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.000857s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL` FROM `mv_movies` WHERE ( MV_TYPE=1  and IS_DEL=0 and MV_STATUS=1 ) ORDER BY GMT_MODIFED desc LIMIT 2   [ RunTime:0.000078s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL`,`MV_TIME`,`MV_TYPE` FROM `mv_movies` WHERE (  IS_DEL=0  and MV_STATUS=1 ) ORDER BY ID desc LIMIT 4   [ RunTime:0.000083s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL`,`MV_TYPE` FROM `mv_movies` WHERE (  IS_DEL=0  and MV_STATUS=1 ) ORDER BY MV_PLAY_COUNT desc LIMIT 4   [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `mv_cartoon` [ RunTime:0.000746s ]
+SQL: SELECT `ID`,`CT_NAME`,`CT_PHOTO_URL` FROM `mv_cartoon` WHERE (  IS_DEL=0 and CT_STATUS=1 ) ORDER BY ID desc LIMIT 4   [ RunTime:0.000080s ]
+
+[ 2019-01-12T19:25:03+08:00 ] 223.104.105.121 /index.php/App/classall
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `mv_class` [ RunTime:0.001917s ]
+SQL: SELECT * FROM `mv_class` WHERE ( IS_DEL=0 and CL_TYPE!=0 and ID!=1 ) ORDER BY ID asc  [ RunTime:0.000567s ]
+
+[ 2019-01-12T19:25:18+08:00 ] 223.104.105.121 /index.php/App/jingmovie?pagesize=10&uid=14&pageindex=0&token=566cd7cacc868755453f111ea97967ef
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.000820s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL`,`MV_TYPE` FROM `mv_movies` WHERE (  IS_DEL=0 and MV_PHYLETIC=2 and MV_STATUS=1 ) ORDER BY ID desc LIMIT 0,10   [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `mv_user` [ RunTime:0.001892s ]
+SQL: SELECT * FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `mv_look_history` [ RunTime:0.001542s ]
+SQL: SELECT * FROM `mv_look_history` WHERE ( LH_LOOKID=20  and LH_PHYLETIC=1 and TYPE=2 and IS_DEL=0 and LH_USERID=14 ) LIMIT 1   [ RunTime:0.000784s ]
+SQL: SELECT * FROM `mv_look_history` WHERE ( LH_LOOKID=19  and LH_PHYLETIC=1 and TYPE=2 and IS_DEL=0 and LH_USERID=14 ) LIMIT 1   [ RunTime:0.000380s ]
+SQL: SELECT * FROM `mv_look_history` WHERE ( LH_LOOKID=14  and LH_PHYLETIC=1 and TYPE=2 and IS_DEL=0 and LH_USERID=14 ) LIMIT 1   [ RunTime:0.000331s ]
+SQL: SELECT * FROM `mv_look_history` WHERE ( LH_LOOKID=13  and LH_PHYLETIC=1 and TYPE=2 and IS_DEL=0 and LH_USERID=14 ) LIMIT 1   [ RunTime:0.000347s ]
+SQL: SELECT * FROM `mv_look_history` WHERE ( LH_LOOKID=10  and LH_PHYLETIC=1 and TYPE=2 and IS_DEL=0 and LH_USERID=14 ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SELECT * FROM `mv_look_history` WHERE ( LH_LOOKID=9  and LH_PHYLETIC=1 and TYPE=2 and IS_DEL=0 and LH_USERID=14 ) LIMIT 1   [ RunTime:0.000641s ]
+SQL: SELECT * FROM `mv_look_history` WHERE ( LH_LOOKID=8  and LH_PHYLETIC=1 and TYPE=2 and IS_DEL=0 and LH_USERID=14 ) LIMIT 1   [ RunTime:0.000339s ]
+SQL: SELECT * FROM `mv_look_history` WHERE ( LH_LOOKID=7  and LH_PHYLETIC=1 and TYPE=2 and IS_DEL=0 and LH_USERID=14 ) LIMIT 1   [ RunTime:0.000371s ]
+SQL: SELECT * FROM `mv_look_history` WHERE ( LH_LOOKID=6  and LH_PHYLETIC=1 and TYPE=2 and IS_DEL=0 and LH_USERID=14 ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: SELECT * FROM `mv_look_history` WHERE ( LH_LOOKID=5  and LH_PHYLETIC=1 and TYPE=2 and IS_DEL=0 and LH_USERID=14 ) LIMIT 1   [ RunTime:0.000372s ]
+
+[ 2019-01-12T19:25:21+08:00 ] 223.104.105.121 /index.php/App/banner?type=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: SHOW COLUMNS FROM `mv_banner` [ RunTime:0.000742s ]
+SQL: SELECT `ID`,`BN_NAME`,`BN_URL`,`BN_TYPE`,`BN_TYPE_ID` FROM `mv_banner` WHERE ( IS_DEL=0 and BN_TYPE=3 )  [ RunTime:0.000267s ]
+
+[ 2019-01-12T19:25:21+08:00 ] 223.104.105.121 /index.php/App/hotmovie?pagesize=10&pageindex=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.000846s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL`,`MV_TIME`,`MV_TYPE` FROM `mv_movies` WHERE (  IS_DEL=0 and MV_PHYLETIC=3 and MV_STATUS=1 ) ORDER BY ID desc LIMIT 0,10   [ RunTime:0.000378s ]
+
+[ 2019-01-12T19:25:33+08:00 ] 223.104.105.121 /index.php/App/moviedec?id=20&uid=14&token=566cd7cacc868755453f111ea97967ef&cn=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.000803s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL`,`MV_HURL`,`MV_WURL`,`MV_SHURL`,`MV_WHURL`,`MV_TIME`,`MV_PLAY_COUNT`,`MV_TYPE`,`MV_PHYLETIC`,`MV_CONTENT`,`MV_CATEGORY` FROM `mv_movies` WHERE ( `ID` = 20 ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SHOW COLUMNS FROM `mv_user` [ RunTime:0.000725s ]
+SQL: SELECT * FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `mv_shop_history` [ RunTime:0.001834s ]
+SQL: SELECT * FROM `mv_shop_history` WHERE ( SH_USERID=14 and SH_END>'2019-01-12 19:25:33' and IS_PAY=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000891s ]
+SQL: SELECT * FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: SELECT * FROM `mv_user` WHERE ( PARENT_CODE=ID14WLABXC and GMT_CREATE>2019-01-1 and GMT_CREATE<'2019-02-1' )  [ RunTime:0.000206s ]
+ERR: 1054:Unknown column 'ID14WLABXC' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `mv_user` WHERE ( PARENT_CODE=ID14WLABXC and GMT_CREATE>2019-01-1 and GMT_CREATE<'2019-02-1' ) 
+SQL: SHOW COLUMNS FROM `mv_look_history` [ RunTime:0.000668s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_look_history` WHERE ( LH_PHYLETIC=1 and LH_USERID=14 and TYPE=1 and GMT_CREATE>'2019-01-12' ) LIMIT 1   [ RunTime:0.000553s ]
+SQL: INSERT INTO `mv_look_history` (`LH_USERID`,`LH_TYPE`,`LH_PHYLETIC`,`LH_LOOKID`,`TYPE`,`GMT_CREATE`) VALUES (14,'1',1,20,1,'2019-01-12 19:25:33') [ RunTime:0.000391s ]
+SQL: UPDATE `mv_movies` SET `MV_PLAY_COUNT`=MV_PLAY_COUNT+1 WHERE ( ID=20 ) [ RunTime:0.000667s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL` FROM `mv_movies` WHERE (  IS_DEL=0 and MV_STATUS=1 ) ORDER BY MV_PLAY_COUNT desc LIMIT 4   [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `mv_comment` [ RunTime:0.001451s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_comment` WHERE ( CM_TYPE=1 and CM_TYPE_ID=20 and IS_DEL=0 ) LIMIT 1   [ RunTime:0.000525s ]
+SQL: SELECT * FROM `mv_look_history` WHERE ( LH_LOOKID=20  and LH_PHYLETIC=1 and TYPE=2 and IS_DEL=0 and LH_USERID=14 ) LIMIT 1   [ RunTime:0.000472s ]
+
+[ 2019-01-12T19:25:34+08:00 ] 223.104.105.121 /index.php/App/commentlist?id=20&type=1&pageindex=0&pagesize=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `mv_comment` [ RunTime:0.000680s ]
+SQL: SELECT `ID`,`CM_USER_ID`,`CM_USERNAME`,`CM_HEADIMG`,`CM_STAR`,`CM_CONTENT`,`GMT_CREATE` FROM `mv_comment` WHERE ( CM_TYPE=1 and CM_TYPE_ID=20 and IS_DEL=0 ) ORDER BY ID desc LIMIT 0,10   [ RunTime:0.000289s ]
+
+[ 2019-01-12T19:26:00+08:00 ] 223.104.105.121 /index.php/App/userinfo?uid=14&token=566cd7cacc868755453f111ea97967ef
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `mv_user` [ RunTime:0.000999s ]
+SQL: SELECT * FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000109s ]
+SQL: SELECT `ID`,`USERNAME`,`TELNO`,`USERIMG`,`NO_PRICE`,`IS_PRICE` FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `mv_shop_history` [ RunTime:0.000677s ]
+SQL: SELECT `SH_END` FROM `mv_shop_history` WHERE ( SH_USERID=14 and IS_PAY=1 ) ORDER BY ID desc LIMIT 1   [ RunTime:0.000447s ]
+
+[ 2019-01-12T19:26:24+08:00 ] 223.104.105.121 /index.php/App/moviedec?id=13&uid=14&token=566cd7cacc868755453f111ea97967ef&cn=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.000970s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL`,`MV_HURL`,`MV_WURL`,`MV_SHURL`,`MV_WHURL`,`MV_TIME`,`MV_PLAY_COUNT`,`MV_TYPE`,`MV_PHYLETIC`,`MV_CONTENT`,`MV_CATEGORY` FROM `mv_movies` WHERE ( `ID` = 13 ) LIMIT 1   [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `mv_user` [ RunTime:0.000892s ]
+SQL: SELECT * FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `mv_shop_history` [ RunTime:0.000864s ]
+SQL: SELECT * FROM `mv_shop_history` WHERE ( SH_USERID=14 and SH_END>'2019-01-12 19:26:24' and IS_PAY=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000610s ]
+SQL: SELECT * FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000097s ]
+SQL: SELECT * FROM `mv_user` WHERE ( PARENT_CODE=ID14WLABXC and GMT_CREATE>2019-01-1 and GMT_CREATE<'2019-02-1' )  [ RunTime:0.000194s ]
+ERR: 1054:Unknown column 'ID14WLABXC' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `mv_user` WHERE ( PARENT_CODE=ID14WLABXC and GMT_CREATE>2019-01-1 and GMT_CREATE<'2019-02-1' ) 
+SQL: SHOW COLUMNS FROM `mv_look_history` [ RunTime:0.000793s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_look_history` WHERE ( LH_PHYLETIC=1 and LH_USERID=14 and TYPE=1 and GMT_CREATE>'2019-01-12' ) LIMIT 1   [ RunTime:0.000584s ]
+SQL: INSERT INTO `mv_look_history` (`LH_USERID`,`LH_TYPE`,`LH_PHYLETIC`,`LH_LOOKID`,`TYPE`,`GMT_CREATE`) VALUES (14,'1',1,13,1,'2019-01-12 19:26:24') [ RunTime:0.000254s ]
+SQL: UPDATE `mv_movies` SET `MV_PLAY_COUNT`=MV_PLAY_COUNT+1 WHERE ( ID=13 ) [ RunTime:0.000659s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL` FROM `mv_movies` WHERE (  IS_DEL=0 and MV_STATUS=1 ) ORDER BY MV_PLAY_COUNT desc LIMIT 4   [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `mv_comment` [ RunTime:0.000797s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_comment` WHERE ( CM_TYPE=1 and CM_TYPE_ID=13 and IS_DEL=0 ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SELECT * FROM `mv_look_history` WHERE ( LH_LOOKID=13  and LH_PHYLETIC=1 and TYPE=2 and IS_DEL=0 and LH_USERID=14 ) LIMIT 1   [ RunTime:0.000479s ]
+
+[ 2019-01-12T19:26:24+08:00 ] 223.104.105.121 /index.php/App/commentlist?id=13&type=1&pageindex=0&pagesize=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `mv_comment` [ RunTime:0.000784s ]
+SQL: SELECT `ID`,`CM_USER_ID`,`CM_USERNAME`,`CM_HEADIMG`,`CM_STAR`,`CM_CONTENT`,`GMT_CREATE` FROM `mv_comment` WHERE ( CM_TYPE=1 and CM_TYPE_ID=13 and IS_DEL=0 ) ORDER BY ID desc LIMIT 0,10   [ RunTime:0.000358s ]
+
+[ 2019-01-12T19:26:28+08:00 ] 223.104.105.121 /index.php/App/moviedec?id=19&uid=14&token=566cd7cacc868755453f111ea97967ef&cn=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.000852s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL`,`MV_HURL`,`MV_WURL`,`MV_SHURL`,`MV_WHURL`,`MV_TIME`,`MV_PLAY_COUNT`,`MV_TYPE`,`MV_PHYLETIC`,`MV_CONTENT`,`MV_CATEGORY` FROM `mv_movies` WHERE ( `ID` = 19 ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `mv_user` [ RunTime:0.000724s ]
+SQL: SELECT * FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `mv_shop_history` [ RunTime:0.000651s ]
+SQL: SELECT * FROM `mv_shop_history` WHERE ( SH_USERID=14 and SH_END>'2019-01-12 19:26:28' and IS_PAY=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000504s ]
+SQL: SELECT * FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000078s ]
+SQL: SELECT * FROM `mv_user` WHERE ( PARENT_CODE=ID14WLABXC and GMT_CREATE>2019-01-1 and GMT_CREATE<'2019-02-1' )  [ RunTime:0.000174s ]
+ERR: 1054:Unknown column 'ID14WLABXC' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `mv_user` WHERE ( PARENT_CODE=ID14WLABXC and GMT_CREATE>2019-01-1 and GMT_CREATE<'2019-02-1' ) 
+SQL: SHOW COLUMNS FROM `mv_look_history` [ RunTime:0.000654s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_look_history` WHERE ( LH_PHYLETIC=1 and LH_USERID=14 and TYPE=1 and GMT_CREATE>'2019-01-12' ) LIMIT 1   [ RunTime:0.000532s ]
+SQL: INSERT INTO `mv_look_history` (`LH_USERID`,`LH_TYPE`,`LH_PHYLETIC`,`LH_LOOKID`,`TYPE`,`GMT_CREATE`) VALUES (14,'1',1,19,1,'2019-01-12 19:26:28') [ RunTime:0.000220s ]
+SQL: UPDATE `mv_movies` SET `MV_PLAY_COUNT`=MV_PLAY_COUNT+1 WHERE ( ID=19 ) [ RunTime:0.000230s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL` FROM `mv_movies` WHERE (  IS_DEL=0 and MV_STATUS=1 ) ORDER BY MV_PLAY_COUNT desc LIMIT 4   [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `mv_comment` [ RunTime:0.000728s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_comment` WHERE ( CM_TYPE=1 and CM_TYPE_ID=19 and IS_DEL=0 ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: SELECT * FROM `mv_look_history` WHERE ( LH_LOOKID=19  and LH_PHYLETIC=1 and TYPE=2 and IS_DEL=0 and LH_USERID=14 ) LIMIT 1   [ RunTime:0.000466s ]
+
+[ 2019-01-12T19:26:31+08:00 ] 223.104.105.121 /index.php/App/moviedec?id=14&uid=14&token=566cd7cacc868755453f111ea97967ef&cn=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.000885s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL`,`MV_HURL`,`MV_WURL`,`MV_SHURL`,`MV_WHURL`,`MV_TIME`,`MV_PLAY_COUNT`,`MV_TYPE`,`MV_PHYLETIC`,`MV_CONTENT`,`MV_CATEGORY` FROM `mv_movies` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `mv_user` [ RunTime:0.000811s ]
+SQL: SELECT * FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `mv_shop_history` [ RunTime:0.000747s ]
+SQL: SELECT * FROM `mv_shop_history` WHERE ( SH_USERID=14 and SH_END>'2019-01-12 19:26:31' and IS_PAY=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000555s ]
+SQL: SELECT * FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000088s ]
+SQL: SELECT * FROM `mv_user` WHERE ( PARENT_CODE=ID14WLABXC and GMT_CREATE>2019-01-1 and GMT_CREATE<'2019-02-1' )  [ RunTime:0.000174s ]
+ERR: 1054:Unknown column 'ID14WLABXC' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `mv_user` WHERE ( PARENT_CODE=ID14WLABXC and GMT_CREATE>2019-01-1 and GMT_CREATE<'2019-02-1' ) 
+SQL: SHOW COLUMNS FROM `mv_look_history` [ RunTime:0.000707s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_look_history` WHERE ( LH_PHYLETIC=1 and LH_USERID=14 and TYPE=1 and GMT_CREATE>'2019-01-12' ) LIMIT 1   [ RunTime:0.000565s ]
+SQL: INSERT INTO `mv_look_history` (`LH_USERID`,`LH_TYPE`,`LH_PHYLETIC`,`LH_LOOKID`,`TYPE`,`GMT_CREATE`) VALUES (14,'2',1,14,1,'2019-01-12 19:26:31') [ RunTime:0.000220s ]
+SQL: UPDATE `mv_movies` SET `MV_PLAY_COUNT`=MV_PLAY_COUNT+1 WHERE ( ID=14 ) [ RunTime:0.000260s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL` FROM `mv_movies` WHERE (  IS_DEL=0 and MV_STATUS=1 ) ORDER BY MV_PLAY_COUNT desc LIMIT 4   [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `mv_comment` [ RunTime:0.000759s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_comment` WHERE ( CM_TYPE=1 and CM_TYPE_ID=14 and IS_DEL=0 ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT * FROM `mv_look_history` WHERE ( LH_LOOKID=14  and LH_PHYLETIC=1 and TYPE=2 and IS_DEL=0 and LH_USERID=14 ) LIMIT 1   [ RunTime:0.000477s ]
+
+[ 2019-01-12T19:26:33+08:00 ] 223.104.105.121 /index.php/App/moviedec?id=13&uid=14&token=566cd7cacc868755453f111ea97967ef&cn=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.000872s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL`,`MV_HURL`,`MV_WURL`,`MV_SHURL`,`MV_WHURL`,`MV_TIME`,`MV_PLAY_COUNT`,`MV_TYPE`,`MV_PHYLETIC`,`MV_CONTENT`,`MV_CATEGORY` FROM `mv_movies` WHERE ( `ID` = 13 ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `mv_user` [ RunTime:0.000809s ]
+SQL: SELECT * FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `mv_shop_history` [ RunTime:0.000758s ]
+SQL: SELECT * FROM `mv_shop_history` WHERE ( SH_USERID=14 and SH_END>'2019-01-12 19:26:33' and IS_PAY=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000548s ]
+SQL: SELECT * FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000093s ]
+SQL: SELECT * FROM `mv_user` WHERE ( PARENT_CODE=ID14WLABXC and GMT_CREATE>2019-01-1 and GMT_CREATE<'2019-02-1' )  [ RunTime:0.000176s ]
+ERR: 1054:Unknown column 'ID14WLABXC' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `mv_user` WHERE ( PARENT_CODE=ID14WLABXC and GMT_CREATE>2019-01-1 and GMT_CREATE<'2019-02-1' ) 
+SQL: SHOW COLUMNS FROM `mv_look_history` [ RunTime:0.000722s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_look_history` WHERE ( LH_PHYLETIC=1 and LH_USERID=14 and TYPE=1 and GMT_CREATE>'2019-01-12' ) LIMIT 1   [ RunTime:0.000537s ]
+SQL: INSERT INTO `mv_look_history` (`LH_USERID`,`LH_TYPE`,`LH_PHYLETIC`,`LH_LOOKID`,`TYPE`,`GMT_CREATE`) VALUES (14,'1',1,13,1,'2019-01-12 19:26:33') [ RunTime:0.000243s ]
+SQL: UPDATE `mv_movies` SET `MV_PLAY_COUNT`=MV_PLAY_COUNT+1 WHERE ( ID=13 ) [ RunTime:0.000347s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL` FROM `mv_movies` WHERE (  IS_DEL=0 and MV_STATUS=1 ) ORDER BY MV_PLAY_COUNT desc LIMIT 4   [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `mv_comment` [ RunTime:0.000741s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_comment` WHERE ( CM_TYPE=1 and CM_TYPE_ID=13 and IS_DEL=0 ) LIMIT 1   [ RunTime:0.000103s ]
+SQL: SELECT * FROM `mv_look_history` WHERE ( LH_LOOKID=13  and LH_PHYLETIC=1 and TYPE=2 and IS_DEL=0 and LH_USERID=14 ) LIMIT 1   [ RunTime:0.000494s ]
+
+[ 2019-01-12T19:26:33+08:00 ] 223.104.105.121 /index.php/App/commentlist?id=13&type=1&pageindex=0&pagesize=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `mv_comment` [ RunTime:0.000849s ]
+SQL: SELECT `ID`,`CM_USER_ID`,`CM_USERNAME`,`CM_HEADIMG`,`CM_STAR`,`CM_CONTENT`,`GMT_CREATE` FROM `mv_comment` WHERE ( CM_TYPE=1 and CM_TYPE_ID=13 and IS_DEL=0 ) ORDER BY ID desc LIMIT 0,10   [ RunTime:0.000104s ]
+
+[ 2019-01-12T19:26:38+08:00 ] 223.104.105.121 /index.php/App/classcont?pagesize=20&type=1&pageindex=0&cid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.000927s ]
+SQL: SELECT `ID`,MV_NAME as name,MV_PHOTO_URL as pic,MV_TYPE as type,MV_CONTENT as content FROM `mv_movies` WHERE (  IS_DEL=0 and MV_STATUS=1 and MV_PHYLETIC=2 ) ORDER BY ID desc LIMIT 0,20   [ RunTime:0.000511s ]
+
+[ 2019-01-12T19:26:44+08:00 ] 223.104.105.121 /index.php/App/moviedec?id=19&uid=14&token=566cd7cacc868755453f111ea97967ef&cn=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.000922s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL`,`MV_HURL`,`MV_WURL`,`MV_SHURL`,`MV_WHURL`,`MV_TIME`,`MV_PLAY_COUNT`,`MV_TYPE`,`MV_PHYLETIC`,`MV_CONTENT`,`MV_CATEGORY` FROM `mv_movies` WHERE ( `ID` = 19 ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `mv_user` [ RunTime:0.000812s ]
+SQL: SELECT * FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `mv_shop_history` [ RunTime:0.000716s ]
+SQL: SELECT * FROM `mv_shop_history` WHERE ( SH_USERID=14 and SH_END>'2019-01-12 19:26:44' and IS_PAY=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000577s ]
+SQL: SELECT * FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000089s ]
+SQL: SELECT * FROM `mv_user` WHERE ( PARENT_CODE=ID14WLABXC and GMT_CREATE>2019-01-1 and GMT_CREATE<'2019-02-1' )  [ RunTime:0.000171s ]
+ERR: 1054:Unknown column 'ID14WLABXC' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `mv_user` WHERE ( PARENT_CODE=ID14WLABXC and GMT_CREATE>2019-01-1 and GMT_CREATE<'2019-02-1' ) 
+SQL: SHOW COLUMNS FROM `mv_look_history` [ RunTime:0.000669s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_look_history` WHERE ( LH_PHYLETIC=1 and LH_USERID=14 and TYPE=1 and GMT_CREATE>'2019-01-12' ) LIMIT 1   [ RunTime:0.000512s ]
+SQL: INSERT INTO `mv_look_history` (`LH_USERID`,`LH_TYPE`,`LH_PHYLETIC`,`LH_LOOKID`,`TYPE`,`GMT_CREATE`) VALUES (14,'1',1,19,1,'2019-01-12 19:26:44') [ RunTime:0.000228s ]
+SQL: UPDATE `mv_movies` SET `MV_PLAY_COUNT`=MV_PLAY_COUNT+1 WHERE ( ID=19 ) [ RunTime:0.000245s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL` FROM `mv_movies` WHERE (  IS_DEL=0 and MV_STATUS=1 ) ORDER BY MV_PLAY_COUNT desc LIMIT 4   [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `mv_comment` [ RunTime:0.000712s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_comment` WHERE ( CM_TYPE=1 and CM_TYPE_ID=19 and IS_DEL=0 ) LIMIT 1   [ RunTime:0.000093s ]
+SQL: SELECT * FROM `mv_look_history` WHERE ( LH_LOOKID=19  and LH_PHYLETIC=1 and TYPE=2 and IS_DEL=0 and LH_USERID=14 ) LIMIT 1   [ RunTime:0.000440s ]
+
+[ 2019-01-12T19:26:45+08:00 ] 223.104.105.121 /index.php/App/commentlist?id=19&type=1&pageindex=0&pagesize=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `mv_comment` [ RunTime:0.000864s ]
+SQL: SELECT `ID`,`CM_USER_ID`,`CM_USERNAME`,`CM_HEADIMG`,`CM_STAR`,`CM_CONTENT`,`GMT_CREATE` FROM `mv_comment` WHERE ( CM_TYPE=1 and CM_TYPE_ID=19 and IS_DEL=0 ) ORDER BY ID desc LIMIT 0,10   [ RunTime:0.000399s ]
+
+[ 2019-01-12T19:26:48+08:00 ] 223.104.105.121 /index.php/App/classcont?pagesize=20&type=1&pageindex=0&cid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.000862s ]
+SQL: SELECT `ID`,MV_NAME as name,MV_PHOTO_URL as pic,MV_TYPE as type,MV_CONTENT as content FROM `mv_movies` WHERE (  IS_DEL=0 and MV_STATUS=1 and MV_PHYLETIC=2 ) ORDER BY ID desc LIMIT 0,20   [ RunTime:0.000436s ]
+
+[ 2019-01-12T19:26:50+08:00 ] 223.104.105.121 /index.php/App/classcont?pagesize=20&type=1&pageindex=0&cid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.000862s ]
+SQL: SELECT `ID`,MV_NAME as name,MV_PHOTO_URL as pic,MV_TYPE as type,MV_CONTENT as content FROM `mv_movies` WHERE (  IS_DEL=0 and MV_STATUS=1 and MV_PHYLETIC=3 ) ORDER BY ID desc LIMIT 0,20   [ RunTime:0.000355s ]
+
+[ 2019-01-12T19:26:52+08:00 ] 223.104.105.121 /index.php/App/classcont?pagesize=20&type=1&pageindex=0&cid=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.000842s ]
+SQL: SELECT `ID`,MV_NAME as name,MV_PHOTO_URL as pic,MV_TYPE as type,MV_CONTENT as content FROM `mv_movies` WHERE (  IS_DEL=0 and MV_STATUS=1 and MV_PHYLETIC=3 ) ORDER BY ID desc LIMIT 0,20   [ RunTime:0.000082s ]
+
+[ 2019-01-12T19:26:56+08:00 ] 223.104.105.121 /index.php/App/classcont?pagesize=20&type=2&pageindex=0&cid=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+SQL: SHOW COLUMNS FROM `mv_cartoon` [ RunTime:0.000753s ]
+SQL: SELECT `ID`,CT_NAME as name,CT_PHOTO_URL as pic,CT_TYPE as type,CT_CONTENT as content FROM `mv_cartoon` WHERE ( IS_DEL=0 and CT_STATUS=1 and CT_PHYLETIC=4 ) ORDER BY ID desc LIMIT 0,20   [ RunTime:0.000340s ]
+
+[ 2019-01-12T19:26:59+08:00 ] 223.104.105.121 /index.php/App/classcont?pagesize=20&type=1&pageindex=0&cid=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.000892s ]
+SQL: SELECT `ID`,MV_NAME as name,MV_PHOTO_URL as pic,MV_TYPE as type,MV_CONTENT as content FROM `mv_movies` WHERE (  IS_DEL=0 and MV_STATUS=1 and MV_PHYLETIC=5 ) ORDER BY ID desc LIMIT 0,20   [ RunTime:0.000403s ]
+
+[ 2019-01-12T19:27:03+08:00 ] 223.104.105.121 /index.php/App/classcont?pagesize=20&type=1&pageindex=0&cid=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.000932s ]
+SQL: SELECT `ID`,MV_NAME as name,MV_PHOTO_URL as pic,MV_TYPE as type,MV_CONTENT as content FROM `mv_movies` WHERE (  IS_DEL=0 and MV_STATUS=1 and MV_PHYLETIC=6 ) ORDER BY ID desc LIMIT 0,20   [ RunTime:0.000399s ]
+
+[ 2019-01-12T19:27:07+08:00 ] 223.104.105.121 /index.php/App/classcont?pagesize=20&type=1&pageindex=0&cid=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.000895s ]
+SQL: SELECT `ID`,MV_NAME as name,MV_PHOTO_URL as pic,MV_TYPE as type,MV_CONTENT as content FROM `mv_movies` WHERE (  IS_DEL=0 and MV_STATUS=1 and MV_PHYLETIC=2 ) ORDER BY ID desc LIMIT 0,20   [ RunTime:0.000125s ]
+
+[ 2019-01-12T19:27:18+08:00 ] 223.104.105.121 /index.php/App/moviedec?id=20&uid=14&token=566cd7cacc868755453f111ea97967ef&cn=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.000791s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL`,`MV_HURL`,`MV_WURL`,`MV_SHURL`,`MV_WHURL`,`MV_TIME`,`MV_PLAY_COUNT`,`MV_TYPE`,`MV_PHYLETIC`,`MV_CONTENT`,`MV_CATEGORY` FROM `mv_movies` WHERE ( `ID` = 20 ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `mv_user` [ RunTime:0.000670s ]
+SQL: SELECT * FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `mv_shop_history` [ RunTime:0.000587s ]
+SQL: SELECT * FROM `mv_shop_history` WHERE ( SH_USERID=14 and SH_END>'2019-01-12 19:27:18' and IS_PAY=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000481s ]
+SQL: SELECT * FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000080s ]
+SQL: SELECT * FROM `mv_user` WHERE ( PARENT_CODE=ID14WLABXC and GMT_CREATE>2019-01-1 and GMT_CREATE<'2019-02-1' )  [ RunTime:0.000159s ]
+ERR: 1054:Unknown column 'ID14WLABXC' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `mv_user` WHERE ( PARENT_CODE=ID14WLABXC and GMT_CREATE>2019-01-1 and GMT_CREATE<'2019-02-1' ) 
+SQL: SHOW COLUMNS FROM `mv_look_history` [ RunTime:0.000583s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_look_history` WHERE ( LH_PHYLETIC=1 and LH_USERID=14 and TYPE=1 and GMT_CREATE>'2019-01-12' ) LIMIT 1   [ RunTime:0.000477s ]
+SQL: INSERT INTO `mv_look_history` (`LH_USERID`,`LH_TYPE`,`LH_PHYLETIC`,`LH_LOOKID`,`TYPE`,`GMT_CREATE`) VALUES (14,'1',1,20,1,'2019-01-12 19:27:18') [ RunTime:0.000198s ]
+SQL: UPDATE `mv_movies` SET `MV_PLAY_COUNT`=MV_PLAY_COUNT+1 WHERE ( ID=20 ) [ RunTime:0.000616s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL` FROM `mv_movies` WHERE (  IS_DEL=0 and MV_STATUS=1 ) ORDER BY MV_PLAY_COUNT desc LIMIT 4   [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `mv_comment` [ RunTime:0.000599s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_comment` WHERE ( CM_TYPE=1 and CM_TYPE_ID=20 and IS_DEL=0 ) LIMIT 1   [ RunTime:0.000074s ]
+SQL: SELECT * FROM `mv_look_history` WHERE ( LH_LOOKID=20  and LH_PHYLETIC=1 and TYPE=2 and IS_DEL=0 and LH_USERID=14 ) LIMIT 1   [ RunTime:0.000473s ]
+
+[ 2019-01-12T19:27:18+08:00 ] 223.104.105.121 /index.php/App/commentlist?id=20&type=1&pageindex=0&pagesize=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `mv_comment` [ RunTime:0.000689s ]
+SQL: SELECT `ID`,`CM_USER_ID`,`CM_USERNAME`,`CM_HEADIMG`,`CM_STAR`,`CM_CONTENT`,`GMT_CREATE` FROM `mv_comment` WHERE ( CM_TYPE=1 and CM_TYPE_ID=20 and IS_DEL=0 ) ORDER BY ID desc LIMIT 0,10   [ RunTime:0.000115s ]
+
+[ 2019-01-12T19:27:20+08:00 ] 223.104.105.121 /index.php/App/moviedec?id=19&uid=14&token=566cd7cacc868755453f111ea97967ef&cn=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.000862s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL`,`MV_HURL`,`MV_WURL`,`MV_SHURL`,`MV_WHURL`,`MV_TIME`,`MV_PLAY_COUNT`,`MV_TYPE`,`MV_PHYLETIC`,`MV_CONTENT`,`MV_CATEGORY` FROM `mv_movies` WHERE ( `ID` = 19 ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `mv_user` [ RunTime:0.000846s ]
+SQL: SELECT * FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `mv_shop_history` [ RunTime:0.000681s ]
+SQL: SELECT * FROM `mv_shop_history` WHERE ( SH_USERID=14 and SH_END>'2019-01-12 19:27:20' and IS_PAY=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000556s ]
+SQL: SELECT * FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000089s ]
+SQL: SELECT * FROM `mv_user` WHERE ( PARENT_CODE=ID14WLABXC and GMT_CREATE>2019-01-1 and GMT_CREATE<'2019-02-1' )  [ RunTime:0.000177s ]
+ERR: 1054:Unknown column 'ID14WLABXC' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `mv_user` WHERE ( PARENT_CODE=ID14WLABXC and GMT_CREATE>2019-01-1 and GMT_CREATE<'2019-02-1' ) 
+SQL: SHOW COLUMNS FROM `mv_look_history` [ RunTime:0.000704s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_look_history` WHERE ( LH_PHYLETIC=1 and LH_USERID=14 and TYPE=1 and GMT_CREATE>'2019-01-12' ) LIMIT 1   [ RunTime:0.000566s ]
+SQL: INSERT INTO `mv_look_history` (`LH_USERID`,`LH_TYPE`,`LH_PHYLETIC`,`LH_LOOKID`,`TYPE`,`GMT_CREATE`) VALUES (14,'1',1,19,1,'2019-01-12 19:27:20') [ RunTime:0.000252s ]
+SQL: UPDATE `mv_movies` SET `MV_PLAY_COUNT`=MV_PLAY_COUNT+1 WHERE ( ID=19 ) [ RunTime:0.000262s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL` FROM `mv_movies` WHERE (  IS_DEL=0 and MV_STATUS=1 ) ORDER BY MV_PLAY_COUNT desc LIMIT 4   [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `mv_comment` [ RunTime:0.000802s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_comment` WHERE ( CM_TYPE=1 and CM_TYPE_ID=19 and IS_DEL=0 ) LIMIT 1   [ RunTime:0.000078s ]
+SQL: SELECT * FROM `mv_look_history` WHERE ( LH_LOOKID=19  and LH_PHYLETIC=1 and TYPE=2 and IS_DEL=0 and LH_USERID=14 ) LIMIT 1   [ RunTime:0.000727s ]
+
+[ 2019-01-12T19:27:21+08:00 ] 223.104.105.121 /index.php/App/commentlist?id=19&type=1&pageindex=0&pagesize=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `mv_comment` [ RunTime:0.000827s ]
+SQL: SELECT `ID`,`CM_USER_ID`,`CM_USERNAME`,`CM_HEADIMG`,`CM_STAR`,`CM_CONTENT`,`GMT_CREATE` FROM `mv_comment` WHERE ( CM_TYPE=1 and CM_TYPE_ID=19 and IS_DEL=0 ) ORDER BY ID desc LIMIT 0,10   [ RunTime:0.000098s ]
+
+[ 2019-01-12T19:27:25+08:00 ] 223.104.105.121 /index.php/App/moviedec?id=12&uid=14&token=566cd7cacc868755453f111ea97967ef&cn=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.000959s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL`,`MV_HURL`,`MV_WURL`,`MV_SHURL`,`MV_WHURL`,`MV_TIME`,`MV_PLAY_COUNT`,`MV_TYPE`,`MV_PHYLETIC`,`MV_CONTENT`,`MV_CATEGORY` FROM `mv_movies` WHERE ( `ID` = 12 ) LIMIT 1   [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `mv_user` [ RunTime:0.000829s ]
+SQL: SELECT * FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `mv_shop_history` [ RunTime:0.000736s ]
+SQL: SELECT * FROM `mv_shop_history` WHERE ( SH_USERID=14 and SH_END>'2019-01-12 19:27:25' and IS_PAY=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000568s ]
+SQL: SELECT * FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000131s ]
+SQL: SELECT * FROM `mv_user` WHERE ( PARENT_CODE=ID14WLABXC and GMT_CREATE>2019-01-1 and GMT_CREATE<'2019-02-1' )  [ RunTime:0.000185s ]
+ERR: 1054:Unknown column 'ID14WLABXC' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `mv_user` WHERE ( PARENT_CODE=ID14WLABXC and GMT_CREATE>2019-01-1 and GMT_CREATE<'2019-02-1' ) 
+SQL: SHOW COLUMNS FROM `mv_look_history` [ RunTime:0.000739s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_look_history` WHERE ( LH_PHYLETIC=1 and LH_USERID=14 and TYPE=1 and GMT_CREATE>'2019-01-12' ) LIMIT 1   [ RunTime:0.000568s ]
+SQL: INSERT INTO `mv_look_history` (`LH_USERID`,`LH_TYPE`,`LH_PHYLETIC`,`LH_LOOKID`,`TYPE`,`GMT_CREATE`) VALUES (14,'1',1,12,1,'2019-01-12 19:27:25') [ RunTime:0.000248s ]
+SQL: UPDATE `mv_movies` SET `MV_PLAY_COUNT`=MV_PLAY_COUNT+1 WHERE ( ID=12 ) [ RunTime:0.000351s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL` FROM `mv_movies` WHERE (  IS_DEL=0 and MV_STATUS=1 ) ORDER BY MV_PLAY_COUNT desc LIMIT 4   [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `mv_comment` [ RunTime:0.000756s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_comment` WHERE ( CM_TYPE=1 and CM_TYPE_ID=12 and IS_DEL=0 ) LIMIT 1   [ RunTime:0.000599s ]
+SQL: SELECT * FROM `mv_look_history` WHERE ( LH_LOOKID=12  and LH_PHYLETIC=1 and TYPE=2 and IS_DEL=0 and LH_USERID=14 ) LIMIT 1   [ RunTime:0.000458s ]
+
+[ 2019-01-12T19:27:25+08:00 ] 223.104.105.121 /index.php/App/commentlist?id=12&type=1&pageindex=0&pagesize=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `mv_comment` [ RunTime:0.000899s ]
+SQL: SELECT `ID`,`CM_USER_ID`,`CM_USERNAME`,`CM_HEADIMG`,`CM_STAR`,`CM_CONTENT`,`GMT_CREATE` FROM `mv_comment` WHERE ( CM_TYPE=1 and CM_TYPE_ID=12 and IS_DEL=0 ) ORDER BY ID desc LIMIT 0,10   [ RunTime:0.000338s ]
+
+[ 2019-01-12T19:27:29+08:00 ] 223.104.105.121 /index.php/App/jingcartoon?pagesize=10&pageindex=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+SQL: SHOW COLUMNS FROM `mv_cartoon` [ RunTime:0.000793s ]
+SQL: SELECT `ID`,`CT_NAME`,`CT_PHOTO_URL` FROM `mv_cartoon` WHERE (  IS_DEL=0 and CT_STATUS=1 ) ORDER BY ID desc LIMIT 0,10   [ RunTime:0.000315s ]
+
+[ 2019-01-12T19:27:30+08:00 ] 223.104.105.121 /index.php/App/banner?type=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `mv_banner` [ RunTime:0.000809s ]
+SQL: SELECT `ID`,`BN_NAME`,`BN_URL`,`BN_TYPE`,`BN_TYPE_ID` FROM `mv_banner` WHERE ( IS_DEL=0 and BN_TYPE=4 )  [ RunTime:0.000272s ]
+
+[ 2019-01-12T19:27:37+08:00 ] 223.104.105.121 /index.php/App/cartoondec?id=4&uid=14&token=566cd7cacc868755453f111ea97967ef
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `mv_cartoon` [ RunTime:0.000778s ]
+SQL: SELECT `ID`,`CT_NAME`,`CT_PHOTO_URL`,`CT_CONTENT`,`CT_AUTHOR`,`CT_TYPE`,`CT_CATEGORY`,`CT_COUNT` FROM `mv_cartoon` WHERE ( `ID` = 4 ) LIMIT 1   [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `mv_comment` [ RunTime:0.000719s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_comment` WHERE ( CM_TYPE=2 and CM_TYPE_ID=4 and IS_DEL=0 ) LIMIT 1   [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `mv_look_history` [ RunTime:0.000635s ]
+SQL: SELECT * FROM `mv_look_history` WHERE ( LH_LOOKID=4  and LH_PHYLETIC=2 and TYPE=2 and IS_DEL=0 and LH_USERID=14 ) LIMIT 1   [ RunTime:0.000442s ]
+
+[ 2019-01-12T19:27:40+08:00 ] 223.104.105.121 /index.php/App/cardetial?id=4&pagesize=10&pageindex=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `mv_cartoon_detail` [ RunTime:0.001972s ]
+SQL: SELECT `ID`,`CT_ID`,`CTD_TITLE`,`CTD_PHOTO_URL`,`CTD_TYPE` FROM `mv_cartoon_detail` WHERE (  IS_DEL=0 and CT_ID=4 ) ORDER BY ID asc LIMIT 0,10   [ RunTime:0.000524s ]
+
+[ 2019-01-12T19:27:46+08:00 ] 223.104.105.121 /index.php/App/cartoondec?id=2&uid=14&token=566cd7cacc868755453f111ea97967ef
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `mv_cartoon` [ RunTime:0.000706s ]
+SQL: SELECT `ID`,`CT_NAME`,`CT_PHOTO_URL`,`CT_CONTENT`,`CT_AUTHOR`,`CT_TYPE`,`CT_CATEGORY`,`CT_COUNT` FROM `mv_cartoon` WHERE ( `ID` = 2 ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `mv_comment` [ RunTime:0.000567s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_comment` WHERE ( CM_TYPE=2 and CM_TYPE_ID=2 and IS_DEL=0 ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `mv_look_history` [ RunTime:0.000536s ]
+SQL: SELECT * FROM `mv_look_history` WHERE ( LH_LOOKID=2  and LH_PHYLETIC=2 and TYPE=2 and IS_DEL=0 and LH_USERID=14 ) LIMIT 1   [ RunTime:0.000599s ]
+
+[ 2019-01-12T19:27:46+08:00 ] 223.104.105.121 /index.php/App/cardetial?id=2&pagesize=10&pageindex=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `mv_cartoon_detail` [ RunTime:0.000948s ]
+SQL: SELECT `ID`,`CT_ID`,`CTD_TITLE`,`CTD_PHOTO_URL`,`CTD_TYPE` FROM `mv_cartoon_detail` WHERE (  IS_DEL=0 and CT_ID=2 ) ORDER BY ID asc LIMIT 0,10   [ RunTime:0.000406s ]
+
+[ 2019-01-12T19:27:56+08:00 ] 223.104.105.121 /index.php/App/jingcartoon?pagesize=10&pageindex=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `mv_cartoon` [ RunTime:0.000804s ]
+SQL: SELECT `ID`,`CT_NAME`,`CT_PHOTO_URL` FROM `mv_cartoon` WHERE (  IS_DEL=0 and CT_STATUS=1 ) ORDER BY ID desc LIMIT 10,10   [ RunTime:0.000400s ]
+
+[ 2019-01-12T19:27:59+08:00 ] 223.104.105.121 /index.php/App/moviedec?id=20&uid=14&token=566cd7cacc868755453f111ea97967ef&cn=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.001014s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL`,`MV_HURL`,`MV_WURL`,`MV_SHURL`,`MV_WHURL`,`MV_TIME`,`MV_PLAY_COUNT`,`MV_TYPE`,`MV_PHYLETIC`,`MV_CONTENT`,`MV_CATEGORY` FROM `mv_movies` WHERE ( `ID` = 20 ) LIMIT 1   [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `mv_user` [ RunTime:0.000880s ]
+SQL: SELECT * FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `mv_shop_history` [ RunTime:0.000857s ]
+SQL: SELECT * FROM `mv_shop_history` WHERE ( SH_USERID=14 and SH_END>'2019-01-12 19:27:59' and IS_PAY=1 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000605s ]
+SQL: SELECT * FROM `mv_user` WHERE ( `ID` = 14 ) LIMIT 1   [ RunTime:0.000098s ]
+SQL: SELECT * FROM `mv_user` WHERE ( PARENT_CODE=ID14WLABXC and GMT_CREATE>2019-01-1 and GMT_CREATE<'2019-02-1' )  [ RunTime:0.000208s ]
+ERR: 1054:Unknown column 'ID14WLABXC' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `mv_user` WHERE ( PARENT_CODE=ID14WLABXC and GMT_CREATE>2019-01-1 and GMT_CREATE<'2019-02-1' ) 
+SQL: SHOW COLUMNS FROM `mv_look_history` [ RunTime:0.000771s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_look_history` WHERE ( LH_PHYLETIC=1 and LH_USERID=14 and TYPE=1 and GMT_CREATE>'2019-01-12' ) LIMIT 1   [ RunTime:0.000586s ]
+SQL: INSERT INTO `mv_look_history` (`LH_USERID`,`LH_TYPE`,`LH_PHYLETIC`,`LH_LOOKID`,`TYPE`,`GMT_CREATE`) VALUES (14,'1',1,20,1,'2019-01-12 19:27:59') [ RunTime:0.000278s ]
+SQL: UPDATE `mv_movies` SET `MV_PLAY_COUNT`=MV_PLAY_COUNT+1 WHERE ( ID=20 ) [ RunTime:0.000293s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL` FROM `mv_movies` WHERE (  IS_DEL=0 and MV_STATUS=1 ) ORDER BY MV_PLAY_COUNT desc LIMIT 4   [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `mv_comment` [ RunTime:0.000723s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_comment` WHERE ( CM_TYPE=1 and CM_TYPE_ID=20 and IS_DEL=0 ) LIMIT 1   [ RunTime:0.000103s ]
+SQL: SELECT * FROM `mv_look_history` WHERE ( LH_LOOKID=20  and LH_PHYLETIC=1 and TYPE=2 and IS_DEL=0 and LH_USERID=14 ) LIMIT 1   [ RunTime:0.000463s ]
+

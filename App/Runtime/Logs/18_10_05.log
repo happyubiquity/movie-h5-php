@@ -1,0 +1,48 @@
+[ 2018-10-05T05:18:33+08:00 ] 58.217.192.54 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\www\qiye\0512_jiujiujf\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `gd_user` [ RunTime:0.009000s ]
+NOTIC: [8] Undefined index: uid E:\www\qiye\0512_jiujiujf\App\Home\Controller\CommController.class.php 第 18 行.
+SQL: SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `gd_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `gd_config` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `gd_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gd_czewm` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `gd_czewm`  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `gd_config` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gd_task` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `gd_task`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: uid E:\www\qiye\0512_jiujiujf\App\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SELECT * FROM `gd_user` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: ty E:\www\qiye\0512_jiujiujf\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 160 行.
+NOTIC: [2] Illegal string offset 'id' E:\www\qiye\0512_jiujiujf\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 186 行.
+NOTIC: [2] Illegal string offset 'title' E:\www\qiye\0512_jiujiujf\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 186 行.
+NOTIC: [2] Illegal string offset 'id' E:\www\qiye\0512_jiujiujf\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 186 行.
+NOTIC: [2] Illegal string offset 'title' E:\www\qiye\0512_jiujiujf\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 186 行.
+NOTIC: [2] Illegal string offset 'id' E:\www\qiye\0512_jiujiujf\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 186 行.
+NOTIC: [2] Illegal string offset 'title' E:\www\qiye\0512_jiujiujf\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 186 行.
+NOTIC: [2] Illegal string offset 'id' E:\www\qiye\0512_jiujiujf\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 186 行.
+NOTIC: [2] Illegal string offset 'title' E:\www\qiye\0512_jiujiujf\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 186 行.
+NOTIC: [2] Illegal string offset 'id' E:\www\qiye\0512_jiujiujf\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 186 行.
+NOTIC: [2] Illegal string offset 'title' E:\www\qiye\0512_jiujiujf\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 186 行.
+NOTIC: [2] Illegal string offset 'id' E:\www\qiye\0512_jiujiujf\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 186 行.
+NOTIC: [2] Illegal string offset 'title' E:\www\qiye\0512_jiujiujf\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 186 行.
+NOTIC: [2] Illegal string offset 'id' E:\www\qiye\0512_jiujiujf\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 186 行.
+NOTIC: [2] Illegal string offset 'title' E:\www\qiye\0512_jiujiujf\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 186 行.
+NOTIC: [8] Undefined offset: 0 E:\www\qiye\0512_jiujiujf\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 193 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: 
+INFO: 
+INFO: 
+

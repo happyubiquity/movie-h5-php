@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0,user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link rel="stylesheet" href="/css/mui.min.css">
+<link rel="stylesheet" href="/css/style.css">
+    <script src="/js/phone.js"></script>
+<title>套餐购买</title>
+<style type="text/css">
+ .mui-content{margin-top:90px;padding-top:10px;}
+ .list{display:flex;flex-wrap:wrap;padding:0px 15px;}
+ .item{width:28%;padding:20px 0px;margin-left:4%;border-radius:10px;border:1px solid #E8E8E8;display:flex;justify-content:center;flex-direction:column;text-align:center;font-size:15px;color:#636363;}
+ .list .act{border:1px solid #1FB6FB;background:#EAF5FA;}
+ .item .t{font-size:18px;}
+ .item .price{color:#FFBF00;margin-top:5px;}
+ .item i{font-weight:normal;font-style:initial;font-size:20px;}
+ 
+.mui-popover{height:230px;position:fixed; top:40%;width:80%;left:10%;background:#fff;}
+.mui-popover .mui-popover-arrow:after {width: 0px;}
+.mui-popover .popvcont{padding:10px;width:100%; text-align:center;margin:0 auto;}
+.mui-popover .popvcont .box{width:60%;border:1px solid #E8E8E8;padding:10px 20px;border-radius:10px;font-size:15px;margin:15px auto;}
+.mui-popover .popvcont .acts{border:1px solid #1FB6FB;color:#1FB6FB;}
+.mgtop50{margin-top:50px;}
+</style>
+</head>
+<body>
+<div id="taocao">
+   <div class="down" :class="{'downs':app}">
+            <div class="d-logo"><span class="mui-icon mui-icon-close" v-on:click="closeAPP"></span>&nbsp;<img src="/images/logo.png" style="width:100px;" /></div>
+            <div class="d-app"><a href="/download.html">下载APP</a></div>
+   </div>
+   <div class="header" :class="{'headers':app}">
+          <div class="hnav">
+           <div class="logo-box">
+               <a :href="'/users/qiehuanxianlu.html'">地址列表</a>
+           </div>
+           <ul class="menu">
+               <li><a href="/index.html">精选</a></li>
+               <li><a href="/shipin.html">视频</a></li>
+               <li><a href="/yingpian.html">影片</a></li>
+               <li><a href="/manhua.html">漫画</a></li>
+           </ul>
+           <div class="search"><a :href="'/search.html'"><span class="mui-icon mui-icon-search"></span></a></div>
+          </div>
+   </div>
+  <div class="mui-content" :class="{'mgtop50':app}">
+      <div style="font-size:18px;color:#333;margin:10px 20px;">充值套餐</div>
+      <div v-if="loading" class="loading">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+       </div>
+      <div v-else>
+      <div class="list">
+          <div class="item" :class="{act:index==ins}" v-for="(item,index) of listData" :key="index" @click="active(item.ID,index)">
+              <span class="t">{{item.SP_NAME}}</span>
+              <span class="price">￥<i>{{item.SP_PRICE}}</i></span>
+          </div>
+      </div><div class="clear"></div>
+      <div class="btn" v-on:click="goumai">立即购买</div>
+          <div id="popover" class="mui-popover">
+			<div class="mui-popover-arrow"></div>
+			<div class="popvcont">
+                <div class="box" :class="{acts:s==1}" @click="act(1)">支付宝支付</div>
+                <div class="box" :class="{acts:s==2}" @click="act(2)">微信支付</div>
+                <div class="btn" @click="buy">确定</div>
+            </div>
+		</div>
+     </div>
+  </div>
+</div>
+<script src="/js/mui.min.js"></script>
+<script src="/js/vue.js"></script>
+<script src="/js/api.js"></script>
+<script src="/js/axios.js"></script>
+<script type="text/javascript" charset="utf-8">
+    mui.init();
+    new Vue({
+        el: '#taocao',
+        data: {
+            loading: true,
+            app: false,
+            ins: 0,
+            s:1,
+            tcid: 0,
+            hyid: 0,
+            token:0,
+            listData:''
+        },
+        created: function () {
+            this.getInfo()
+        },
+        methods: {
+            getInfo() {
+                var that = this;
+                var hyid = localStorage.getItem("hyid");
+                if (hyid != 0 && hyid != 'undefined' && hyid != null && hyid != '') {
+                     axget('/taocan', {}).then((res) => {
+                    //console.log(res);
+                        if (res.code == "0") {
+                            that.listData = res.data;
+                            that.tcid = res.data[0].ID;
+                        } else {
+                            mui.toast(res.msg);
+                        }
+                        that.loading = false;
+                    })
+                } else {
+                   location.href = "/login.html";
+                }
+              
+            }, active(ids, idx) {
+                this.tcid = ids;
+                this.ins = idx;
+            }, goumai() {
+                 mui("#popover").popover('toggle', document.getElementById("div"));
+            }, act(idx) {
+                this.s = idx;
+            }, buy() {
+                var that = this;
+                var s = that.s;//支付方式1支付宝，2微信
+                var tcid = that.tcid;
+                var zftype = "alipay";
+                if (s ==2) {
+                    zftype = "wechat";
+                }
+                var yuming = globalData.siteadd;
+                var hyid = localStorage.getItem("hyid");
+                var token = localStorage.getItem("token");
+                if (hyid != 0 && hyid != 'undefined' && hyid != null && hyid != '') {
+                    axget('/pay', { uid: hyid, token: token, type: zftype, tid:tcid,domain:yuming,f:0 }).then((res) => {
+                        //console.log(res);
+                        if (res.code == "0") {
+                             
+                        } else if (res.code == "2") {
+                          mui.alert('账号在别处登录,您已被迫下线！', ' ', function() {
+					          localStorage.clear();
+                              location.href="/login.html"
+				            });
+                        } else if (res.code == 4) {
+                            window.location.href = res.data;
+                        }
+                        else {
+                            mui.toast(res.msg);
+                        }
+                        that.loading = false;
+                    })
+                } else {
+                    location.href = "/login.html";
+                }
+            },closeAPP() {
+                this.app = true;
+            }
+        }
+    })
+</script>
+</body>
+</html>

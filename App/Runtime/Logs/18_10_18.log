@@ -1,0 +1,1271 @@
+[ 2018-10-18T20:56:33+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+SQL: SHOW COLUMNS FROM `cm_user` [ RunTime:0.046917s ]
+NOTIC: [8] Undefined index: uid E:\WWW\photo\App\Home\Controller\CommController.class.php 第 18 行.
+SQL: SELECT * FROM `cm_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000330s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `cm_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `cm_config` [ RunTime:0.009770s ]
+ERR: 1146:Table 'photo.cm_config' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cm_config`
+SQL: SELECT * FROM `cm_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000629s ]
+ERR: 1146:Table 'photo.cm_config' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `cm_config` WHERE ( id=1 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `cm_czewm` [ RunTime:0.009653s ]
+ERR: 1146:Table 'photo.cm_czewm' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cm_czewm`
+SQL: SELECT * FROM `cm_czewm`  [ RunTime:0.002393s ]
+ERR: 1146:Table 'photo.cm_czewm' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `cm_czewm` 
+SQL: SELECT * FROM `cm_config` LIMIT 1   [ RunTime:0.000833s ]
+ERR: 1146:Table 'photo.cm_config' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `cm_config` LIMIT 1  
+SQL: SHOW COLUMNS FROM `cm_task` [ RunTime:0.013589s ]
+ERR: 1146:Table 'photo.cm_task' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cm_task`
+SQL: SELECT * FROM `cm_task`  [ RunTime:0.001778s ]
+ERR: 1146:Table 'photo.cm_task' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `cm_task` 
+NOTIC: [8] Undefined index: uid E:\WWW\photo\App\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SELECT * FROM `cm_user` LIMIT 1   [ RunTime:0.002384s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined index: money E:\WWW\photo\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 82 行.
+NOTIC: [8] Undefined index: money E:\WWW\photo\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username E:\WWW\photo\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty E:\WWW\photo\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 160 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.070512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.010431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003542s ]
+
+[ 2018-10-18T20:56:34+08:00 ] 127.0.0.1 /index.php/login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `cm_config` [ RunTime:0.012875s ]
+ERR: 1146:Table 'photo.cm_config' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cm_config`
+SQL: SELECT * FROM `cm_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000402s ]
+ERR: 1146:Table 'photo.cm_config' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `cm_config` WHERE ( id=1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2018-10-18T20:56:35+08:00 ] 127.0.0.1 /admin.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2018-10-18T20:56:36+08:00 ] 127.0.0.1 /admin.php/Login/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2018-10-18T20:56:45+08:00 ] 127.0.0.1 /admin.php/login/dologin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `cm_adminuser` [ RunTime:0.040839s ]
+SQL: SELECT * FROM `cm_adminuser` WHERE ( name = 'admin' ) LIMIT 1   [ RunTime:0.000415s ]
+SQL: SELECT * FROM `cm_adminuser` WHERE ( name='admin' and password='14e1b600b1fd579f47433b88e8d85291' ) LIMIT 1   [ RunTime:0.000375s ]
+NOTIC: [8] Undefined index: username E:\WWW\photo\App\Rzsys\Controller\LoginController.class.php 第 32 行.
+
+[ 2018-10-18T20:56:46+08:00 ] 127.0.0.1 /admin.php/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `cm_rel` [ RunTime:0.022258s ]
+SQL: SELECT p.pid FROM cm_rel r INNER JOIN cm_pro AS p ON r.jid = p.id  WHERE ( r.pid=1 )  [ RunTime:0.029639s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.036220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2018-10-18T20:56:46+08:00 ] 127.0.0.1 /admin.php/login/dologin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001701s ]
+
+[ 2018-10-18T20:56:47+08:00 ] 127.0.0.1 /admin.php/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined variable: admin E:\WWW\photo\App\Runtime\Cache\Rzsys\fd452937e88c188c460bc88e5f76d2e6.php 第 96 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2018-10-18T20:56:56+08:00 ] 127.0.0.1 /admin.php/goods/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.010471s ]
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 23 行.
+SQL: SELECT * FROM `cm_goods` WHERE ( 1 ) ORDER BY sort desc,addtime desc LIMIT 0,25   [ RunTime:0.000655s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` WHERE ( 1 ) LIMIT 1   [ RunTime:0.017937s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.020012s ]
+SQL: SELECT * FROM `cm_class`  [ RunTime:0.000415s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2018-10-18T20:56:57+08:00 ] 127.0.0.1 /admin.php/goods/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.013275s ]
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 23 行.
+SQL: SELECT * FROM `cm_goods` WHERE ( 1 ) ORDER BY sort desc,addtime desc LIMIT 0,25   [ RunTime:0.000350s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.004188s ]
+SQL: SELECT * FROM `cm_class`  [ RunTime:0.000244s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2018-10-18T20:56:58+08:00 ] 127.0.0.1 /admin.php/goods/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.013215s ]
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 23 行.
+SQL: SELECT * FROM `cm_goods` WHERE ( 1 ) ORDER BY sort desc,addtime desc LIMIT 0,25   [ RunTime:0.000356s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.004293s ]
+SQL: SELECT * FROM `cm_class`  [ RunTime:0.000244s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2018-10-18T20:56:59+08:00 ] 127.0.0.1 /admin.php/goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.015035s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=0 )  [ RunTime:0.000288s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=17 )  [ RunTime:0.000348s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=18 )  [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=16 )  [ RunTime:0.000233s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=19 )  [ RunTime:0.000232s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 31 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 36 行.
+NOTIC: [8] Undefined index: price E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 42 行.
+NOTIC: [8] Undefined index: yymoney E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 48 行.
+NOTIC: [8] Undefined index: yuyue E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 64 行.
+NOTIC: [8] Undefined index: content E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 91 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 98 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005649s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2018-10-18T20:57:00+08:00 ] 127.0.0.1 /admin.php/goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.005066s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=0 )  [ RunTime:0.000307s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=17 )  [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=18 )  [ RunTime:0.000224s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=16 )  [ RunTime:0.000224s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=19 )  [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 31 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 36 行.
+NOTIC: [8] Undefined index: price E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 42 行.
+NOTIC: [8] Undefined index: yymoney E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 48 行.
+NOTIC: [8] Undefined index: yuyue E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 64 行.
+NOTIC: [8] Undefined index: content E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 91 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 98 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2018-10-18T20:57:01+08:00 ] 127.0.0.1 /admin.php/goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.006329s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=0 )  [ RunTime:0.000294s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=17 )  [ RunTime:0.000234s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=18 )  [ RunTime:0.000227s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=16 )  [ RunTime:0.000227s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=19 )  [ RunTime:0.000225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 31 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 36 行.
+NOTIC: [8] Undefined index: price E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 42 行.
+NOTIC: [8] Undefined index: yymoney E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 48 行.
+NOTIC: [8] Undefined index: yuyue E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 64 行.
+NOTIC: [8] Undefined index: content E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 91 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 98 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2018-10-18T20:57:02+08:00 ] 127.0.0.1 /admin.php/goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.018792s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=0 )  [ RunTime:0.000283s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=17 )  [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=18 )  [ RunTime:0.000234s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=16 )  [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=19 )  [ RunTime:0.000231s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 31 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 36 行.
+NOTIC: [8] Undefined index: price E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 42 行.
+NOTIC: [8] Undefined index: yymoney E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 48 行.
+NOTIC: [8] Undefined index: yuyue E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 64 行.
+NOTIC: [8] Undefined index: content E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 91 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 98 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2018-10-18T20:58:40+08:00 ] 127.0.0.1 /admin.php/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2018-10-18T20:58:40+08:00 ] 127.0.0.1 /admin.php/Login/verify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2018-10-18T20:59:02+08:00 ] 127.0.0.1 /admin.php/goods/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.013519s ]
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 23 行.
+SQL: SELECT * FROM `cm_goods` WHERE ( 1 ) ORDER BY sort desc,addtime desc LIMIT 0,25   [ RunTime:0.000344s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.005406s ]
+SQL: SELECT * FROM `cm_class`  [ RunTime:0.000260s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2018-10-18T20:59:03+08:00 ] 127.0.0.1 /admin.php/goods/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.004604s ]
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 23 行.
+SQL: SELECT * FROM `cm_goods` WHERE ( 1 ) ORDER BY sort desc,addtime desc LIMIT 0,25   [ RunTime:0.000357s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.004206s ]
+SQL: SELECT * FROM `cm_class`  [ RunTime:0.000250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2018-10-18T20:59:04+08:00 ] 127.0.0.1 /admin.php/goods/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.013527s ]
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 23 行.
+SQL: SELECT * FROM `cm_goods` WHERE ( 1 ) ORDER BY sort desc,addtime desc LIMIT 0,25   [ RunTime:0.000329s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.004325s ]
+SQL: SELECT * FROM `cm_class`  [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2018-10-18T20:59:05+08:00 ] 127.0.0.1 /admin.php/goods/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.014598s ]
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 23 行.
+SQL: SELECT * FROM `cm_goods` WHERE ( 1 ) ORDER BY sort desc,addtime desc LIMIT 0,25   [ RunTime:0.001080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.004254s ]
+SQL: SELECT * FROM `cm_class`  [ RunTime:0.000333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2018-10-18T20:59:06+08:00 ] 127.0.0.1 /admin.php/goods/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004702s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.004532s ]
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 23 行.
+SQL: SELECT * FROM `cm_goods` WHERE ( 1 ) ORDER BY sort desc,addtime desc LIMIT 0,25   [ RunTime:0.000403s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_goods` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.005133s ]
+SQL: SELECT * FROM `cm_class`  [ RunTime:0.000230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2018-10-18T20:59:07+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005506s ]
+SQL: SHOW COLUMNS FROM `cm_user` [ RunTime:0.014372s ]
+NOTIC: [8] Undefined index: uid E:\WWW\photo\App\Home\Controller\CommController.class.php 第 18 行.
+SQL: SELECT * FROM `cm_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000187s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `cm_user` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `cm_config` [ RunTime:0.004881s ]
+ERR: 1146:Table 'photo.cm_config' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cm_config`
+SQL: SELECT * FROM `cm_config` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000472s ]
+ERR: 1146:Table 'photo.cm_config' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `cm_config` WHERE ( id=1 ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `cm_czewm` [ RunTime:0.003989s ]
+ERR: 1146:Table 'photo.cm_czewm' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cm_czewm`
+SQL: SELECT * FROM `cm_czewm`  [ RunTime:0.000391s ]
+ERR: 1146:Table 'photo.cm_czewm' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `cm_czewm` 
+SQL: SELECT * FROM `cm_config` LIMIT 1   [ RunTime:0.000491s ]
+ERR: 1146:Table 'photo.cm_config' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `cm_config` LIMIT 1  
+SQL: SHOW COLUMNS FROM `cm_task` [ RunTime:0.004340s ]
+ERR: 1146:Table 'photo.cm_task' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `cm_task`
+SQL: SELECT * FROM `cm_task`  [ RunTime:0.000404s ]
+ERR: 1146:Table 'photo.cm_task' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `cm_task` 
+NOTIC: [8] Undefined index: uid E:\WWW\photo\App\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SELECT * FROM `cm_user` LIMIT 1   [ RunTime:0.000262s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: money E:\WWW\photo\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 82 行.
+NOTIC: [8] Undefined index: money E:\WWW\photo\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 86 行.
+NOTIC: [8] Undefined index: username E:\WWW\photo\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 87 行.
+NOTIC: [8] Undefined variable: ty E:\WWW\photo\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 160 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2018-10-18T21:04:08+08:00 ] 127.0.0.1 /admin.php/power/info.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `cm_adminuser` [ RunTime:0.004920s ]
+NOTIC: [8] Undefined index: jid E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 21 行.
+SQL: SELECT * FROM `cm_adminuser` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000376s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_adminuser` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `cm_juese` [ RunTime:0.028254s ]
+SQL: SELECT * FROM `cm_juese`  [ RunTime:0.000311s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2018-10-18T21:04:09+08:00 ] 127.0.0.1 /admin.php/power/info.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `cm_adminuser` [ RunTime:0.004589s ]
+NOTIC: [8] Undefined index: jid E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 21 行.
+SQL: SELECT * FROM `cm_adminuser` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000320s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_adminuser` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SHOW COLUMNS FROM `cm_juese` [ RunTime:0.005319s ]
+SQL: SELECT * FROM `cm_juese`  [ RunTime:0.000471s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2018-10-18T21:04:10+08:00 ] 127.0.0.1 /admin.php/power/info.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+SQL: SHOW COLUMNS FROM `cm_adminuser` [ RunTime:0.017232s ]
+NOTIC: [8] Undefined index: jid E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 21 行.
+SQL: SELECT * FROM `cm_adminuser` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000523s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_adminuser` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `cm_juese` [ RunTime:0.005063s ]
+SQL: SELECT * FROM `cm_juese`  [ RunTime:0.000245s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2018-10-18T21:04:11+08:00 ] 127.0.0.1 /admin.php/power/info.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+SQL: SHOW COLUMNS FROM `cm_adminuser` [ RunTime:0.013589s ]
+NOTIC: [8] Undefined index: jid E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 21 行.
+SQL: SELECT * FROM `cm_adminuser` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000458s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_adminuser` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `cm_juese` [ RunTime:0.004074s ]
+SQL: SELECT * FROM `cm_juese`  [ RunTime:0.000244s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2018-10-18T21:04:12+08:00 ] 127.0.0.1 /admin.php/power/info.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+SQL: SHOW COLUMNS FROM `cm_adminuser` [ RunTime:0.013330s ]
+NOTIC: [8] Undefined index: jid E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 21 行.
+SQL: SELECT * FROM `cm_adminuser` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000324s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_adminuser` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `cm_juese` [ RunTime:0.004358s ]
+SQL: SELECT * FROM `cm_juese`  [ RunTime:0.000274s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2018-10-18T21:04:13+08:00 ] 127.0.0.1 /admin.php/power/info.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+SQL: SHOW COLUMNS FROM `cm_adminuser` [ RunTime:0.013832s ]
+NOTIC: [8] Undefined index: jid E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 21 行.
+SQL: SELECT * FROM `cm_adminuser` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000372s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_adminuser` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `cm_juese` [ RunTime:0.006807s ]
+SQL: SELECT * FROM `cm_juese`  [ RunTime:0.000265s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2018-10-18T21:04:14+08:00 ] 127.0.0.1 /admin.php/power/info.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `cm_adminuser` [ RunTime:0.004412s ]
+NOTIC: [8] Undefined index: jid E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 21 行.
+SQL: SELECT * FROM `cm_adminuser` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000434s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_adminuser` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `cm_juese` [ RunTime:0.003968s ]
+SQL: SELECT * FROM `cm_juese`  [ RunTime:0.000241s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2018-10-18T21:04:15+08:00 ] 127.0.0.1 /admin.php/power/info.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+SQL: SHOW COLUMNS FROM `cm_adminuser` [ RunTime:0.014138s ]
+NOTIC: [8] Undefined index: jid E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 21 行.
+SQL: SELECT * FROM `cm_adminuser` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000337s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_adminuser` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `cm_juese` [ RunTime:0.007955s ]
+SQL: SELECT * FROM `cm_juese`  [ RunTime:0.000272s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.038761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2018-10-18T21:04:16+08:00 ] 127.0.0.1 /admin.php/power/info.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+SQL: SHOW COLUMNS FROM `cm_adminuser` [ RunTime:0.014048s ]
+NOTIC: [8] Undefined index: jid E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 12 行.
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 13 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\PowerController.class.php 第 21 行.
+SQL: SELECT * FROM `cm_adminuser` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000411s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_adminuser` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `cm_juese` [ RunTime:0.004771s ]
+SQL: SELECT * FROM `cm_juese`  [ RunTime:0.000278s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2018-10-18T21:04:17+08:00 ] 127.0.0.1 /admin.php/pay/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `cm_pay` [ RunTime:0.033270s ]
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\PayController.class.php 第 12 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\PayController.class.php 第 20 行.
+SQL: SELECT * FROM `cm_pay` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000372s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_pay` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000198s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.027053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2018-10-18T21:04:18+08:00 ] 127.0.0.1 /admin.php/pay/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM `cm_pay` [ RunTime:0.006671s ]
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\PayController.class.php 第 12 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\PayController.class.php 第 20 行.
+SQL: SELECT * FROM `cm_pay` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000363s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_pay` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2018-10-18T21:04:19+08:00 ] 127.0.0.1 /admin.php/pay/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+SQL: SHOW COLUMNS FROM `cm_pay` [ RunTime:0.005022s ]
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\PayController.class.php 第 12 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\PayController.class.php 第 20 行.
+SQL: SELECT * FROM `cm_pay` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000274s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_pay` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000141s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2018-10-18T21:04:20+08:00 ] 127.0.0.1 /admin.php/pay/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `cm_pay` [ RunTime:0.014158s ]
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\PayController.class.php 第 12 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\PayController.class.php 第 20 行.
+SQL: SELECT * FROM `cm_pay` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000264s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_pay` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2018-10-18T21:04:21+08:00 ] 127.0.0.1 /admin.php/pay/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002079s ]
+SQL: SHOW COLUMNS FROM `cm_pay` [ RunTime:0.013228s ]
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\PayController.class.php 第 12 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\PayController.class.php 第 20 行.
+SQL: SELECT * FROM `cm_pay` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000233s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_pay` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000256s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2018-10-18T21:04:22+08:00 ] 127.0.0.1 /admin.php/pay/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+SQL: SHOW COLUMNS FROM `cm_pay` [ RunTime:0.004637s ]
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\PayController.class.php 第 12 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\PayController.class.php 第 20 行.
+SQL: SELECT * FROM `cm_pay` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_pay` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2018-10-18T21:04:24+08:00 ] 127.0.0.1 /admin.php/pay/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+SQL: SHOW COLUMNS FROM `cm_pay` [ RunTime:0.013232s ]
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\PayController.class.php 第 12 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\PayController.class.php 第 20 行.
+SQL: SELECT * FROM `cm_pay` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000258s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_pay` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000447s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2018-10-18T21:04:25+08:00 ] 127.0.0.1 /admin.php/pay/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `cm_pay` [ RunTime:0.013329s ]
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\PayController.class.php 第 12 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\PayController.class.php 第 20 行.
+SQL: SELECT * FROM `cm_pay` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000260s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_pay` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000206s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2018-10-18T21:04:26+08:00 ] 127.0.0.1 /admin.php/pay/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `cm_pay` [ RunTime:0.026865s ]
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\PayController.class.php 第 12 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\PayController.class.php 第 20 行.
+SQL: SELECT * FROM `cm_pay` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.000682s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_pay` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000285s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2018-10-18T21:04:27+08:00 ] 127.0.0.1 /admin.php/pay/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `cm_pay` [ RunTime:0.009012s ]
+NOTIC: [8] Undefined index: date E:\WWW\photo\App\Rzsys\Controller\PayController.class.php 第 12 行.
+NOTIC: [8] Undefined index: p E:\WWW\photo\App\Rzsys\Controller\PayController.class.php 第 20 行.
+SQL: SELECT * FROM `cm_pay` WHERE ( 1 ) ORDER BY addtime desc LIMIT 0,25   [ RunTime:0.011082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cm_pay` WHERE ( 1 ) LIMIT 1   [ RunTime:0.000398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2018-10-18T21:04:52+08:00 ] 127.0.0.1 /admin.php/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `cm_rel` [ RunTime:0.004925s ]
+SQL: SELECT p.pid FROM cm_rel r INNER JOIN cm_pro AS p ON r.jid = p.id  WHERE ( r.pid=1 )  [ RunTime:0.001399s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2018-10-18T21:04:52+08:00 ] 127.0.0.1 /admin.php/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: admin E:\WWW\photo\App\Runtime\Cache\Rzsys\fd452937e88c188c460bc88e5f76d2e6.php 第 96 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2018-10-18T21:10:48+08:00 ] 127.0.0.1 /index.php/App/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+ERR: 非法操作:index
+
+[ 2018-10-18T21:10:48+08:00 ] 127.0.0.1 /index.php/App/logon
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+ERR: 非法操作:logon
+
+[ 2018-10-18T21:10:51+08:00 ] 127.0.0.1 /index.php/App/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+ERR: Call to undefined function Home\Controller\request()
+
+[ 2018-10-18T21:21:10+08:00 ] 127.0.0.1 /index.php/app/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+NOTIC: [8] Undefined index: code E:\WWW\photo\App\Home\Controller\AppController.class.php 第 21 行.
+NOTIC: [8] Undefined index: encryptedData E:\WWW\photo\App\Home\Controller\AppController.class.php 第 22 行.
+NOTIC: [8] Undefined index: iv E:\WWW\photo\App\Home\Controller\AppController.class.php 第 23 行.
+ERR: Class 'Org\Common\WXBizDataCrypt' not found
+
+[ 2018-10-18T21:21:13+08:00 ] 127.0.0.1 /index.php/App/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+NOTIC: [8] Undefined index: code E:\WWW\photo\App\Home\Controller\AppController.class.php 第 21 行.
+NOTIC: [8] Undefined index: encryptedData E:\WWW\photo\App\Home\Controller\AppController.class.php 第 22 行.
+NOTIC: [8] Undefined index: iv E:\WWW\photo\App\Home\Controller\AppController.class.php 第 23 行.
+ERR: Class 'Org\Common\WXBizDataCrypt' not found
+
+[ 2018-10-18T21:21:50+08:00 ] 127.0.0.1 /index.php/App/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8] Undefined index: code E:\WWW\photo\App\Home\Controller\AppController.class.php 第 21 行.
+NOTIC: [8] Undefined index: encryptedData E:\WWW\photo\App\Home\Controller\AppController.class.php 第 22 行.
+NOTIC: [8] Undefined index: iv E:\WWW\photo\App\Home\Controller\AppController.class.php 第 23 行.
+ERR: Class 'Org\Common\PKCS7Encoder' not found
+
+[ 2018-10-18T21:22:40+08:00 ] 127.0.0.1 /index.php/App/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+NOTIC: [8] Undefined index: code E:\WWW\photo\App\Home\Controller\AppController.class.php 第 21 行.
+NOTIC: [8] Undefined index: encryptedData E:\WWW\photo\App\Home\Controller\AppController.class.php 第 22 行.
+NOTIC: [8] Undefined index: iv E:\WWW\photo\App\Home\Controller\AppController.class.php 第 23 行.
+ERR: Class 'Org\Common\WXBizDataCrypt' not found
+
+[ 2018-10-18T21:23:35+08:00 ] 127.0.0.1 /index.php/App/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [8] Undefined index: code E:\WWW\photo\App\Home\Controller\AppController.class.php 第 21 行.
+NOTIC: [8] Undefined index: encryptedData E:\WWW\photo\App\Home\Controller\AppController.class.php 第 22 行.
+NOTIC: [8] Undefined index: iv E:\WWW\photo\App\Home\Controller\AppController.class.php 第 23 行.
+ERR: Class 'Org\Common\WXBizDataCrypt' not found
+
+[ 2018-10-18T21:29:05+08:00 ] 127.0.0.1 /index.php/App/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+NOTIC: [8] Undefined index: code E:\WWW\photo\App\Home\Controller\AppController.class.php 第 21 行.
+NOTIC: [8] Undefined index: encryptedData E:\WWW\photo\App\Home\Controller\AppController.class.php 第 22 行.
+NOTIC: [8] Undefined index: iv E:\WWW\photo\App\Home\Controller\AppController.class.php 第 23 行.
+ERR: Class 'Org\Common\WXBizDataCrypt' not found
+
+[ 2018-10-18T21:36:41+08:00 ] 127.0.0.1 /index.php/App/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+NOTIC: [8] Undefined index: code E:\WWW\photo\App\Home\Controller\AppController.class.php 第 21 行.
+NOTIC: [8] Undefined index: encryptedData E:\WWW\photo\App\Home\Controller\AppController.class.php 第 22 行.
+NOTIC: [8] Undefined index: iv E:\WWW\photo\App\Home\Controller\AppController.class.php 第 23 行.
+ERR: Class 'Org\Common\WXBizDataCrypt' not found
+
+[ 2018-10-18T21:36:51+08:00 ] 127.0.0.1 /index.php/App/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+NOTIC: [8] Undefined index: code E:\WWW\photo\App\Home\Controller\AppController.class.php 第 21 行.
+NOTIC: [8] Undefined index: encryptedData E:\WWW\photo\App\Home\Controller\AppController.class.php 第 22 行.
+NOTIC: [8] Undefined index: iv E:\WWW\photo\App\Home\Controller\AppController.class.php 第 23 行.
+ERR: Class 'Org\Common\WXBizDataCrypt' not found
+
+[ 2018-10-18T21:36:53+08:00 ] 127.0.0.1 /index.php/App/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+NOTIC: [8] Undefined index: code E:\WWW\photo\App\Home\Controller\AppController.class.php 第 21 行.
+NOTIC: [8] Undefined index: encryptedData E:\WWW\photo\App\Home\Controller\AppController.class.php 第 22 行.
+NOTIC: [8] Undefined index: iv E:\WWW\photo\App\Home\Controller\AppController.class.php 第 23 行.
+ERR: Class 'Org\Common\WXBizDataCrypt' not found
+
+[ 2018-10-18T21:37:28+08:00 ] 127.0.0.1 /index.php/App/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+NOTIC: [8] Undefined index: code E:\WWW\photo\App\Home\Controller\AppController.class.php 第 21 行.
+NOTIC: [8] Undefined index: encryptedData E:\WWW\photo\App\Home\Controller\AppController.class.php 第 22 行.
+NOTIC: [8] Undefined index: iv E:\WWW\photo\App\Home\Controller\AppController.class.php 第 23 行.
+ERR: Class 'Org\Common\WXBizDataCrypt' not found
+
+[ 2018-10-18T21:41:18+08:00 ] 127.0.0.1 /index.php/App/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+NOTIC: [8] Undefined index: code E:\WWW\photo\App\Home\Controller\AppController.class.php 第 21 行.
+NOTIC: [8] Undefined index: encryptedData E:\WWW\photo\App\Home\Controller\AppController.class.php 第 22 行.
+NOTIC: [8] Undefined index: iv E:\WWW\photo\App\Home\Controller\AppController.class.php 第 23 行.
+ERR: Class 'Org\Common\WXBizDataCrypt' not found
+
+[ 2018-10-18T21:43:16+08:00 ] 127.0.0.1 /index.php/App/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+ERR: Class 'Org\Util\Image' not found
+
+[ 2018-10-18T21:48:32+08:00 ] 127.0.0.1 /index.php/App/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+ERR: Class 'Org\Util\Image' not found
+
+[ 2018-10-18T21:48:34+08:00 ] 127.0.0.1 /index.php/App/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+ERR: Class 'Org\Util\Image' not found
+
+[ 2018-10-18T21:48:34+08:00 ] 127.0.0.1 /index.php/App/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+ERR: Class 'Org\Util\Image' not found
+
+[ 2018-10-18T21:48:34+08:00 ] 127.0.0.1 /index.php/App/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+ERR: Class 'Org\Util\Image' not found
+
+[ 2018-10-18T22:00:40+08:00 ] 127.0.0.1 /index.php/App/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+NOTIC: [8] Undefined index: code E:\WWW\photo\App\Home\Controller\AppController.class.php 第 21 行.
+NOTIC: [8] Undefined index: encryptedData E:\WWW\photo\App\Home\Controller\AppController.class.php 第 22 行.
+NOTIC: [8] Undefined index: iv E:\WWW\photo\App\Home\Controller\AppController.class.php 第 23 行.
+NOTIC: [8] Undefined index: session_key E:\WWW\photo\App\Home\Controller\AppController.class.php 第 25 行.
+
+[ 2018-10-18T22:11:15+08:00 ] 127.0.0.1 /admin.php/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `cm_rel` [ RunTime:0.025335s ]
+SQL: SELECT p.pid FROM cm_rel r INNER JOIN cm_pro AS p ON r.jid = p.id  WHERE ( r.pid=1 )  [ RunTime:0.002608s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.053277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.013101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001217s ]
+
+[ 2018-10-18T22:11:15+08:00 ] 127.0.0.1 /admin.php/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+NOTIC: [8] Undefined variable: admin E:\WWW\photo\App\Runtime\Cache\Rzsys\fd452937e88c188c460bc88e5f76d2e6.php 第 96 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2018-10-18T22:30:40+08:00 ] 127.0.0.1 /index.php/App/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [8] Undefined index: code E:\WWW\photo\App\Home\Controller\AppController.class.php 第 21 行.
+NOTIC: [8] Undefined index: encryptedData E:\WWW\photo\App\Home\Controller\AppController.class.php 第 22 行.
+NOTIC: [8] Undefined index: iv E:\WWW\photo\App\Home\Controller\AppController.class.php 第 23 行.
+NOTIC: [8] Undefined index: session_key E:\WWW\photo\App\Home\Controller\AppController.class.php 第 25 行.
+
+[ 2018-10-18T22:37:31+08:00 ] 127.0.0.1 /index.php/App/banner
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+SQL: SHOW COLUMNS FROM `cm_banner` [ RunTime:0.007888s ]
+SQL: SELECT `id`,`name`,`pic` FROM `cm_banner` WHERE ( type=1 ) ORDER BY sort desc  [ RunTime:0.017088s ]
+
+[ 2018-10-18T22:55:40+08:00 ] 127.0.0.1 /index.php/App/goods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+
+[ 2018-10-18T22:55:43+08:00 ] 127.0.0.1 /index.php/App/goods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+
+[ 2018-10-18T22:55:59+08:00 ] 127.0.0.1 /index.php/App/goods
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+NOTIC: [8] Undefined index: pagesize E:\WWW\photo\App\Home\Controller\AppController.class.php 第 19 行.
+NOTIC: [8] Undefined index: pageindex E:\WWW\photo\App\Home\Controller\AppController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.037432s ]
+SQL: SELECT `id`,`name`,`pic` FROM `cm_goods` WHERE ( tuijian=1 ) ORDER BY addtime asc  [ RunTime:0.000488s ]
+
+[ 2018-10-18T23:37:47+08:00 ] 127.0.0.1 /index.php/App/yuyue
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `cm_setall` [ RunTime:0.013403s ]
+SQL: SELECT * FROM `cm_setall` WHERE ( name='address' ) LIMIT 1   [ RunTime:0.000273s ]
+SQL: SELECT * FROM `cm_setall` WHERE ( name='telphone' ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT * FROM `cm_setall` WHERE ( name='jobtime' ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.004282s ]
+SQL: SELECT `id`,`name`,`pic` FROM `cm_class` ORDER BY sort desc  [ RunTime:0.000339s ]
+

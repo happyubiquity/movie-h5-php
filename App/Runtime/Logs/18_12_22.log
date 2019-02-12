@@ -1,0 +1,33 @@
+[ 2018-12-22T17:12:30+08:00 ] 127.0.0.1 /index.php/App/moviedec?id=1&ip=223.88.50.134
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.007353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025275s ]
+NOTIC: [2] file_get_contents(https://www.ip.cn/index.php?ip=223.88.50.134): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ E:\WWW\video\App\Home\Controller\AppController.class.php 第 315 行.
+NOTIC: [8] Undefined index: uid E:\WWW\video\App\Home\Controller\AppController.class.php 第 328 行.
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.014610s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL`,`MV_HURL`,`MV_WURL`,`MV_SHURL`,`MV_WHURL`,`MV_TIME`,`MV_PLAY_COUNT`,`MV_TYPE`,`MV_PHYLETIC`,`MV_CONTENT`,`MV_CATEGORY` FROM `mv_movies` WHERE ( `ID` = 1 ) LIMIT 1   [ RunTime:0.000414s ]
+SQL: UPDATE `mv_movies` SET `MV_PLAY_COUNT`=MV_PLAY_COUNT+1 WHERE ( ID=1 ) [ RunTime:0.000283s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL` FROM `mv_movies` WHERE (  IS_DEL=0 and MV_STATUS=1 ) ORDER BY MV_PLAY_COUNT desc LIMIT 4   [ RunTime:0.053050s ]
+SQL: SHOW COLUMNS FROM `mv_comment` [ RunTime:0.004918s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mv_comment` WHERE ( CM_TYPE=1 and CM_TYPE_ID=1 and IS_DEL=0 ) LIMIT 1   [ RunTime:0.025327s ]
+
+[ 2018-12-22T17:13:44+08:00 ] 127.0.0.1 /index.php/App/moviedec?id=1&ip=223.88.50.134
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+
+[ 2018-12-22T17:13:45+08:00 ] 127.0.0.1 /index.php/App/moviedec?id=1&ip=223.88.50.134
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+NOTIC: [2] file_get_contents(https://www.ip.cn/index.php?ip=223.88.50.134): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ E:\WWW\video\App\Home\Controller\AppController.class.php 第 315 行.
+
+[ 2018-12-22T17:13:49+08:00 ] 127.0.0.1 /index.php/App/moviedec?id=1&ip=223.88.50.134
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+NOTIC: [2] file_get_contents(https://www.ip.cn/index.php?ip=223.88.50.134): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ E:\WWW\video\App\Home\Controller\AppController.class.php 第 315 行.
+

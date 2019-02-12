@@ -1,0 +1,30 @@
+[ 2019-01-01T23:46:27+08:00 ] 115.195.32.224 /index.php/App/banner?type=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `mv_banner` [ RunTime:0.000786s ]
+SQL: SELECT `ID`,`BN_NAME`,`BN_URL`,`BN_TYPE`,`BN_TYPE_ID` FROM `mv_banner` WHERE ( IS_DEL=0 and BN_TYPE=1 )  [ RunTime:0.000089s ]
+
+[ 2019-01-01T23:46:27+08:00 ] 115.195.32.224 /index.php/App/indexcont
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `mv_movies` [ RunTime:0.000884s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL` FROM `mv_movies` WHERE ( MV_TYPE=1  and IS_DEL=0 and MV_STATUS=1 ) ORDER BY GMT_MODIFED desc LIMIT 2   [ RunTime:0.000096s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL`,`MV_TIME`,`MV_TYPE` FROM `mv_movies` WHERE (  IS_DEL=0  and MV_STATUS=1 ) ORDER BY ID desc LIMIT 4   [ RunTime:0.000086s ]
+SQL: SELECT `ID`,`MV_NAME`,`MV_PHOTO_URL`,`MV_TYPE` FROM `mv_movies` WHERE (  IS_DEL=0  and MV_STATUS=1 ) ORDER BY MV_PLAY_COUNT desc LIMIT 4   [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `mv_cartoon` [ RunTime:0.000699s ]
+SQL: SELECT `ID`,`CT_NAME`,`CT_PHOTO_URL` FROM `mv_cartoon` WHERE (  IS_DEL=0 and CT_STATUS=1 ) ORDER BY ID desc LIMIT 4   [ RunTime:0.000075s ]
+
+[ 2019-01-01T23:46:32+08:00 ] 115.195.32.224 /index.php/App/ipaddress?ip=192.168.31.135
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+
+[ 2019-01-01T23:46:36+08:00 ] 115.195.32.224 /index.php/App/classall
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `mv_class` [ RunTime:0.000793s ]
+SQL: SELECT * FROM `mv_class` WHERE ( IS_DEL=0 and CL_TYPE!=0 and ID!=1 ) ORDER BY ID asc  [ RunTime:0.000110s ]
+

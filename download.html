@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+ 
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<style type="text/css">
+            .dllogo{width:100%;margin:30px auto;text-align:center;margin-top:60px;}
+            .dllogo img{width:30%;}
+            .btn{width:100%;height:45px;line-height:45px;text-align:center;background:#56B3F6;border-radius:10px;width:50%;margin:20px auto;}
+            .btn a{color:#fff;text-decoration:none;}
+            .btn a span{font-size:12px;}
+        </style>
+		<script src="/js/jquery-1.11.2.min.js"></script>
+        
+	</head>
+	<body>
+		 <div class="dllogo"><img src="/images/logo1.png" /></div>
+         <div class="btn android" style="margin-top:50px;display:none;"><a href="http://downloadpkg.apicloud.com/app/download?path=http://A6093514853278.qiniucdn.apicloud-system.com/2487c18c1310c5646f08e509a725c271_d">安卓下载&nbsp;&nbsp;<span>(12.1M)</span></a></div>
+         <div class="btn ios" style="margin-top:50px;display:none;"><a href="itms-services://?action=download-manifest&url=https://downloadpkg.apicloud.com:443/zip/db/cc/dbccd8c96763d11f33ba0338130b5ed4.plist">苹果下载&nbsp;&nbsp;<span>(14.7M)</span></a></div>
+		 <script type="text/javascript">
+            var u = navigator.userAgent;
+            var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+            var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+            if (isiOS) {
+                $(".ios").css({ "display":"block"})
+            }
+            if (isAndroid) {
+                $(".android").css({ "display":"block"})
+            }
+        </script>
+	</body>
+</html>

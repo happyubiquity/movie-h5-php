@@ -1,0 +1,2138 @@
+[ 2018-10-19T00:01:01+08:00 ] 127.0.0.1 /index.php/App/yytime
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+ERR: syntax error, unexpected ')'
+
+[ 2018-10-19T00:01:15+08:00 ] 127.0.0.1 /index.php/App/yytime
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+ERR: syntax error, unexpected ';', expecting ',' or ')'
+
+[ 2018-10-19T00:01:16+08:00 ] 127.0.0.1 /index.php/App/yytime
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+ERR: syntax error, unexpected ';', expecting ',' or ')'
+
+[ 2018-10-19T00:01:24+08:00 ] 127.0.0.1 /index.php/App/yytime
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+
+[ 2018-10-19T00:02:03+08:00 ] 127.0.0.1 /index.php/App/yytime
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+
+[ 2018-10-19T00:02:04+08:00 ] 127.0.0.1 /index.php/App/yytime
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+
+[ 2018-10-19T00:02:08+08:00 ] 127.0.0.1 /index.php/App/yytime
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+
+[ 2018-10-19T00:02:37+08:00 ] 127.0.0.1 /index.php/App/yytime
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+
+[ 2018-10-19T00:02:38+08:00 ] 127.0.0.1 /index.php/App/yytime
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+
+[ 2018-10-19T00:02:38+08:00 ] 127.0.0.1 /index.php/App/yytime
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+
+[ 2018-10-19T00:02:45+08:00 ] 127.0.0.1 /index.php/App/yytime
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+
+[ 2018-10-19T00:03:07+08:00 ] 127.0.0.1 /index.php/App/yytime
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+
+[ 2018-10-19T00:03:25+08:00 ] 127.0.0.1 /index.php/App/yytime
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+
+[ 2018-10-19T00:06:26+08:00 ] 127.0.0.1 /index.php/App/yytime
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+
+[ 2018-10-19T00:23:26+08:00 ] 127.0.0.1 /index.php/App/gettime?id=1&tm=2018-10-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.005953s ]
+SQL: SELECT * FROM `cm_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `cm_yuyue` [ RunTime:0.004920s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539997200 ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539997200 ) LIMIT 1   [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2018-10-19T00:23:58+08:00 ] 127.0.0.1 /index.php/App/gettime?id=1&tm=2018-10-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.013274s ]
+SQL: SELECT * FROM `cm_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `cm_yuyue` [ RunTime:0.004547s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539997200 ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539997200 ) LIMIT 1   [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2018-10-19T00:24:46+08:00 ] 127.0.0.1 /index.php/App/gettime?id=1&tm=2018-10-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.013317s ]
+SQL: SELECT * FROM `cm_goods` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `cm_yuyue` [ RunTime:0.005375s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539997200 ) LIMIT 1   [ RunTime:0.000308s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540011600 ) LIMIT 1   [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2018-10-19T00:25:08+08:00 ] 127.0.0.1 /index.php/App/gettime?id=4&tm=2018-10-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.013327s ]
+SQL: SELECT * FROM `cm_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `cm_yuyue` [ RunTime:0.004399s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998100 ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998160 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998220 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998280 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998340 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998400 ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998460 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998520 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998580 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998640 ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998700 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998760 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998820 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998880 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998940 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999000 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999060 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999120 ) LIMIT 1   [ RunTime:0.000247s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999180 ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999240 ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999300 ) LIMIT 1   [ RunTime:0.000346s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999360 ) LIMIT 1   [ RunTime:0.000356s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999420 ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999480 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999540 ) LIMIT 1   [ RunTime:0.000251s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999600 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999660 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999720 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999780 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999840 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999900 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999960 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000020 ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000080 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000140 ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000200 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000260 ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000320 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000380 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000440 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000500 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000560 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000620 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000680 ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000740 ) LIMIT 1   [ RunTime:0.000203s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540001700 ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540001760 ) LIMIT 1   [ RunTime:0.000205s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540001820 ) LIMIT 1   [ RunTime:0.000205s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540001880 ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540001940 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002000 ) LIMIT 1   [ RunTime:0.000188s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002060 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002120 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002180 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002240 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002300 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002360 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002420 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002480 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002540 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002600 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002660 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002720 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002780 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002840 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002900 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002960 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003020 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003080 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003140 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003200 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003260 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003320 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003380 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003440 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003500 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003560 ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003620 ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003680 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003740 ) LIMIT 1   [ RunTime:0.000334s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003800 ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003860 ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003920 ) LIMIT 1   [ RunTime:0.000234s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003980 ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540004040 ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540004100 ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540004160 ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540004220 ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540004280 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540004340 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005300 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005360 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005420 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005480 ) LIMIT 1   [ RunTime:0.000273s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005540 ) LIMIT 1   [ RunTime:0.000243s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005600 ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005660 ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005720 ) LIMIT 1   [ RunTime:0.000188s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005780 ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005840 ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005900 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005960 ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006020 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006080 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006140 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006200 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006260 ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006320 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006380 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006440 ) LIMIT 1   [ RunTime:0.000170s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006500 ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006560 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006620 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006680 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006740 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006800 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006860 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006920 ) LIMIT 1   [ RunTime:0.000341s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006980 ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007040 ) LIMIT 1   [ RunTime:0.000270s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007100 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007160 ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007220 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007280 ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007340 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007400 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007460 ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007520 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007580 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007640 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007700 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007760 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007820 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007880 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007940 ) LIMIT 1   [ RunTime:0.000234s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008900 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008960 ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009020 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009080 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009140 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009200 ) LIMIT 1   [ RunTime:0.000213s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009260 ) LIMIT 1   [ RunTime:0.000195s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009320 ) LIMIT 1   [ RunTime:0.000344s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009380 ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009440 ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009500 ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009560 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009620 ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009680 ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009740 ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009800 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009860 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009920 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009980 ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010040 ) LIMIT 1   [ RunTime:0.000173s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010100 ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010160 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010220 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010280 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010340 ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010400 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010460 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010520 ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010580 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010640 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010700 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010760 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010820 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010880 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010940 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540011000 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540011060 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540011120 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540011180 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540011240 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540011300 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540011360 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540011420 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540011480 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540011540 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540012500 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540012560 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540012620 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540012680 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540012740 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540012800 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540012860 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540012920 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540012980 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013040 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013100 ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013160 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013220 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013280 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013340 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013400 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013460 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013520 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013580 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013640 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013700 ) LIMIT 1   [ RunTime:0.000178s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013760 ) LIMIT 1   [ RunTime:0.000178s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013820 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013880 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013940 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014000 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014060 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014120 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014180 ) LIMIT 1   [ RunTime:0.000175s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014240 ) LIMIT 1   [ RunTime:0.000177s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014300 ) LIMIT 1   [ RunTime:0.000439s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014360 ) LIMIT 1   [ RunTime:0.000353s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014420 ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014480 ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014540 ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014600 ) LIMIT 1   [ RunTime:0.000190s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014660 ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014720 ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014780 ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014840 ) LIMIT 1   [ RunTime:0.000188s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014900 ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014960 ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540015020 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540015080 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540015140 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016100 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016160 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016220 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016280 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016340 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016400 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016460 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016520 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016580 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016640 ) LIMIT 1   [ RunTime:0.000196s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016700 ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016760 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016820 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016880 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016940 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017000 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017060 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017120 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017180 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017240 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017300 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017360 ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017420 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017480 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017540 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017600 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017660 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017720 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017780 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017840 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017900 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017960 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018020 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018080 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018140 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018200 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018260 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018320 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018380 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018440 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018500 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018560 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018620 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018680 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018740 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540019700 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540019760 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540019820 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540019880 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540019940 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020000 ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020060 ) LIMIT 1   [ RunTime:0.000178s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020120 ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020180 ) LIMIT 1   [ RunTime:0.000312s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020240 ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020300 ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020360 ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020420 ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020480 ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020540 ) LIMIT 1   [ RunTime:0.000195s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020600 ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020660 ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020720 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020780 ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020840 ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020900 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020960 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021020 ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021080 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021140 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021200 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021260 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021320 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021380 ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021440 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021500 ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021560 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021620 ) LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021680 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021740 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021800 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021860 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021920 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021980 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540022040 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540022100 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540022160 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540022220 ) LIMIT 1   [ RunTime:0.000178s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540022280 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540022340 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023300 ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023360 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023420 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023480 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023540 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023600 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023660 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023720 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023780 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023840 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023900 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023960 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024020 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024080 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024140 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024200 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024260 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024320 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024380 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024440 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024500 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024560 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024620 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024680 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024740 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024800 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024860 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024920 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024980 ) LIMIT 1   [ RunTime:0.000195s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025040 ) LIMIT 1   [ RunTime:0.000178s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025100 ) LIMIT 1   [ RunTime:0.000448s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025160 ) LIMIT 1   [ RunTime:0.000327s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025220 ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025280 ) LIMIT 1   [ RunTime:0.000306s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025340 ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025400 ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025460 ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025520 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025580 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025640 ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025700 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025760 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025820 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025880 ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025940 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026900 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026960 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027020 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027080 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027140 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027200 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027260 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027320 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027380 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027440 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027500 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027560 ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027620 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027680 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027740 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027800 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027860 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027920 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027980 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028040 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028100 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028160 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028220 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028280 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028340 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028400 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028460 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028520 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028580 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028640 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028700 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028760 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028820 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028880 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028940 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540029000 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540029060 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540029120 ) LIMIT 1   [ RunTime:0.000180s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540029180 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540029240 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540029300 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540029360 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540029420 ) LIMIT 1   [ RunTime:0.000178s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540029480 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540029540 ) LIMIT 1   [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2018-10-19T00:25:40+08:00 ] 127.0.0.1 /index.php/App/gettime?id=4&tm=2018-10-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.013540s ]
+SQL: SELECT * FROM `cm_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `cm_yuyue` [ RunTime:0.005030s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998100 ) LIMIT 1   [ RunTime:0.000272s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999000 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999900 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540001700 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002600 ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003500 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005300 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006200 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007100 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008900 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009800 ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010700 ) LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540012500 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013400 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014300 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016100 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017000 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017900 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540019700 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020600 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021500 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023300 ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024200 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025100 ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026900 ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027800 ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028700 ) LIMIT 1   [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2018-10-19T00:26:25+08:00 ] 127.0.0.1 /index.php/App/gettime?id=4&tm=2018-10-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.004578s ]
+SQL: SELECT * FROM `cm_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `cm_yuyue` [ RunTime:0.004306s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998100 ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999000 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999900 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime= ) LIMIT 1   [ RunTime:0.000174s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `cm_yuyue` WHERE ( yytime= ) LIMIT 1  
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540001700 ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002600 ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003500 ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime= ) LIMIT 1   [ RunTime:0.000152s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `cm_yuyue` WHERE ( yytime= ) LIMIT 1  
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005300 ) LIMIT 1   [ RunTime:0.000219s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006200 ) LIMIT 1   [ RunTime:0.000219s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007100 ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime= ) LIMIT 1   [ RunTime:0.000166s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `cm_yuyue` WHERE ( yytime= ) LIMIT 1  
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008900 ) LIMIT 1   [ RunTime:0.000219s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009800 ) LIMIT 1   [ RunTime:0.000217s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010700 ) LIMIT 1   [ RunTime:0.000216s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime= ) LIMIT 1   [ RunTime:0.000167s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `cm_yuyue` WHERE ( yytime= ) LIMIT 1  
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540012500 ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013400 ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014300 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime= ) LIMIT 1   [ RunTime:0.000208s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `cm_yuyue` WHERE ( yytime= ) LIMIT 1  
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016100 ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017000 ) LIMIT 1   [ RunTime:0.000243s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017900 ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime= ) LIMIT 1   [ RunTime:0.000169s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `cm_yuyue` WHERE ( yytime= ) LIMIT 1  
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540019700 ) LIMIT 1   [ RunTime:0.000328s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020600 ) LIMIT 1   [ RunTime:0.000214s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021500 ) LIMIT 1   [ RunTime:0.000163s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime= ) LIMIT 1   [ RunTime:0.000107s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `cm_yuyue` WHERE ( yytime= ) LIMIT 1  
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023300 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024200 ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025100 ) LIMIT 1   [ RunTime:0.000217s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime= ) LIMIT 1   [ RunTime:0.000167s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `cm_yuyue` WHERE ( yytime= ) LIMIT 1  
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026900 ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027800 ) LIMIT 1   [ RunTime:0.000217s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028700 ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime= ) LIMIT 1   [ RunTime:0.000151s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `cm_yuyue` WHERE ( yytime= ) LIMIT 1  
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2018-10-19T00:26:45+08:00 ] 127.0.0.1 /index.php/App/gettime?id=4&tm=2018-10-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.013280s ]
+SQL: SELECT * FROM `cm_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `cm_yuyue` [ RunTime:0.004459s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539997200 ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998100 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999000 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999900 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000800 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540001700 ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002600 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003500 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540004400 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005300 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006200 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007100 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008000 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008900 ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009800 ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010700 ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540011600 ) LIMIT 1   [ RunTime:0.000215s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540012500 ) LIMIT 1   [ RunTime:0.000339s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013400 ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014300 ) LIMIT 1   [ RunTime:0.000243s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540015200 ) LIMIT 1   [ RunTime:0.000219s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016100 ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017000 ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017900 ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018800 ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540019700 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020600 ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021500 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540022400 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023300 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024200 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025100 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026000 ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026900 ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027800 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028700 ) LIMIT 1   [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2018-10-19T00:27:25+08:00 ] 127.0.0.1 /index.php/App/gettime?id=4&tm=2018-10-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.013366s ]
+SQL: SELECT * FROM `cm_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `cm_yuyue` [ RunTime:0.004291s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539997200 ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998100 ) LIMIT 1   [ RunTime:0.000177s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999000 ) LIMIT 1   [ RunTime:0.000172s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999900 ) LIMIT 1   [ RunTime:0.000170s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000800 ) LIMIT 1   [ RunTime:0.000166s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540001700 ) LIMIT 1   [ RunTime:0.000165s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002600 ) LIMIT 1   [ RunTime:0.000168s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003500 ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540004400 ) LIMIT 1   [ RunTime:0.000234s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005300 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006200 ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007100 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008000 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008900 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009800 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010700 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540011600 ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540012500 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013400 ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014300 ) LIMIT 1   [ RunTime:0.000243s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540015200 ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016100 ) LIMIT 1   [ RunTime:0.000267s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017000 ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017900 ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018800 ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540019700 ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020600 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021500 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540022400 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023300 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024200 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025100 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026000 ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026900 ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027800 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028700 ) LIMIT 1   [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2018-10-19T00:27:28+08:00 ] 127.0.0.1 /index.php/App/gettime?id=4&tm=2018-10-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.014419s ]
+SQL: SELECT * FROM `cm_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `cm_yuyue` [ RunTime:0.004342s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539997200 ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998100 ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999000 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999900 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000800 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540001700 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002600 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003500 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540004400 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005300 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006200 ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007100 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008000 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008900 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009800 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010700 ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540011600 ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540012500 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013400 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014300 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540015200 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016100 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017000 ) LIMIT 1   [ RunTime:0.000223s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017900 ) LIMIT 1   [ RunTime:0.000328s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018800 ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540019700 ) LIMIT 1   [ RunTime:0.000311s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020600 ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021500 ) LIMIT 1   [ RunTime:0.000370s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540022400 ) LIMIT 1   [ RunTime:0.000338s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023300 ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024200 ) LIMIT 1   [ RunTime:0.000351s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025100 ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026000 ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026900 ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027800 ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028700 ) LIMIT 1   [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2018-10-19T00:27:53+08:00 ] 127.0.0.1 /index.php/App/gettime?id=4&tm=2018-10-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.004631s ]
+SQL: SELECT * FROM `cm_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `cm_yuyue` [ RunTime:0.005723s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539997200 ) LIMIT 1   [ RunTime:0.000283s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998100 ) LIMIT 1   [ RunTime:0.000234s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999000 ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999900 ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000800 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540001700 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002600 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003500 ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540004400 ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005300 ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006200 ) LIMIT 1   [ RunTime:0.000375s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007100 ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008000 ) LIMIT 1   [ RunTime:0.000327s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008900 ) LIMIT 1   [ RunTime:0.000321s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009800 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010700 ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540011600 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540012500 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013400 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014300 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540015200 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016100 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017000 ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017900 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018800 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540019700 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020600 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021500 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540022400 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023300 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024200 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025100 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026000 ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026900 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027800 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028700 ) LIMIT 1   [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2018-10-19T00:28:25+08:00 ] 127.0.0.1 /index.php/App/gettime?id=4&tm=2018-10-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.014499s ]
+SQL: SELECT * FROM `cm_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `cm_yuyue` [ RunTime:0.004332s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539997200 ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998100 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999000 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999900 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000800 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540001700 ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002600 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003500 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540004400 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005300 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006200 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007100 ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008000 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008900 ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009800 ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010700 ) LIMIT 1   [ RunTime:0.000210s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540011600 ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540012500 ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013400 ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014300 ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540015200 ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016100 ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017000 ) LIMIT 1   [ RunTime:0.000210s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017900 ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018800 ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540019700 ) LIMIT 1   [ RunTime:0.000182s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020600 ) LIMIT 1   [ RunTime:0.000176s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021500 ) LIMIT 1   [ RunTime:0.000171s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540022400 ) LIMIT 1   [ RunTime:0.000174s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023300 ) LIMIT 1   [ RunTime:0.000175s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024200 ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025100 ) LIMIT 1   [ RunTime:0.000195s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026000 ) LIMIT 1   [ RunTime:0.000210s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026900 ) LIMIT 1   [ RunTime:0.000336s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027800 ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028700 ) LIMIT 1   [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2018-10-19T00:28:46+08:00 ] 127.0.0.1 /index.php/App/gettime?id=4&tm=2018-10-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.004792s ]
+SQL: SELECT * FROM `cm_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `cm_yuyue` [ RunTime:0.004229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539997200 ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998100 ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999000 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999900 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000800 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540001700 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002600 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003500 ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540004400 ) LIMIT 1   [ RunTime:0.000211s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005300 ) LIMIT 1   [ RunTime:0.000210s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006200 ) LIMIT 1   [ RunTime:0.000206s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007100 ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008000 ) LIMIT 1   [ RunTime:0.000207s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008900 ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009800 ) LIMIT 1   [ RunTime:0.000263s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010700 ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540011600 ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540012500 ) LIMIT 1   [ RunTime:0.000200s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013400 ) LIMIT 1   [ RunTime:0.000293s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014300 ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540015200 ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016100 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017000 ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017900 ) LIMIT 1   [ RunTime:0.000296s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018800 ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540019700 ) LIMIT 1   [ RunTime:0.000243s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020600 ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021500 ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540022400 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023300 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024200 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025100 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026000 ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026900 ) LIMIT 1   [ RunTime:0.000217s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027800 ) LIMIT 1   [ RunTime:0.000217s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028700 ) LIMIT 1   [ RunTime:0.000217s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540029600 ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540030500 ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540031400 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540032300 ) LIMIT 1   [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2018-10-19T00:29:51+08:00 ] 127.0.0.1 /index.php/App/gettime?id=4&tm=2018-10-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.004789s ]
+SQL: SELECT * FROM `cm_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `cm_yuyue` [ RunTime:0.004769s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539997200 ) LIMIT 1   [ RunTime:0.000442s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998100 ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999000 ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999900 ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000800 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540001700 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002600 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003500 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540004400 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005300 ) LIMIT 1   [ RunTime:0.000313s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006200 ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007100 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008000 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008900 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009800 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010700 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540011600 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540012500 ) LIMIT 1   [ RunTime:0.000322s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013400 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014300 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540015200 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016100 ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017000 ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017900 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018800 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540019700 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020600 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021500 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540022400 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023300 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024200 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025100 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026000 ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026900 ) LIMIT 1   [ RunTime:0.000236s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027800 ) LIMIT 1   [ RunTime:0.000202s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028700 ) LIMIT 1   [ RunTime:0.000262s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540029600 ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540030500 ) LIMIT 1   [ RunTime:0.000188s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540031400 ) LIMIT 1   [ RunTime:0.000181s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540032300 ) LIMIT 1   [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2018-10-19T00:30:13+08:00 ] 127.0.0.1 /index.php/App/gettime?id=4&tm=2018-10-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.013539s ]
+SQL: SELECT * FROM `cm_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `cm_yuyue` [ RunTime:0.005493s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539997200 ) LIMIT 1   [ RunTime:0.000273s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998100 ) LIMIT 1   [ RunTime:0.000234s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999000 ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999900 ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000800 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540001700 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002600 ) LIMIT 1   [ RunTime:0.000234s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003500 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540004400 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005300 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006200 ) LIMIT 1   [ RunTime:0.000227s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007100 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008000 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008900 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009800 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010700 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540011600 ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540012500 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013400 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014300 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540015200 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016100 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017000 ) LIMIT 1   [ RunTime:0.000220s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017900 ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018800 ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540019700 ) LIMIT 1   [ RunTime:0.000209s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020600 ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021500 ) LIMIT 1   [ RunTime:0.000205s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540022400 ) LIMIT 1   [ RunTime:0.000183s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023300 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024200 ) LIMIT 1   [ RunTime:0.000175s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025100 ) LIMIT 1   [ RunTime:0.000234s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026000 ) LIMIT 1   [ RunTime:0.000191s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026900 ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027800 ) LIMIT 1   [ RunTime:0.000188s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028700 ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540029600 ) LIMIT 1   [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2018-10-19T00:30:19+08:00 ] 127.0.0.1 /index.php/App/gettime?id=4&tm=2018-10-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.013481s ]
+SQL: SELECT * FROM `cm_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `cm_yuyue` [ RunTime:0.005355s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539997200 ) LIMIT 1   [ RunTime:0.000273s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998100 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999000 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999900 ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000800 ) LIMIT 1   [ RunTime:0.000187s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540001700 ) LIMIT 1   [ RunTime:0.000189s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002600 ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003500 ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540004400 ) LIMIT 1   [ RunTime:0.000243s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005300 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006200 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007100 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008000 ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008900 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009800 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010700 ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540011600 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540012500 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013400 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014300 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540015200 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016100 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017000 ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017900 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018800 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540019700 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020600 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021500 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540022400 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023300 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024200 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025100 ) LIMIT 1   [ RunTime:0.000308s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026000 ) LIMIT 1   [ RunTime:0.000485s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026900 ) LIMIT 1   [ RunTime:0.000290s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027800 ) LIMIT 1   [ RunTime:0.000471s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028700 ) LIMIT 1   [ RunTime:0.000390s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540029600 ) LIMIT 1   [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2018-10-19T00:30:33+08:00 ] 127.0.0.1 /index.php/App/gettime?id=4&tm=2018-10-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.013315s ]
+SQL: SELECT * FROM `cm_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `cm_yuyue` [ RunTime:0.005274s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539997200 ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539998100 ) LIMIT 1   [ RunTime:0.000237s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999000 ) LIMIT 1   [ RunTime:0.000233s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1539999900 ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540000800 ) LIMIT 1   [ RunTime:0.000228s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540001700 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540002600 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540003500 ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540004400 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540005300 ) LIMIT 1   [ RunTime:0.000230s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540006200 ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540007100 ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008000 ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540008900 ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540009800 ) LIMIT 1   [ RunTime:0.000363s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540010700 ) LIMIT 1   [ RunTime:0.000293s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540011600 ) LIMIT 1   [ RunTime:0.000364s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540012500 ) LIMIT 1   [ RunTime:0.000327s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540013400 ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540014300 ) LIMIT 1   [ RunTime:0.000263s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540015200 ) LIMIT 1   [ RunTime:0.000243s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540016100 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017000 ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540017900 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540018800 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540019700 ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540020600 ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540021500 ) LIMIT 1   [ RunTime:0.000310s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540022400 ) LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540023300 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540024200 ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540025100 ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026000 ) LIMIT 1   [ RunTime:0.000313s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540026900 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540027800 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540028700 ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_yuyue` WHERE ( yytime=1540029600 ) LIMIT 1   [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2018-10-19T00:30:40+08:00 ] 127.0.0.1 /index.php/App/gettime?id=4&tm=2018-10-20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.004700s ]
+SQL: SELECT * FROM `cm_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000610s ]
+
+[ 2018-10-19T00:44:30+08:00 ] 127.0.0.1 /index.php/App/order?id=4&uid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `cm_setall` [ RunTime:0.005145s ]
+SQL: SELECT * FROM `cm_setall` WHERE ( name='address' ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.004286s ]
+SQL: SELECT `id`,`name`,`price`,`desc` FROM `cm_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `cm_user` [ RunTime:0.007335s ]
+SQL: SELECT `id`,`truename`,`sex`,`birthday` FROM `cm_user` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000277s ]
+
+[ 2018-10-19T00:45:15+08:00 ] 127.0.0.1 /index.php/App/order?id=4&uid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `cm_setall` [ RunTime:0.004496s ]
+SQL: SELECT * FROM `cm_setall` WHERE ( name='address' ) LIMIT 1   [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.004803s ]
+SQL: SELECT `id`,`name`,`price`,`desc` FROM `cm_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `cm_user` [ RunTime:0.004494s ]
+SQL: SELECT `id`,`truename`,`sex`,`birthday` FROM `cm_user` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000256s ]
+
+[ 2018-10-19T00:45:43+08:00 ] 127.0.0.1 /index.php/App/order?id=4&uid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `cm_setall` [ RunTime:0.004531s ]
+SQL: SELECT * FROM `cm_setall` WHERE ( name='address' ) LIMIT 1   [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.005734s ]
+SQL: SELECT `id`,`name`,`price`,`desc` FROM `cm_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `cm_user` [ RunTime:0.004808s ]
+SQL: SELECT `id`,`truename`,`sex`,`birthday` FROM `cm_user` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000261s ]
+
+[ 2018-10-19T00:45:58+08:00 ] 127.0.0.1 /index.php/App/order?id=4&uid=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `cm_setall` [ RunTime:0.013221s ]
+SQL: SELECT * FROM `cm_setall` WHERE ( name='address' ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.004379s ]
+SQL: SELECT `id`,`name`,`price`,`desc` FROM `cm_goods` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `cm_user` [ RunTime:0.004393s ]
+SQL: SELECT `id`,`truename`,`sex`,`birthday` FROM `cm_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000412s ]
+
+[ 2018-10-19T01:33:23+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `cm_bangzhu` [ RunTime:0.030880s ]
+SQL: SELECT * FROM `cm_bangzhu` LIMIT 1   [ RunTime:0.000308s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2018-10-19T01:34:56+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+ERR: syntax error, unexpected '$list' (T_VARIABLE)
+
+[ 2018-10-19T01:34:56+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+ERR: syntax error, unexpected '$list' (T_VARIABLE)
+
+[ 2018-10-19T01:34:58+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+ERR: syntax error, unexpected '$list' (T_VARIABLE)
+
+[ 2018-10-19T01:34:58+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+ERR: syntax error, unexpected '$list' (T_VARIABLE)
+
+[ 2018-10-19T01:35:14+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+ERR: syntax error, unexpected '$list' (T_VARIABLE)
+
+[ 2018-10-19T01:35:14+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+ERR: syntax error, unexpected '$list' (T_VARIABLE)
+
+[ 2018-10-19T01:35:14+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+ERR: syntax error, unexpected '$list' (T_VARIABLE)
+
+[ 2018-10-19T01:35:14+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+ERR: syntax error, unexpected '$list' (T_VARIABLE)
+
+[ 2018-10-19T01:35:15+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+ERR: syntax error, unexpected '$list' (T_VARIABLE)
+
+[ 2018-10-19T01:35:15+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+ERR: syntax error, unexpected '$list' (T_VARIABLE)
+
+[ 2018-10-19T01:35:15+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+ERR: syntax error, unexpected '$list' (T_VARIABLE)
+
+[ 2018-10-19T01:35:15+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+ERR: syntax error, unexpected '$list' (T_VARIABLE)
+
+[ 2018-10-19T01:35:16+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+ERR: syntax error, unexpected '$list' (T_VARIABLE)
+
+[ 2018-10-19T01:35:46+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+SQL: SHOW COLUMNS FROM `cm_bangzhu` [ RunTime:0.007880s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\ShezhiController.class.php 第 11 行.
+SQL: SELECT * FROM `cm_bangzhu` LIMIT 1   [ RunTime:0.000385s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2018-10-19T01:35:48+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `cm_bangzhu` [ RunTime:0.013179s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\ShezhiController.class.php 第 11 行.
+SQL: SELECT * FROM `cm_bangzhu` LIMIT 1   [ RunTime:0.000254s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2018-10-19T01:35:49+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001772s ]
+SQL: SHOW COLUMNS FROM `cm_bangzhu` [ RunTime:0.013389s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\ShezhiController.class.php 第 11 行.
+SQL: SELECT * FROM `cm_bangzhu` LIMIT 1   [ RunTime:0.000281s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2018-10-19T01:35:50+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `cm_bangzhu` [ RunTime:0.013530s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\ShezhiController.class.php 第 11 行.
+SQL: SELECT * FROM `cm_bangzhu` LIMIT 1   [ RunTime:0.000294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2018-10-19T01:35:51+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001741s ]
+SQL: SHOW COLUMNS FROM `cm_bangzhu` [ RunTime:0.014556s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\ShezhiController.class.php 第 11 行.
+SQL: SELECT * FROM `cm_bangzhu` LIMIT 1   [ RunTime:0.000282s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2018-10-19T01:35:52+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `cm_bangzhu` [ RunTime:0.013321s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\ShezhiController.class.php 第 11 行.
+SQL: SELECT * FROM `cm_bangzhu` LIMIT 1   [ RunTime:0.000243s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2018-10-19T01:35:53+08:00 ] 127.0.0.1 /admin.php/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `cm_rel` [ RunTime:0.013447s ]
+SQL: SELECT p.pid FROM cm_rel r INNER JOIN cm_pro AS p ON r.jid = p.id  WHERE ( r.pid=1 )  [ RunTime:0.001361s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2018-10-19T01:35:53+08:00 ] 127.0.0.1 /admin.php/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined variable: admin E:\WWW\photo\App\Runtime\Cache\Rzsys\fd452937e88c188c460bc88e5f76d2e6.php 第 96 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003778s ]
+
+[ 2018-10-19T01:35:56+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html?id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `cm_bangzhu` [ RunTime:0.004432s ]
+SQL: SELECT * FROM `cm_bangzhu` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000321s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2018-10-19T01:36:01+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `cm_bangzhu` [ RunTime:0.013825s ]
+SQL: SELECT * FROM `cm_bangzhu` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000420s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2018-10-19T01:36:02+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `cm_bangzhu` [ RunTime:0.013217s ]
+SQL: SELECT * FROM `cm_bangzhu` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000256s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2018-10-19T01:36:09+08:00 ] 127.0.0.1 /admin.php/shezhi/doadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `cm_bangzhu` [ RunTime:0.013322s ]
+SQL: UPDATE `cm_bangzhu` SET `title`='222',`content`='<p>1122</p>' WHERE ( id=5 ) [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2018-10-19T01:36:17+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html?id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002454s ]
+SQL: SHOW COLUMNS FROM `cm_bangzhu` [ RunTime:0.004741s ]
+SQL: SELECT * FROM `cm_bangzhu` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000265s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2018-10-19T01:36:20+08:00 ] 127.0.0.1 /admin.php/shezhi/article.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `cm_bangzhu` [ RunTime:0.013258s ]
+SQL: SELECT * FROM `cm_bangzhu` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.000259s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2018-10-19T01:40:56+08:00 ] 127.0.0.1 /admin.php/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `cm_rel` [ RunTime:0.004160s ]
+SQL: SELECT p.pid FROM cm_rel r INNER JOIN cm_pro AS p ON r.jid = p.id  WHERE ( r.pid=1 )  [ RunTime:0.000411s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2018-10-19T01:40:56+08:00 ] 127.0.0.1 /admin.php/index/main.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: admin E:\WWW\photo\App\Runtime\Cache\Rzsys\fd452937e88c188c460bc88e5f76d2e6.php 第 96 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2018-10-19T01:49:49+08:00 ] 127.0.0.1 /admin.php/goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.007024s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=0 )  [ RunTime:0.000365s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=17 )  [ RunTime:0.000274s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=18 )  [ RunTime:0.000252s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=16 )  [ RunTime:0.000242s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=19 )  [ RunTime:0.000226s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 31 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 36 行.
+NOTIC: [8] Undefined index: price E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 42 行.
+NOTIC: [8] Undefined index: yymoney E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 48 行.
+NOTIC: [8] Undefined index: yuyue E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 64 行.
+NOTIC: [8] Undefined index: content E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 91 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 98 行.
+NOTIC: [8] Undefined index: desc E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 104 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.011827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2018-10-19T01:49:50+08:00 ] 127.0.0.1 /admin.php/goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.013427s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=0 )  [ RunTime:0.000493s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=17 )  [ RunTime:0.000323s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=18 )  [ RunTime:0.000267s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=16 )  [ RunTime:0.000227s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=19 )  [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 31 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 36 行.
+NOTIC: [8] Undefined index: price E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 42 行.
+NOTIC: [8] Undefined index: yymoney E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 48 行.
+NOTIC: [8] Undefined index: yuyue E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 64 行.
+NOTIC: [8] Undefined index: content E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 91 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 98 行.
+NOTIC: [8] Undefined index: desc E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 104 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2018-10-19T01:49:51+08:00 ] 127.0.0.1 /admin.php/goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.014345s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=0 )  [ RunTime:0.000450s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=17 )  [ RunTime:0.000416s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=18 )  [ RunTime:0.000551s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=16 )  [ RunTime:0.000428s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=19 )  [ RunTime:0.000340s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 31 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 36 行.
+NOTIC: [8] Undefined index: price E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 42 行.
+NOTIC: [8] Undefined index: yymoney E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 48 行.
+NOTIC: [8] Undefined index: yuyue E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 64 行.
+NOTIC: [8] Undefined index: content E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 91 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 98 行.
+NOTIC: [8] Undefined index: desc E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 104 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2018-10-19T01:49:52+08:00 ] 127.0.0.1 /admin.php/goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.013780s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=0 )  [ RunTime:0.000330s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=17 )  [ RunTime:0.000195s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=18 )  [ RunTime:0.000175s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=16 )  [ RunTime:0.000170s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=19 )  [ RunTime:0.000164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 31 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 36 行.
+NOTIC: [8] Undefined index: price E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 42 行.
+NOTIC: [8] Undefined index: yymoney E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 48 行.
+NOTIC: [8] Undefined index: yuyue E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 64 行.
+NOTIC: [8] Undefined index: content E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 91 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 98 行.
+NOTIC: [8] Undefined index: desc E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 104 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2018-10-19T01:49:53+08:00 ] 127.0.0.1 /admin.php/goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.013319s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=0 )  [ RunTime:0.000325s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=17 )  [ RunTime:0.000231s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=18 )  [ RunTime:0.000225s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=16 )  [ RunTime:0.000225s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=19 )  [ RunTime:0.000222s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 31 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 36 行.
+NOTIC: [8] Undefined index: price E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 42 行.
+NOTIC: [8] Undefined index: yymoney E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 48 行.
+NOTIC: [8] Undefined index: yuyue E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 64 行.
+NOTIC: [8] Undefined index: content E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 91 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 98 行.
+NOTIC: [8] Undefined index: desc E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 104 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2018-10-19T01:50:03+08:00 ] 127.0.0.1 /admin.php/goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.013650s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=0 )  [ RunTime:0.000464s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=17 )  [ RunTime:0.000310s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=18 )  [ RunTime:0.000274s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=16 )  [ RunTime:0.000270s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=19 )  [ RunTime:0.000270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 31 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 36 行.
+NOTIC: [8] Undefined index: price E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 42 行.
+NOTIC: [8] Undefined index: yymoney E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 48 行.
+NOTIC: [8] Undefined index: yuyue E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 64 行.
+NOTIC: [8] Undefined index: content E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 91 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 98 行.
+NOTIC: [8] Undefined index: desc E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 104 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2018-10-19T01:56:36+08:00 ] 127.0.0.1 /admin.php/goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.014082s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=0 )  [ RunTime:0.000289s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=17 )  [ RunTime:0.000224s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=18 )  [ RunTime:0.000226s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=16 )  [ RunTime:0.000226s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=19 )  [ RunTime:0.000223s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 37 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 42 行.
+NOTIC: [8] Undefined index: price E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 48 行.
+NOTIC: [8] Undefined index: yymoney E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 54 行.
+NOTIC: [8] Undefined index: yuyue E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 70 行.
+NOTIC: [8] Undefined index: picall E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 98 行.
+NOTIC: [8] Undefined index: content E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 108 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 115 行.
+NOTIC: [8] Undefined index: desc E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 121 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001327s ]
+
+[ 2018-10-19T01:57:36+08:00 ] 127.0.0.1 /admin.php/goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.005475s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=0 )  [ RunTime:0.000281s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=17 )  [ RunTime:0.000228s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=18 )  [ RunTime:0.000224s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=16 )  [ RunTime:0.000224s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=19 )  [ RunTime:0.000221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 37 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 42 行.
+NOTIC: [8] Undefined index: price E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 48 行.
+NOTIC: [8] Undefined index: yymoney E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 54 行.
+NOTIC: [8] Undefined index: yuyue E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 70 行.
+NOTIC: [8] Undefined index: content E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 108 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 115 行.
+NOTIC: [8] Undefined index: desc E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 121 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2018-10-19T08:43:22+08:00 ] 127.0.0.1 /admin.php/goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001800s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.006442s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=0 )  [ RunTime:0.000725s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=17 )  [ RunTime:0.000451s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=18 )  [ RunTime:0.000283s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=16 )  [ RunTime:0.000285s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=19 )  [ RunTime:0.000234s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 37 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 42 行.
+NOTIC: [8] Undefined index: price E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 48 行.
+NOTIC: [8] Undefined index: yymoney E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 54 行.
+NOTIC: [8] Undefined index: yuyue E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 70 行.
+NOTIC: [8] Undefined index: content E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 108 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 115 行.
+NOTIC: [8] Undefined index: desc E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 121 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2018-10-19T08:43:31+08:00 ] 127.0.0.1 /admin.php/login/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+
+[ 2018-10-19T08:43:38+08:00 ] 127.0.0.1 /admin.php/login/uploadall.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+
+[ 2018-10-19T08:43:38+08:00 ] 127.0.0.1 /admin.php/login/uploadall.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+
+[ 2018-10-19T08:43:45+08:00 ] 127.0.0.1 /admin.php/login/uploadall.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+
+[ 2018-10-19T08:43:45+08:00 ] 127.0.0.1 /admin.php/login/uploadall.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+
+[ 2018-10-19T08:43:51+08:00 ] 127.0.0.1 /admin.php/goods/doadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+NOTIC: [8] Undefined index: picall E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.033529s ]
+SQL: INSERT INTO `cm_goods` (`name`,`price`,`yymoney`,`pic`,`typeid`,`content`,`yuyue`,`sort`,`desc`,`addtime`) VALUES ('admin','111','','Public/upload/2018-10-19/2018_10_19_08_43_31_76582.jpg',17,'11111',1,1,'1',1539909830) [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2018-10-19T08:44:33+08:00 ] 127.0.0.1 /admin.php/goods/doadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+NOTIC: [8] Undefined index: picall E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.005454s ]
+SQL: INSERT INTO `cm_goods` (`name`,`price`,`yymoney`,`pic`,`typeid`,`content`,`yuyue`,`sort`,`desc`,`addtime`) VALUES ('admin','111','','Public/upload/2018-10-19/2018_10_19_08_43_31_76582.jpg',17,'11111',1,1,'1',1539909872) [ RunTime:0.001140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2018-10-19T08:45:41+08:00 ] 127.0.0.1 /admin.php/goods/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 59 行.
+NOTIC: [8] Undefined index: pg E:\WWW\photo\App\Rzsys\Controller\GoodsController.class.php 第 67 行.
+SQL: SHOW COLUMNS FROM `cm_class` [ RunTime:0.004805s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=0 )  [ RunTime:0.000289s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=17 )  [ RunTime:0.000272s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=18 )  [ RunTime:0.000244s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=16 )  [ RunTime:0.000239s ]
+SQL: SELECT * FROM `cm_class` WHERE ( pid=19 )  [ RunTime:0.000229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined index: id E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 37 行.
+NOTIC: [8] Undefined index: name E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 42 行.
+NOTIC: [8] Undefined index: price E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 48 行.
+NOTIC: [8] Undefined index: yymoney E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 54 行.
+NOTIC: [8] Undefined index: yuyue E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 70 行.
+NOTIC: [8] Undefined index: content E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 108 行.
+NOTIC: [8] Undefined index: sort E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 115 行.
+NOTIC: [8] Undefined index: desc E:\WWW\photo\App\Runtime\Cache\Rzsys\a4e313aabe1062a7715c25528b2a0b4e.php 第 121 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2018-10-19T08:45:49+08:00 ] 127.0.0.1 /admin.php/login/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+NOTIC: [2] mkdir(): File exists E:\WWW\photo\App\Rzsys\Controller\LoginController.class.php 第 74 行.
+
+[ 2018-10-19T08:45:56+08:00 ] 127.0.0.1 /admin.php/login/uploadall.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+
+[ 2018-10-19T08:45:56+08:00 ] 127.0.0.1 /admin.php/login/uploadall.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+
+[ 2018-10-19T08:45:56+08:00 ] 127.0.0.1 /admin.php/login/uploadall.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+
+[ 2018-10-19T08:46:00+08:00 ] 127.0.0.1 /admin.php/goods/doadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+
+[ 2018-10-19T08:46:15+08:00 ] 127.0.0.1 /admin.php/goods/doadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.005021s ]
+SQL: INSERT INTO `cm_goods` (`name`,`price`,`yymoney`,`pic`,`typeid`,`content`,`yuyue`,`sort`,`desc`,`addtime`) VALUES ('admin','111','','Public/upload/2018-10-19/2018_10_19_08_45_49_76980.jpg',17,'1111',1,1,'1',1539909974) [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `cm_img` [ RunTime:0.006068s ]
+ERR: Think\Model:insert方法不存在！
+
+[ 2018-10-19T08:46:51+08:00 ] 127.0.0.1 /admin.php/goods/doadd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM `cm_goods` [ RunTime:0.004592s ]
+SQL: INSERT INTO `cm_goods` (`name`,`price`,`yymoney`,`pic`,`typeid`,`content`,`yuyue`,`sort`,`desc`,`addtime`) VALUES ('admin','111','','Public/upload/2018-10-19/2018_10_19_08_45_49_76980.jpg',17,'1111',1,1,'1',1539910010) [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `cm_img` [ RunTime:0.004193s ]
+SQL: INSERT INTO `cm_img` (`type`,`typeid`,`path`) VALUES ('goods',8,'Public/upload/goods/153990995638731401569.jpg') [ RunTime:0.000246s ]
+SQL: INSERT INTO `cm_img` (`type`,`typeid`,`path`) VALUES ('goods',8,'Public/upload/goods/153990995645169201445.jpg') [ RunTime:0.000185s ]
+SQL: INSERT INTO `cm_img` (`type`,`typeid`,`path`) VALUES ('goods',8,'Public/upload/goods/153990995656672301301.jpg') [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2018-10-19T15:34:34+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+NOTIC: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'xygzmx'@'localhost' (using password: YES) E:\WWW\photo\ThinkPHP\Library\Think\Db\Driver\Mysqli.class.php 第 44 行.
+ERR: Access denied for user 'xygzmx'@'localhost' (using password: YES)
+
+[ 2018-10-19T15:34:35+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+NOTIC: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'xygzmx'@'localhost' (using password: YES) E:\WWW\photo\ThinkPHP\Library\Think\Db\Driver\Mysqli.class.php 第 44 行.
+ERR: Access denied for user 'xygzmx'@'localhost' (using password: YES)
+
+[ 2018-10-19T15:34:36+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+NOTIC: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'xygzmx'@'localhost' (using password: YES) E:\WWW\photo\ThinkPHP\Library\Think\Db\Driver\Mysqli.class.php 第 44 行.
+ERR: Access denied for user 'xygzmx'@'localhost' (using password: YES)
+
+[ 2018-10-19T15:34:37+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+NOTIC: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'xygzmx'@'localhost' (using password: YES) E:\WWW\photo\ThinkPHP\Library\Think\Db\Driver\Mysqli.class.php 第 44 行.
+ERR: Access denied for user 'xygzmx'@'localhost' (using password: YES)
+
+[ 2018-10-19T15:34:38+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+NOTIC: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'xygzmx'@'localhost' (using password: YES) E:\WWW\photo\ThinkPHP\Library\Think\Db\Driver\Mysqli.class.php 第 44 行.
+ERR: Access denied for user 'xygzmx'@'localhost' (using password: YES)
+
+[ 2018-10-19T15:34:39+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'xygzmx'@'localhost' (using password: YES) E:\WWW\photo\ThinkPHP\Library\Think\Db\Driver\Mysqli.class.php 第 44 行.
+ERR: Access denied for user 'xygzmx'@'localhost' (using password: YES)
+
+[ 2018-10-19T15:34:40+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+NOTIC: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'xygzmx'@'localhost' (using password: YES) E:\WWW\photo\ThinkPHP\Library\Think\Db\Driver\Mysqli.class.php 第 44 行.
+ERR: Access denied for user 'xygzmx'@'localhost' (using password: YES)
+
+[ 2018-10-19T16:09:54+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+ERR: 非法操作:list
+
+[ 2018-10-19T16:09:54+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+ERR: 非法操作:list
+
+[ 2018-10-19T16:09:54+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+ERR: 非法操作:list
+
+[ 2018-10-19T16:09:54+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+ERR: 非法操作:list
+
+[ 2018-10-19T16:09:55+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+ERR: 非法操作:list
+
+[ 2018-10-19T16:09:55+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+ERR: 非法操作:list
+
+[ 2018-10-19T16:09:55+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+ERR: 非法操作:list
+
+[ 2018-10-19T17:24:11+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+ERR: 非法操作:list
+
+[ 2018-10-19T17:24:11+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+ERR: 非法操作:list
+
+[ 2018-10-19T17:24:11+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+ERR: 非法操作:list
+
+[ 2018-10-19T17:24:11+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+ERR: 非法操作:list
+
+[ 2018-10-19T17:24:11+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+ERR: 非法操作:list
+
+[ 2018-10-19T17:24:11+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003814s ]
+ERR: 非法操作:list
+
+[ 2018-10-19T17:24:12+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+ERR: 非法操作:list
+
+[ 2018-10-19T17:24:12+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+ERR: 非法操作:list
+
+[ 2018-10-19T17:24:12+08:00 ] 127.0.0.1 /admin.php/user/list.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+ERR: 非法操作:list
+
+[ 2018-10-19T17:24:19+08:00 ] 127.0.0.1 /admin.php/index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+NOTIC: [2] mysqli::__construct(): (HY000/1045): Access denied for user 'xygzmx'@'localhost' (using password: YES) E:\WWW\photo\ThinkPHP\Library\Think\Db\Driver\Mysqli.class.php 第 44 行.
+ERR: Access denied for user 'xygzmx'@'localhost' (using password: YES)
+
